@@ -2,15 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>hommeYo. Development Story</title>
-		<description>Front-End Developer</description>
+		<description>Software Developer</description>
 		<link></link>
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>테스트 포스트</title>
-				<description>&lt;h2 id=&quot;시작합니다&quot;&gt;시작합니다.&lt;/h2&gt;
+				<title>First Post</title>
+				<description>&lt;h2 id=&quot;시작&quot;&gt;시작&lt;/h2&gt;
+&lt;p&gt;jekyll 블로그를 만들어 보았다.&lt;br /&gt;
+간단한 줄 알았던 작업은 그리 간단해 보이진 않던데…&lt;br /&gt;
+그래도 이렇게 화면을 볼 수 있으니 반은 했다고 치고&lt;br /&gt;
+이제부터라도 포스트를 해보자.&lt;br /&gt;
+장황한 포스트는 아닐지라도 메모하는 습관처럼 필요할 때마다 포스트를 해보자.&lt;/p&gt;
+
+&lt;p&gt;시작이 반이라 했다.&lt;/p&gt;
 </description>
-				<pubDate>Wed, 27 Jun 2018 11:07:00 +0900</pubDate>
+				<pubDate>Wed, 27 Jun 2018 18:00:00 +0900</pubDate>
 				<link>/2018/06/first-post</link>
 				<guid isPermaLink="true">/2018/06/first-post</guid>
 			</item>
@@ -601,7 +608,7 @@ Out-of-the box it has:&lt;/p&gt;
 
 &lt;ul class=&quot;social-media&quot;&gt;
   &lt;li&gt;
-    &lt;a title=&quot;Github&quot; href=&quot;https://github.com/hommeyo&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a title=&quot;Github&quot; href=&quot;https://github.com/streetturtle&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;a title=&quot;StackOverflow&quot; href=&quot;http://stackoverflow.com/users/1252056/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-stack-overflow fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
@@ -610,13 +617,13 @@ Out-of-the box it has:&lt;/p&gt;
     &lt;a title=&quot;LinkedIn&quot; href=&quot;https://www.linkedin.com/in/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-linkedin fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;Instagram&quot; href=&quot;https://instagram.com/hommeyo&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-instagram fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a title=&quot;Instagram&quot; href=&quot;https://instagram.com/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-instagram fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;a title=&quot;Last.fm&quot; href=&quot;http://lastfm.com/user/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-lastfm fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;RSS&quot; href=&quot;http://hommeYo.github.io/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a title=&quot;RSS&quot; href=&quot;http://localhost:4000/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 

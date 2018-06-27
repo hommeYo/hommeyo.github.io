@@ -26,7 +26,7 @@ social:
   stackoverflow: ''
   linkedin:
   instagram: 'hommeyo'
-  lastfm: ''
+  # lastfm: ''
   rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
