@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: hommeYo. Development Story
-description: Software Developer
+description: Front-End Developer
 
 # Url is currently only used only for the RSS feed in feed.xml
 url: http://hommeYo.github.io
@@ -25,7 +25,7 @@ social:
   github: hommeyo
   stackoverflow: ''
   linkedin:
-  instagram: ''
+  instagram: 'hommeyo'
   lastfm: ''
   rss: feed.xml
 
@@ -39,7 +39,7 @@ yandex_metrica:
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
 disqus: hommeYo
-comments: false
+comments: true
 
 permalink: /:year/:month/:title
 
