@@ -3,9 +3,9 @@
 	<channel>
 		<title>Blog Name</title>
 		<description>Software Developer</description>
-		<link>/jekyll-clean-dark</link>
-		<atom:link href="/jekyll-clean-dark/feed.xml" rel="self" type="application/rss+xml" />
-		
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+
 			<item>
 				<title>Table styles</title>
 				<description>&lt;p&gt;Below are the examples of the default table styling.&lt;/p&gt;
@@ -270,17 +270,17 @@
 
 </description>
 				<pubDate>Fri, 09 Feb 2018 11:07:00 +0900</pubDate>
-				<link>/jekyll-clean-dark/2018/02/table-styles</link>
-				<guid isPermaLink="true">/jekyll-clean-dark/2018/02/table-styles</guid>
+				<link>/2018/02/table-styles</link>
+				<guid isPermaLink="true">/2018/02/table-styles</guid>
 			</item>
-		
+
 			<item>
 				<title>Jekyll Dark Clean Theme</title>
 				<description>&lt;p&gt;Here is a sample post for Jekyll-Clean-Dark theme.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;get it from &lt;a href=&quot;https://github.com/streetturtle/jekyll-clean-dark&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;see the &lt;a href=&quot;http://pavelmakhov.com/jekyll-clean-dark&quot;&gt;live demo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;get it from &lt;a href=&quot;https://github.com/streetturtle&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;see the &lt;a href=&quot;http://pavelmakhov.com&quot;&gt;live demo&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;see it &lt;a href=&quot;http://pavelmakhov.com&quot;&gt;in action on my blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -290,19 +290,19 @@
 
 &lt;p&gt;Here how it looks like on some portable devices:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/jekyll-clean-dark/assets/images/iphone_portrait.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 portrait&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/iphone_portrait.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 portrait&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/jekyll-clean-dark/assets/images/iphone_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 landscape&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/iphone_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 landscape&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/jekyll-clean-dark/assets/images/ipad_portrait.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini portrait&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ipad_portrait.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini portrait&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/jekyll-clean-dark/assets/images/ipad_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini landscape&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ipad_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini landscape&lt;/em&gt;&lt;/p&gt;
 </description>
 				<pubDate>Fri, 02 Dec 2016 01:25:06 +0900</pubDate>
-				<link>/jekyll-clean-dark/2016/12/jekyll-clean-theme</link>
-				<guid isPermaLink="true">/jekyll-clean-dark/2016/12/jekyll-clean-theme</guid>
+				<link>/2016/12/jekyll-clean-theme</link>
+				<guid isPermaLink="true">/2016/12/jekyll-clean-theme</guid>
 			</item>
-		
+
 			<item>
 				<title>Text formatting</title>
 				<description>&lt;h1 id=&quot;text-formatting-example&quot;&gt;Text formatting example&lt;/h1&gt;
@@ -337,14 +337,14 @@
 
 &lt;p&gt;Using very cool &lt;a href=&quot;http://kramdown.gettalong.org/quickref.html#block-attributes&quot;&gt;feature&lt;/a&gt; of kramdown which allows to assign any attribute to a block-level element I’ve added note and warning:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;Note 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;Note
 &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;: .note&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote class=&quot;note&quot;&gt;
   &lt;p&gt;Note&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;Warning 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;Warning
 &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;: .note .warning&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote class=&quot;note warning&quot;&gt;
@@ -367,10 +367,10 @@
 &lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;key highlighter-rouge&quot;&gt;R&lt;/code&gt; = finds the last command matching the entered letters.&lt;/p&gt;
 </description>
 				<pubDate>Thu, 03 Nov 2016 01:25:06 +0900</pubDate>
-				<link>/jekyll-clean-dark/2016/11/text-formatting</link>
-				<guid isPermaLink="true">/jekyll-clean-dark/2016/11/text-formatting</guid>
+				<link>/2016/11/text-formatting</link>
+				<guid isPermaLink="true">/2016/11/text-formatting</guid>
 			</item>
-		
+
 			<item>
 				<title>Code snippets</title>
 				<description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
@@ -460,10 +460,10 @@
 
 </description>
 				<pubDate>Sun, 02 Oct 2016 01:25:06 +0900</pubDate>
-				<link>/jekyll-clean-dark/2016/10/code-syntax-highlighting</link>
-				<guid isPermaLink="true">/jekyll-clean-dark/2016/10/code-syntax-highlighting</guid>
+				<link>/2016/10/code-syntax-highlighting</link>
+				<guid isPermaLink="true">/2016/10/code-syntax-highlighting</guid>
 			</item>
-		
+
 			<item>
 				<title>Customizations</title>
 				<description>&lt;h1 id=&quot;accent-color&quot;&gt;Accent color&lt;/h1&gt;
@@ -546,18 +546,18 @@
 &lt;/style&gt;
 
 &lt;ul class=&quot;pattern-list&quot;&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/jekyll-clean-dark/assets/css/pics/background/3px-tile.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/jekyll-clean-dark/assets/css/pics/background/asfalt-light.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/jekyll-clean-dark/assets/css/pics/background/black-linen.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/jekyll-clean-dark/assets/css/pics/background/food.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/jekyll-clean-dark/assets/css/pics/background/gplay.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/jekyll-clean-dark/assets/css/pics/background/green-dust-and-scratches.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/jekyll-clean-dark/assets/css/pics/background/hexellence.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/jekyll-clean-dark/assets/css/pics/background/random-grey-variations.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/jekyll-clean-dark/assets/css/pics/background/shley-tree-1.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/jekyll-clean-dark/assets/css/pics/background/subtle-grey.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/jekyll-clean-dark/assets/css/pics/background/xv.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/jekyll-clean-dark/assets/css/pics/background/triangles.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/3px-tile.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/asfalt-light.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/black-linen.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/food.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/gplay.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/green-dust-and-scratches.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/hexellence.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/random-grey-variations.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/shley-tree-1.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/subtle-grey.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/xv.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/triangles.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;script&gt;
@@ -579,10 +579,10 @@
 
 </description>
 				<pubDate>Wed, 21 Sep 2016 01:25:06 +0900</pubDate>
-				<link>/jekyll-clean-dark/2016/09/customizations</link>
-				<guid isPermaLink="true">/jekyll-clean-dark/2016/09/customizations</guid>
+				<link>/2016/09/customizations</link>
+				<guid isPermaLink="true">/2016/09/customizations</guid>
 			</item>
-		
+
 			<item>
 				<title>Be social</title>
 				<description>&lt;h1 id=&quot;social-icons&quot;&gt;Social icons&lt;/h1&gt;
@@ -623,8 +623,8 @@ Out-of-the box it has:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% if site.social.rss %}
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.social.&amp;lt;your_social_variable&amp;gt; }}&quot;&lt;/span&gt; 
-       &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{site.url}}/{{ site.social.&amp;lt;your_social_variable&amp;gt; }}&quot;&lt;/span&gt; 
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.social.&amp;lt;your_social_variable&amp;gt; }}&quot;&lt;/span&gt;
+       &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{site.url}}/{{ site.social.&amp;lt;your_social_variable&amp;gt; }}&quot;&lt;/span&gt;
        &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;font&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;_awesome_icon&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
 {% endif %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -663,10 +663,10 @@ To turn them on in the header of your post add:&lt;/p&gt;
 &lt;/ol&gt;
 </description>
 				<pubDate>Fri, 16 Sep 2016 01:25:06 +0900</pubDate>
-				<link>/jekyll-clean-dark/2016/09/be-social</link>
-				<guid isPermaLink="true">/jekyll-clean-dark/2016/09/be-social</guid>
+				<link>/2016/09/be-social</link>
+				<guid isPermaLink="true">/2016/09/be-social</guid>
 			</item>
-		
+
 			<item>
 				<title>Analytics, tags and comments</title>
 				<description>&lt;h1 id=&quot;analytics&quot;&gt;Analytics&lt;/h1&gt;
@@ -681,17 +681,17 @@ To turn them on in the header of your post add:&lt;/p&gt;
 
 &lt;h1 id=&quot;tags&quot;&gt;Tags&lt;/h1&gt;
 
-&lt;p&gt;To use this feature you simply will need to create a markdown file for each tag which you are using in you site in &lt;strong&gt;tag&lt;/strong&gt; folder. To simplify this procedure there is an &lt;a href=&quot;http://pavelmakhov.com/jekyll-clean-dark/admin.html&quot;&gt;/admin&lt;/a&gt; page, which outputs the bash command which you just need to run inside &lt;strong&gt;tag&lt;/strong&gt; folder of your site. Also don’t forget to rerun it when you add a post with new tag.&lt;/p&gt;
+&lt;p&gt;To use this feature you simply will need to create a markdown file for each tag which you are using in you site in &lt;strong&gt;tag&lt;/strong&gt; folder. To simplify this procedure there is an &lt;a href=&quot;http://pavelmakhov.com/admin.html&quot;&gt;/admin&lt;/a&gt; page, which outputs the bash command which you just need to run inside &lt;strong&gt;tag&lt;/strong&gt; folder of your site. Also don’t forget to rerun it when you add a post with new tag.&lt;/p&gt;
 
 &lt;h1 id=&quot;comments&quot;&gt;Comments&lt;/h1&gt;
 
 &lt;p&gt;To enable &lt;a href=&quot;http://disqus.com&quot;&gt;Disqus&lt;/a&gt; register on the site and then just put your name in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.xml&lt;/code&gt;. Comments could be switched on and off on per post basis, just put &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; to enable them.&lt;/p&gt;
 </description>
 				<pubDate>Tue, 02 Aug 2016 01:25:06 +0900</pubDate>
-				<link>/jekyll-clean-dark/2016/08/analytics-tags-comments</link>
-				<guid isPermaLink="true">/jekyll-clean-dark/2016/08/analytics-tags-comments</guid>
+				<link>/2016/08/analytics-tags-comments</link>
+				<guid isPermaLink="true">/2016/08/analytics-tags-comments</guid>
 			</item>
-		
+
 			<item>
 				<title>Images</title>
 				<description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
@@ -699,7 +699,7 @@ To turn them on in the header of your post add:&lt;/p&gt;
 &lt;p&gt;This theme supports two types of images:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;inline images: &lt;img src=&quot;/jekyll-clean-dark/assets/images/batWid1.png&quot; alt=&quot;Battery Widget&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;inline images: &lt;img src=&quot;/assets/images/batWid1.png&quot; alt=&quot;Battery Widget&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;![Battery Widget]({{ '/assets/images/batWid1.png' | relative_url }})&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -708,7 +708,7 @@ To turn them on in the header of your post add:&lt;/p&gt;
   &lt;li&gt;centered images with caption (optional):&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/jekyll-clean-dark/assets/images/deer.jpg&quot; alt=&quot;img&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;(°0°)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/deer.jpg&quot; alt=&quot;img&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;(°0°)&lt;/em&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;![img]({{ '/assets/images/deer.jpg' | relative_url }}){: .center-image }*(°0°)*&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -726,10 +726,10 @@ To turn them on in the header of your post add:&lt;/p&gt;
 
 </description>
 				<pubDate>Sat, 02 Jul 2016 01:25:06 +0900</pubDate>
-				<link>/jekyll-clean-dark/2016/07/images</link>
-				<guid isPermaLink="true">/jekyll-clean-dark/2016/07/images</guid>
+				<link>/2016/07/images</link>
+				<guid isPermaLink="true">/2016/07/images</guid>
 			</item>
-		
+
 			<item>
 				<title>Installation</title>
 				<description>&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
@@ -763,9 +763,9 @@ respective owners:&lt;/p&gt;
 &lt;/ul&gt;
 </description>
 				<pubDate>Mon, 02 Nov 2015 01:25:06 +0900</pubDate>
-				<link>/jekyll-clean-dark/2015/11/installation</link>
-				<guid isPermaLink="true">/jekyll-clean-dark/2015/11/installation</guid>
+				<link>/2015/11/installation</link>
+				<guid isPermaLink="true">/2015/11/installation</guid>
 			</item>
-		
+
 	</channel>
 </rss>

@@ -6,10 +6,10 @@ tags: jekyll
 description: Here I want to introduce you the dark theme for Jekyll.
 ---
 
-Here is a sample post for Jekyll-Clean-Dark theme. 
+Here is a sample post for Jekyll-Clean-Dark theme.
 
-* get it from [github](https://github.com/streetturtle/jekyll-clean-dark)
-* see the [live demo](http://pavelmakhov.com/jekyll-clean-dark)
+* get it from [github](https://github.com/streetturtle)
+* see the [live demo](http://pavelmakhov.com)
 * see it [in action on my blog](http://pavelmakhov.com)
 
 This theme was created on top of [Jekyll Clean theme](https://scotte.github.io) by Scotte.

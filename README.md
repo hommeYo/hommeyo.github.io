@@ -1,14 +1,14 @@
 Jekyll Clean Dark
 ============
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-clean-dark.svg)](https://badge.fury.io/rb/jekyll-clean-dark)
+[![Gem Version](https://badge.fury.io/rb.svg)](https://badge.fury.io/rb)
 
 This theme was created on top of Jekyll Clean theme by Scotte, you can view the original version in action [on his blog](https://scotte.github.io).
 
-* Get it from [github](https://github.com/streetturtle/jekyll-clean-dark).
-* See the [live demo](http://pavelmakhov.com/jekyll-clean-dark).
+* Get it from [github](https://github.com/streetturtle).
+* See the [live demo](http://pavelmakhov.com).
 * See it [in action on my own blog](http://pavelmakhov.com).
-* Easily [customizable](http://pavelmakhov.com/jekyll-clean-dark/2016/09/customizations)
+* Easily [customizable](http://pavelmakhov.com/2016/09/customizations)
 
 ![preview1](./assets/images/preview1.jpg)
 ![preview2](./assets/images/preview2.jpg)
@@ -44,12 +44,12 @@ Follow the instructions on the Jekyll [site](https://jekyllrb.com/docs/themes/).
  - about.md
  - admin.md
  - archive.html
- - feed.xml 
- 
+ - feed.xml
+
 Blog tags
 =========
 
-To use this feature you simply will need to create a markdown file for each tag which you are using in you site in **tag** folder. To simplify this procedure there is an [/admin](http://pavelmakhov.com/jekyll-clean-dark/admin.html) page, which outputs the bash command which you just need to run inside **tag** folder of your site. Also don't forget to rerun it when you add a post with new tag.
+To use this feature you simply will need to create a markdown file for each tag which you are using in you site in **tag** folder. To simplify this procedure there is an [/admin](http://pavelmakhov.com/admin.html) page, which outputs the bash command which you just need to run inside **tag** folder of your site. Also don't forget to rerun it when you add a post with new tag.
 
 License
 =======
