@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Blog Name</title>
+		<title>hommeYo. Development Story</title>
 		<description>Software Developer</description>
 		<link></link>
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-
+		
 			<item>
 				<title>Table styles</title>
 				<description>&lt;p&gt;Below are the examples of the default table styling.&lt;/p&gt;
@@ -273,7 +273,7 @@
 				<link>/2018/02/table-styles</link>
 				<guid isPermaLink="true">/2018/02/table-styles</guid>
 			</item>
-
+		
 			<item>
 				<title>Jekyll Dark Clean Theme</title>
 				<description>&lt;p&gt;Here is a sample post for Jekyll-Clean-Dark theme.&lt;/p&gt;
@@ -302,7 +302,7 @@
 				<link>/2016/12/jekyll-clean-theme</link>
 				<guid isPermaLink="true">/2016/12/jekyll-clean-theme</guid>
 			</item>
-
+		
 			<item>
 				<title>Text formatting</title>
 				<description>&lt;h1 id=&quot;text-formatting-example&quot;&gt;Text formatting example&lt;/h1&gt;
@@ -337,14 +337,14 @@
 
 &lt;p&gt;Using very cool &lt;a href=&quot;http://kramdown.gettalong.org/quickref.html#block-attributes&quot;&gt;feature&lt;/a&gt; of kramdown which allows to assign any attribute to a block-level element I’ve added note and warning:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;Note
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;Note 
 &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;: .note&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote class=&quot;note&quot;&gt;
   &lt;p&gt;Note&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;Warning
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;Warning 
 &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;: .note .warning&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote class=&quot;note warning&quot;&gt;
@@ -370,7 +370,7 @@
 				<link>/2016/11/text-formatting</link>
 				<guid isPermaLink="true">/2016/11/text-formatting</guid>
 			</item>
-
+		
 			<item>
 				<title>Code snippets</title>
 				<description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
@@ -463,7 +463,7 @@
 				<link>/2016/10/code-syntax-highlighting</link>
 				<guid isPermaLink="true">/2016/10/code-syntax-highlighting</guid>
 			</item>
-
+		
 			<item>
 				<title>Customizations</title>
 				<description>&lt;h1 id=&quot;accent-color&quot;&gt;Accent color&lt;/h1&gt;
@@ -582,7 +582,7 @@
 				<link>/2016/09/customizations</link>
 				<guid isPermaLink="true">/2016/09/customizations</guid>
 			</item>
-
+		
 			<item>
 				<title>Be social</title>
 				<description>&lt;h1 id=&quot;social-icons&quot;&gt;Social icons&lt;/h1&gt;
@@ -592,7 +592,7 @@ Out-of-the box it has:&lt;/p&gt;
 
 &lt;ul class=&quot;social-media&quot;&gt;
   &lt;li&gt;
-    &lt;a title=&quot;Github&quot; href=&quot;https://github.com/streetturtle&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a title=&quot;Github&quot; href=&quot;https://github.com/hommeyo&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;a title=&quot;StackOverflow&quot; href=&quot;http://stackoverflow.com/users/1252056/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-stack-overflow fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
@@ -607,7 +607,7 @@ Out-of-the box it has:&lt;/p&gt;
     &lt;a title=&quot;Last.fm&quot; href=&quot;http://lastfm.com/user/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-lastfm fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;RSS&quot; href=&quot;http://localhost:4000/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a title=&quot;RSS&quot; href=&quot;http://hommeYo.github.io/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -623,8 +623,8 @@ Out-of-the box it has:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% if site.social.rss %}
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.social.&amp;lt;your_social_variable&amp;gt; }}&quot;&lt;/span&gt;
-       &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{site.url}}/{{ site.social.&amp;lt;your_social_variable&amp;gt; }}&quot;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.social.&amp;lt;your_social_variable&amp;gt; }}&quot;&lt;/span&gt; 
+       &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{site.url}}/{{ site.social.&amp;lt;your_social_variable&amp;gt; }}&quot;&lt;/span&gt; 
        &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;font&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;_awesome_icon&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
 {% endif %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -666,7 +666,7 @@ To turn them on in the header of your post add:&lt;/p&gt;
 				<link>/2016/09/be-social</link>
 				<guid isPermaLink="true">/2016/09/be-social</guid>
 			</item>
-
+		
 			<item>
 				<title>Analytics, tags and comments</title>
 				<description>&lt;h1 id=&quot;analytics&quot;&gt;Analytics&lt;/h1&gt;
@@ -691,7 +691,7 @@ To turn them on in the header of your post add:&lt;/p&gt;
 				<link>/2016/08/analytics-tags-comments</link>
 				<guid isPermaLink="true">/2016/08/analytics-tags-comments</guid>
 			</item>
-
+		
 			<item>
 				<title>Images</title>
 				<description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
@@ -729,7 +729,7 @@ To turn them on in the header of your post add:&lt;/p&gt;
 				<link>/2016/07/images</link>
 				<guid isPermaLink="true">/2016/07/images</guid>
 			</item>
-
+		
 			<item>
 				<title>Installation</title>
 				<description>&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
@@ -766,6 +766,6 @@ respective owners:&lt;/p&gt;
 				<link>/2015/11/installation</link>
 				<guid isPermaLink="true">/2015/11/installation</guid>
 			</item>
-
+		
 	</channel>
 </rss>
