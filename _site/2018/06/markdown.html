@@ -11,7 +11,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>hommeYo. Development Story | Text formatting </title>
+  <title>hommeYo. Development Story | Markdown </title>
   <meta name="theme-color" content="#222222" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="/assets/js/jquery.min.js"></script>
@@ -76,83 +76,247 @@
             <div class="col-md-8">
               <div class="article">
                 <div class="well">
-                  <h1><a href="/2016/11/text-formatting">Text formatting</a></h1>
+                  <h1><a href="/2018/06/markdown">Markdown</a></h1>
                   <div class="post-meta">
                     <div class="post-time">
                       <i class="fa fa-calendar"></i>
-                      <time>03 Nov 2016</time>
+                      <time>27 Jun 2018</time>
                     </div>
                     <ul>
                       
-                        <li><a href="/tag/jekyll">jekyll</a></li>
+                        <li><a href="/tag/markdown">markdown</a></li>
+                      
+                        <li><a href="/tag/Tool">Tool</a></li>
                       
                     </ul>
                   </div>
                   <div class="post-content">
                     <div id="toc" class="toc"></div>
-                    <h1 id="text-formatting-example">Text formatting example</h1>
+                    <h1 id="1-문법">1. 문법</h1>
 
-<p>Some examples of text formatting for some common text elements.</p>
+<h2 id="1_1-헤더-headers">1_1. 헤더 Headers</h2>
 
-<h1 id="headers">Headers</h1>
+<ul>
+  <li>큰제목
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>큰제목 큰제목 
+============= 
+</code></pre></div>    </div>
+  </li>
+</ul>
 
-<h1 id="header1">Header1</h1>
+<h1 id="큰제목-큰제목">큰제목 큰제목</h1>
 
-<h2 id="header2">Header2</h2>
+<ul>
+  <li>작은제목
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>작은제목 작은제목
+-------------
+</code></pre></div>    </div>
+  </li>
+</ul>
 
-<h3 id="header3">Header3</h3>
+<h2 id="작은제목-작은제목">작은제목 작은제목</h2>
 
-<h4 id="header4">Header4</h4>
+<ul>
+  <li>글머리
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 글머리1	
+## 글머리2	
+### 글머리3	
+#### 글머리4	
+##### 글머리5	
+###### 글머리6	
+</code></pre></div>    </div>
+  </li>
+</ul>
 
-<h1 id="emphasis">Emphasis</h1>
+<h1 id="글머리1">글머리1</h1>
+<h2 id="글머리2">글머리2</h2>
+<h3 id="글머리3">글머리3</h3>
+<h4 id="글머리4">글머리4</h4>
+<h5 id="글머리5">글머리5</h5>
+<h6 id="글머리6">글머리6</h6>
 
-<p>Italics: <code class="highlighter-rouge">*asterisks*</code> -&gt; <em>asterisks</em> or <code class="highlighter-rouge">_underscores_</code> -&gt; <em>underscores</em>.</p>
+<h2 id="1_2-목록">1_2. 목록</h2>
 
-<p>Bold: <code class="highlighter-rouge">**asterisks**</code> -&gt; <strong>asterisks</strong> or <code class="highlighter-rouge">__underscores__</code> -&gt; <strong>underscores</strong>.</p>
+<h3 id="1_2_1-순서-있는-목록">1_2_1. 순서 있는 목록</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. 첫번째
+2. 두번째
+3. 세번째 
+</code></pre></div></div>
+<ol>
+  <li>첫번째</li>
+  <li>두번째</li>
+  <li>세번째</li>
+</ol>
 
-<p>You also can combine them: <code class="highlighter-rouge">**asterisks and _underscores_**</code> -&gt; <strong>asterisks and <em>underscores</em></strong>.</p>
+<h3 id="1_2_2-순서-없는-목록">1_2_2. 순서 없는 목록</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* dep1_1
+  * dep2_1
+    * dep3_1
+- dep1_2
+  - dep2_2
+    - dep3_2
++ dep1_3
+  + dep2_3
+    + dep3_3
+</code></pre></div></div>
+<ul>
+  <li>dep1_1
+    <ul>
+      <li>dep2_1
+        <ul>
+          <li>dep3_1</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>dep1_2
+    <ul>
+      <li>dep2_2
+        <ul>
+          <li>dep3_2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>dep1_3
+    <ul>
+      <li>dep2_3
+        <ul>
+          <li>dep3_3</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 
-<h1 id="blockquotes-and-notes">Blockquotes and notes</h1>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">&gt;</span>Blockquotes</code></pre></figure>
+<h2 id="1_3-blockquote">1_3. Blockquote</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; blockquote area
+</code></pre></div></div>
 
 <blockquote>
-  <p>Blockquotes</p>
+  <p>blockquote area</p>
+  <blockquote>
+    <p>blockquote area</p>
+    <blockquote>
+      <p>blockquote area</p>
+    </blockquote>
+  </blockquote>
 </blockquote>
 
-<p>Using very cool <a href="http://kramdown.gettalong.org/quickref.html#block-attributes">feature</a> of kramdown which allows to assign any attribute to a block-level element I’ve added note and warning:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">&gt;</span>Note 
-<span class="o">{</span>: .note<span class="o">}</span></code></pre></figure>
-
-<blockquote class="note">
-  <p>Note</p>
+<blockquote>
+  <h3 id="h3">h3</h3>
+  <ul>
+    <li>list
+      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>code 
+</code></pre></div>      </div>
+    </li>
+  </ul>
 </blockquote>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">&gt;</span>Warning 
-<span class="o">{</span>: .note .warning<span class="o">}</span></code></pre></figure>
+<h2 id="1_4-표-table">1_4. 표 Table</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>값 | 의미 | 기본값  
+--- | --- | ---  
+'code1' | 코드1 | a  
+'code2' | 코드2 | b  
+'code3' | 코드3 | c  
+</code></pre></div></div>
 
-<blockquote class="note warning">
-  <p>Warning</p>
-</blockquote>
+<table>
+  <thead>
+    <tr>
+      <th>값</th>
+      <th>의미</th>
+      <th>기본값</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>‘code1’</td>
+      <td>코드1</td>
+      <td>a</td>
+    </tr>
+    <tr>
+      <td>‘code2’</td>
+      <td>코드2</td>
+      <td>b</td>
+    </tr>
+    <tr>
+      <td>‘code3’</td>
+      <td>코드3</td>
+      <td>c</td>
+    </tr>
+  </tbody>
+</table>
 
-<h1 id="keyboard-buttons">Keyboard buttons</h1>
+<h2 id="1_5-수평선">1_5. 수평선</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* * * 
+***
+- - - 
+---------
+</code></pre></div></div>
 
-<p>In case you need to show some keyboard shortcuts, like <code class="key highlighter-rouge">Ctrl</code>+<code class="key highlighter-rouge">A</code> use following construction:</p>
+<hr />
+<hr />
+<hr />
+<hr />
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="sb">`</span>Ctrl<span class="sb">`</span><span class="o">{</span>: .key<span class="o">}</span>+<span class="sb">`</span>A<span class="sb">`</span><span class="o">{</span>:.key<span class="o">}</span></code></pre></figure>
+<h2 id="1_6-링크">1_6. 링크</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[naver]: http://www.naver.com "네이버로 이동"
+</code></pre></div></div>
+<p>Link : <a href="http://www.naver.com">Google</a></p>
 
-<p>Example of keyboard shortcuts in a terminal:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Link : [Google](http://www.google.com)
+</code></pre></div></div>
 
-<p><code class="key highlighter-rouge">Ctrl</code> + <code class="key highlighter-rouge">A</code> = move cursor to beginning of line<br />
-<code class="key highlighter-rouge">Ctrl</code> + <code class="key highlighter-rouge">E</code> = move cursor to end of line<br />
-<code class="key highlighter-rouge">Ctrl</code> + <code class="key highlighter-rouge">C</code> = kills the current process.<br />
-<code class="key highlighter-rouge">Ctrl</code> + <code class="key highlighter-rouge">Z</code> = sends the current process to the background.<br />
-<code class="key highlighter-rouge">Ctrl</code> + <code class="key highlighter-rouge">D</code> = logs you out.<br />
-<code class="key highlighter-rouge">Ctrl</code> + <code class="key highlighter-rouge">R</code> = finds the last command matching the entered letters.</p>
+<p>Link : <a href="http://www.google.com">Google</a></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;http://example.com/&gt; 
+&lt;address@example.com&gt;
+</code></pre></div></div>
+
+<p><a href="http://example.com/">http://example.com/</a><br />
+<a href="mailto:address@example.com">address@example.com</a></p>
+
+<h2 id="1_7-이미지">1_7. 이미지</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![대체 텍스트 alt](/assets/images/mike.jpeg "링크 설명(title)을 작성하세요."). 
+![img1][test]  
+[test]: /assets/images/deer.jpg "이미지 설명"
+</code></pre></div></div>
+
+<p><img src="/assets/images/mike.jpeg" alt="대체 텍스트 alt" title="링크 설명(title)을 작성하세요." />  <br />
+<img src="/assets/images/deer.jpg" alt="img1" title="이미지 설명" /></p>
+
+<h2 id="1_8-강조">1_8. 강조</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*이탤릭체* 
+_이탤릭체_ 
+**볼드체** 
+__볼드체__
+&lt;u&gt;밑줄&lt;/u&gt;
+~~취소선~~ 
+</code></pre></div></div>
+
+<p><em>강조</em>  <br />
+<em>강조</em>  <br />
+<strong>강조</strong>  <br />
+<strong>강조</strong>  <br />
+<u>밑줄</u><br />
+<del>취소선</del></p>
+
+<h2 id="1_9-코드블럭">1_9. 코드블럭</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>마크업 `&lt;div&gt;` 와 `&lt;span&gt;`으로 구성
+</code></pre></div></div>
+
+<p>마크업 <code class="highlighter-rouge">&lt;div&gt;</code> 와 <code class="highlighter-rouge">&lt;span&gt;</code>으로 구성</p>
+
 
                     
 
+                  </div>
+                  
+                  <div id="disqus_thread">
+                    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
                   </div>
                   
                 </div>

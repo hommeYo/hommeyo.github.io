@@ -2,9 +2,234 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>hommeYo. Development Story</title>
-		<description>Software Developer</description>
+		<description>Front-End Developer</description>
 		<link></link>
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Markdown</title>
+				<description>&lt;h1 id=&quot;1-문법&quot;&gt;1. 문법&lt;/h1&gt;
+
+&lt;h2 id=&quot;1_1-헤더-headers&quot;&gt;1_1. 헤더 Headers&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;큰제목
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;큰제목 큰제목 
+============= 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;큰제목-큰제목&quot;&gt;큰제목 큰제목&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;작은제목
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;작은제목 작은제목
+-------------
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;작은제목-작은제목&quot;&gt;작은제목 작은제목&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;글머리
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# 글머리1	
+## 글머리2	
+### 글머리3	
+#### 글머리4	
+##### 글머리5	
+###### 글머리6	
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;글머리1&quot;&gt;글머리1&lt;/h1&gt;
+&lt;h2 id=&quot;글머리2&quot;&gt;글머리2&lt;/h2&gt;
+&lt;h3 id=&quot;글머리3&quot;&gt;글머리3&lt;/h3&gt;
+&lt;h4 id=&quot;글머리4&quot;&gt;글머리4&lt;/h4&gt;
+&lt;h5 id=&quot;글머리5&quot;&gt;글머리5&lt;/h5&gt;
+&lt;h6 id=&quot;글머리6&quot;&gt;글머리6&lt;/h6&gt;
+
+&lt;h2 id=&quot;1_2-목록&quot;&gt;1_2. 목록&lt;/h2&gt;
+
+&lt;h3 id=&quot;1_2_1-순서-있는-목록&quot;&gt;1_2_1. 순서 있는 목록&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 첫번째
+2. 두번째
+3. 세번째 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;첫번째&lt;/li&gt;
+  &lt;li&gt;두번째&lt;/li&gt;
+  &lt;li&gt;세번째&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;1_2_2-순서-없는-목록&quot;&gt;1_2_2. 순서 없는 목록&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* dep1_1
+  * dep2_1
+    * dep3_1
+- dep1_2
+  - dep2_2
+    - dep3_2
++ dep1_3
+  + dep2_3
+    + dep3_3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;dep1_1
+    &lt;ul&gt;
+      &lt;li&gt;dep2_1
+        &lt;ul&gt;
+          &lt;li&gt;dep3_1&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;dep1_2
+    &lt;ul&gt;
+      &lt;li&gt;dep2_2
+        &lt;ul&gt;
+          &lt;li&gt;dep3_2&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;dep1_3
+    &lt;ul&gt;
+      &lt;li&gt;dep2_3
+        &lt;ul&gt;
+          &lt;li&gt;dep3_3&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;1_3-blockquote&quot;&gt;1_3. Blockquote&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; blockquote area
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;blockquote area&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;blockquote area&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;blockquote area&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;h3&quot;&gt;h3&lt;/h3&gt;
+  &lt;ul&gt;
+    &lt;li&gt;list
+      &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;code 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;      &lt;/div&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;1_4-표-table&quot;&gt;1_4. 표 Table&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;값 | 의미 | 기본값  
+--- | --- | ---  
+'code1' | 코드1 | a  
+'code2' | 코드2 | b  
+'code3' | 코드3 | c  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;값&lt;/th&gt;
+      &lt;th&gt;의미&lt;/th&gt;
+      &lt;th&gt;기본값&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;‘code1’&lt;/td&gt;
+      &lt;td&gt;코드1&lt;/td&gt;
+      &lt;td&gt;a&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;‘code2’&lt;/td&gt;
+      &lt;td&gt;코드2&lt;/td&gt;
+      &lt;td&gt;b&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;‘code3’&lt;/td&gt;
+      &lt;td&gt;코드3&lt;/td&gt;
+      &lt;td&gt;c&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;1_5-수평선&quot;&gt;1_5. 수평선&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* * * 
+***
+- - - 
+---------
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1_6-링크&quot;&gt;1_6. 링크&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[naver]: http://www.naver.com &quot;네이버로 이동&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Link : &lt;a href=&quot;http://www.naver.com&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Link : [Google](http://www.google.com)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Link : &lt;a href=&quot;http://www.google.com&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;http://example.com/&amp;gt; 
+&amp;lt;address@example.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://example.com/&quot;&gt;http://example.com/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;mailto:address@example.com&quot;&gt;address@example.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1_7-이미지&quot;&gt;1_7. 이미지&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![대체 텍스트 alt](/assets/images/mike.jpeg &quot;링크 설명(title)을 작성하세요.&quot;). 
+![img1][test]  
+[test]: /assets/images/deer.jpg &quot;이미지 설명&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/mike.jpeg&quot; alt=&quot;대체 텍스트 alt&quot; title=&quot;링크 설명(title)을 작성하세요.&quot; /&gt;  &lt;br /&gt;
+&lt;img src=&quot;/assets/images/deer.jpg&quot; alt=&quot;img1&quot; title=&quot;이미지 설명&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1_8-강조&quot;&gt;1_8. 강조&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*이탤릭체* 
+_이탤릭체_ 
+**볼드체** 
+__볼드체__
+&amp;lt;u&amp;gt;밑줄&amp;lt;/u&amp;gt;
+~~취소선~~ 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;강조&lt;/em&gt;  &lt;br /&gt;
+&lt;em&gt;강조&lt;/em&gt;  &lt;br /&gt;
+&lt;strong&gt;강조&lt;/strong&gt;  &lt;br /&gt;
+&lt;strong&gt;강조&lt;/strong&gt;  &lt;br /&gt;
+&lt;u&gt;밑줄&lt;/u&gt;&lt;br /&gt;
+&lt;del&gt;취소선&lt;/del&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1_9-코드블럭&quot;&gt;1_9. 코드블럭&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;마크업 `&amp;lt;div&amp;gt;` 와 `&amp;lt;span&amp;gt;`으로 구성
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;마크업 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; 와 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&lt;/code&gt;으로 구성&lt;/p&gt;
+
+</description>
+				<pubDate>Wed, 27 Jun 2018 18:00:00 +0900</pubDate>
+				<link>/2018/06/markdown</link>
+				<guid isPermaLink="true">/2018/06/markdown</guid>
+			</item>
 		
 			<item>
 				<title>First Post</title>
@@ -608,7 +833,7 @@ Out-of-the box it has:&lt;/p&gt;
 
 &lt;ul class=&quot;social-media&quot;&gt;
   &lt;li&gt;
-    &lt;a title=&quot;Github&quot; href=&quot;https://github.com/streetturtle&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a title=&quot;Github&quot; href=&quot;https://github.com/hommeyo&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;a title=&quot;StackOverflow&quot; href=&quot;http://stackoverflow.com/users/1252056/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-stack-overflow fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
@@ -617,13 +842,13 @@ Out-of-the box it has:&lt;/p&gt;
     &lt;a title=&quot;LinkedIn&quot; href=&quot;https://www.linkedin.com/in/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-linkedin fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;Instagram&quot; href=&quot;https://instagram.com/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-instagram fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a title=&quot;Instagram&quot; href=&quot;https://instagram.com/hommeyo&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-instagram fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;a title=&quot;Last.fm&quot; href=&quot;http://lastfm.com/user/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-lastfm fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;RSS&quot; href=&quot;http://localhost:4000/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a title=&quot;RSS&quot; href=&quot;http://hommeYo.github.io/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 

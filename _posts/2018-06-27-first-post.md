@@ -4,7 +4,7 @@ title:  First Post
 date:   2018-06-27 18:00
 description: 시작이 반이다.
 comments: true
-tags: 잡담
+tags: story
 ---
 
 ## 시작
