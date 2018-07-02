@@ -23,10 +23,11 @@ share:
 
 social:
   github: hommeyo
-  stackoverflow: ''
+  facebook: hommeyo219
+  stackoverflow: 
   linkedin:
-  instagram: 'hommeyo'
-  # lastfm: ''
+  instagram: hommeyo
+  lastfm: 
   rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
