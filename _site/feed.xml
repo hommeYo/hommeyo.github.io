@@ -13,36 +13,36 @@
 &lt;h2 id=&quot;1_1-헤더-headers&quot;&gt;1_1. 헤더 Headers&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;큰제목
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;큰제목 큰제목 
-============= 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
+  &lt;li&gt;큰제목&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;큰제목 큰제목 
+============= 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h1 id=&quot;큰제목-큰제목&quot;&gt;큰제목 큰제목&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;작은제목
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;작은제목 작은제목
--------------
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
+  &lt;li&gt;작은제목&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;작은제목 작은제목
+-------------
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;작은제목-작은제목&quot;&gt;작은제목 작은제목&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;글머리
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# 글머리1	
+  &lt;li&gt;글머리&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# 글머리1	
 ## 글머리2	
 ### 글머리3	
 #### 글머리4	
 ##### 글머리5	
 ###### 글머리6	
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h1 id=&quot;글머리1&quot;&gt;글머리1&lt;/h1&gt;
 &lt;h2 id=&quot;글머리2&quot;&gt;글머리2&lt;/h2&gt;
@@ -50,6 +50,8 @@
 &lt;h4 id=&quot;글머리4&quot;&gt;글머리4&lt;/h4&gt;
 &lt;h5 id=&quot;글머리5&quot;&gt;글머리5&lt;/h5&gt;
 &lt;h6 id=&quot;글머리6&quot;&gt;글머리6&lt;/h6&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;1_2-목록&quot;&gt;1_2. 목록&lt;/h2&gt;
 
@@ -105,6 +107,8 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;1_3-blockquote&quot;&gt;1_3. Blockquote&lt;/h2&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; blockquote area
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -129,40 +133,62 @@
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;&lt;strong&gt;custom style&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{: .note}
+{: .note .warning}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;
+  &lt;p&gt;blockquote area&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote class=&quot;note warning&quot;&gt;
+  &lt;p&gt;blockquote area&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;1_4-표-table&quot;&gt;1_4. 표 Table&lt;/h2&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;값 | 의미 | 기본값  
---- | --- | ---  
+:---: | ---: | :---  
 'code1' | 코드1 | a  
 'code2' | 코드2 | b  
 'code3' | 코드3 | c  
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;wide inner-borders&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;값&lt;/th&gt;
-      &lt;th&gt;의미&lt;/th&gt;
-      &lt;th&gt;기본값&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;값&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;의미&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;기본값&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;‘code1’&lt;/td&gt;
-      &lt;td&gt;코드1&lt;/td&gt;
-      &lt;td&gt;a&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;‘code1’&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;코드1&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;a&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;‘code2’&lt;/td&gt;
-      &lt;td&gt;코드2&lt;/td&gt;
-      &lt;td&gt;b&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;‘code2’&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;코드2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;b&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;‘code3’&lt;/td&gt;
-      &lt;td&gt;코드3&lt;/td&gt;
-      &lt;td&gt;c&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;‘code3’&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;코드3&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;c&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;custom style&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{:.wide}
+{:.inner-borders}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;1_5-수평선&quot;&gt;1_5. 수평선&lt;/h2&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* * * 
@@ -175,6 +201,8 @@
 &lt;hr /&gt;
 &lt;hr /&gt;
 &lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;1_6-링크&quot;&gt;1_6. 링크&lt;/h2&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[naver]: http://www.naver.com &quot;네이버로 이동&quot;
@@ -193,6 +221,8 @@
 &lt;p&gt;&lt;a href=&quot;http://example.com/&quot;&gt;http://example.com/&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;mailto:address@example.com&quot;&gt;address@example.com&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;1_7-이미지&quot;&gt;1_7. 이미지&lt;/h2&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![대체 텍스트 alt](/assets/images/mike.jpeg &quot;링크 설명(title)을 작성하세요.&quot;). 
 ![img1][test]  
@@ -201,6 +231,8 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/mike.jpeg&quot; alt=&quot;대체 텍스트 alt&quot; title=&quot;링크 설명(title)을 작성하세요.&quot; /&gt;  &lt;br /&gt;
 &lt;img src=&quot;/assets/images/deer.jpg&quot; alt=&quot;img1&quot; title=&quot;이미지 설명&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;1_8-강조&quot;&gt;1_8. 강조&lt;/h2&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*이탤릭체* 
@@ -218,6 +250,8 @@ __볼드체__
 &lt;u&gt;밑줄&lt;/u&gt;&lt;br /&gt;
 &lt;del&gt;취소선&lt;/del&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;1_9-코드블럭&quot;&gt;1_9. 코드블럭&lt;/h2&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;마크업 `&amp;lt;div&amp;gt;` 와 `&amp;lt;span&amp;gt;`으로 구성
@@ -225,10 +259,16 @@ __볼드체__
 
 &lt;p&gt;마크업 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; 와 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&lt;/code&gt;으로 구성&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
 </description>
-				<pubDate>Wed, 27 Jun 2018 18:00:00 +0900</pubDate>
-				<link>/2018/06/markdown</link>
-				<guid isPermaLink="true">/2018/06/markdown</guid>
+				<pubDate>Mon, 02 Jul 2018 11:00:00 +0900</pubDate>
+				<link>/2018/07/markdown</link>
+				<guid isPermaLink="true">/2018/07/markdown</guid>
 			</item>
 		
 			<item>
@@ -510,9 +550,9 @@ __볼드체__
 | Footer row&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </description>
-				<pubDate>Fri, 09 Feb 2018 11:07:00 +0900</pubDate>
-				<link>/2018/02/table-styles</link>
-				<guid isPermaLink="true">/2018/02/table-styles</guid>
+				<pubDate>Thu, 09 Feb 2017 11:07:00 +0900</pubDate>
+				<link>/2017/02/table-styles</link>
+				<guid isPermaLink="true">/2017/02/table-styles</guid>
 			</item>
 		
 			<item>
@@ -848,7 +888,7 @@ Out-of-the box it has:&lt;/p&gt;
     &lt;a title=&quot;Last.fm&quot; href=&quot;http://lastfm.com/user/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-lastfm fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;RSS&quot; href=&quot;http://hommeYo.github.io/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a title=&quot;RSS&quot; href=&quot;http://localhost:4000/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 

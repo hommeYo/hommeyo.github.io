@@ -76,17 +76,17 @@
             <div class="col-md-8">
               <div class="article">
                 <div class="well">
-                  <h1><a href="/2018/06/markdown">Markdown</a></h1>
+                  <h1><a href="/2018/07/markdown">Markdown</a></h1>
                   <div class="post-meta">
                     <div class="post-time">
                       <i class="fa fa-calendar"></i>
-                      <time>27 Jun 2018</time>
+                      <time>02 Jul 2018</time>
                     </div>
                     <ul>
                       
                         <li><a href="/tag/markdown">markdown</a></li>
                       
-                        <li><a href="/tag/Tool">Tool</a></li>
+                        <li><a href="/tag/tool">tool</a></li>
                       
                     </ul>
                   </div>
@@ -97,36 +97,36 @@
 <h2 id="1_1-헤더-headers">1_1. 헤더 Headers</h2>
 
 <ul>
-  <li>큰제목
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>큰제목 큰제목 
-============= 
-</code></pre></div>    </div>
-  </li>
+  <li>큰제목</li>
 </ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>큰제목 큰제목 
+============= 
+</code></pre></div></div>
 
 <h1 id="큰제목-큰제목">큰제목 큰제목</h1>
 
 <ul>
-  <li>작은제목
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>작은제목 작은제목
--------------
-</code></pre></div>    </div>
-  </li>
+  <li>작은제목</li>
 </ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>작은제목 작은제목
+-------------
+</code></pre></div></div>
 
 <h2 id="작은제목-작은제목">작은제목 작은제목</h2>
 
 <ul>
-  <li>글머리
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 글머리1	
+  <li>글머리</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 글머리1	
 ## 글머리2	
 ### 글머리3	
 #### 글머리4	
 ##### 글머리5	
 ###### 글머리6	
-</code></pre></div>    </div>
-  </li>
-</ul>
+</code></pre></div></div>
 
 <h1 id="글머리1">글머리1</h1>
 <h2 id="글머리2">글머리2</h2>
@@ -134,6 +134,8 @@
 <h4 id="글머리4">글머리4</h4>
 <h5 id="글머리5">글머리5</h5>
 <h6 id="글머리6">글머리6</h6>
+
+<p><br /></p>
 
 <h2 id="1_2-목록">1_2. 목록</h2>
 
@@ -189,6 +191,8 @@
   </li>
 </ul>
 
+<p><br /></p>
+
 <h2 id="1_3-blockquote">1_3. Blockquote</h2>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; blockquote area
 </code></pre></div></div>
@@ -213,40 +217,62 @@
   </ul>
 </blockquote>
 
+<p><strong>custom style</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{: .note}
+{: .note .warning}
+</code></pre></div></div>
+
+<blockquote class="note">
+  <p>blockquote area</p>
+</blockquote>
+
+<blockquote class="note warning">
+  <p>blockquote area</p>
+</blockquote>
+
+<p><br /></p>
+
 <h2 id="1_4-표-table">1_4. 표 Table</h2>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>값 | 의미 | 기본값  
---- | --- | ---  
+:---: | ---: | :---  
 'code1' | 코드1 | a  
 'code2' | 코드2 | b  
 'code3' | 코드3 | c  
 </code></pre></div></div>
 
-<table>
+<table class="wide inner-borders">
   <thead>
     <tr>
-      <th>값</th>
-      <th>의미</th>
-      <th>기본값</th>
+      <th style="text-align: center">값</th>
+      <th style="text-align: right">의미</th>
+      <th style="text-align: left">기본값</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>‘code1’</td>
-      <td>코드1</td>
-      <td>a</td>
+      <td style="text-align: center">‘code1’</td>
+      <td style="text-align: right">코드1</td>
+      <td style="text-align: left">a</td>
     </tr>
     <tr>
-      <td>‘code2’</td>
-      <td>코드2</td>
-      <td>b</td>
+      <td style="text-align: center">‘code2’</td>
+      <td style="text-align: right">코드2</td>
+      <td style="text-align: left">b</td>
     </tr>
     <tr>
-      <td>‘code3’</td>
-      <td>코드3</td>
-      <td>c</td>
+      <td style="text-align: center">‘code3’</td>
+      <td style="text-align: right">코드3</td>
+      <td style="text-align: left">c</td>
     </tr>
   </tbody>
 </table>
+
+<p><strong>custom style</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{:.wide}
+{:.inner-borders}
+</code></pre></div></div>
+
+<p><br /></p>
 
 <h2 id="1_5-수평선">1_5. 수평선</h2>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* * * 
@@ -259,6 +285,8 @@
 <hr />
 <hr />
 <hr />
+
+<p><br /></p>
 
 <h2 id="1_6-링크">1_6. 링크</h2>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[naver]: http://www.naver.com "네이버로 이동"
@@ -277,6 +305,8 @@
 <p><a href="http://example.com/">http://example.com/</a><br />
 <a href="mailto:address@example.com">address@example.com</a></p>
 
+<p><br /></p>
+
 <h2 id="1_7-이미지">1_7. 이미지</h2>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![대체 텍스트 alt](/assets/images/mike.jpeg "링크 설명(title)을 작성하세요."). 
 ![img1][test]  
@@ -285,6 +315,8 @@
 
 <p><img src="/assets/images/mike.jpeg" alt="대체 텍스트 alt" title="링크 설명(title)을 작성하세요." />  <br />
 <img src="/assets/images/deer.jpg" alt="img1" title="이미지 설명" /></p>
+
+<p><br /></p>
 
 <h2 id="1_8-강조">1_8. 강조</h2>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*이탤릭체* 
@@ -302,12 +334,20 @@ __볼드체__
 <u>밑줄</u><br />
 <del>취소선</del></p>
 
+<p><br /></p>
+
 <h2 id="1_9-코드블럭">1_9. 코드블럭</h2>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>마크업 `&lt;div&gt;` 와 `&lt;span&gt;`으로 구성
 </code></pre></div></div>
 
 <p>마크업 <code class="highlighter-rouge">&lt;div&gt;</code> 와 <code class="highlighter-rouge">&lt;span&gt;</code>으로 구성</p>
+
+<p><br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /></p>
 
 
                     
@@ -327,11 +367,11 @@ __볼드체__
   <h2>Recent Posts</h2>
   <ul>
     
-    <li><a href="/2018/06/markdown">Markdown</a></li>
+    <li><a href="/2018/07/markdown">Markdown</a></li>
     
     <li><a href="/2018/06/first-post">First Post</a></li>
     
-    <li><a href="/2018/02/table-styles">Table styles</a></li>
+    <li><a href="/2017/02/table-styles">Table styles</a></li>
     
     <li><a href="/2016/12/jekyll-clean-theme">Jekyll Dark Clean Theme</a></li>
     
@@ -346,32 +386,8 @@ __볼드체__
     
     
     <li>
-      <a href="/tag/Tool" data-toggle="tooltip" data-placement="right" title="1">
-        <span>Tool</span></a></li>
-    
-    <li>
-      <a href="/tag/analytics" data-toggle="tooltip" data-placement="right" title="1">
-        <span>analytics</span></a></li>
-    
-    <li>
-      <a href="/tag/code" data-toggle="tooltip" data-placement="right" title="1">
-        <span>code</span></a></li>
-    
-    <li>
-      <a href="/tag/comments" data-toggle="tooltip" data-placement="right" title="1">
-        <span>comments</span></a></li>
-    
-    <li>
-      <a href="/tag/customizations" data-toggle="tooltip" data-placement="right" title="1">
-        <span>customizations</span></a></li>
-    
-    <li>
-      <a href="/tag/images" data-toggle="tooltip" data-placement="right" title="1">
-        <span>images</span></a></li>
-    
-    <li>
-      <a href="/tag/jekyll" data-toggle="tooltip" data-placement="right" title="6">
-        <span>jekyll</span></a></li>
+      <a href="/tag/jekylltheme" data-toggle="tooltip" data-placement="right" title="9">
+        <span>jekylltheme</span></a></li>
     
     <li>
       <a href="/tag/markdown" data-toggle="tooltip" data-placement="right" title="1">
@@ -382,8 +398,8 @@ __볼드체__
         <span>story</span></a></li>
     
     <li>
-      <a href="/tag/tags" data-toggle="tooltip" data-placement="right" title="2">
-        <span>tags</span></a></li>
+      <a href="/tag/tool" data-toggle="tooltip" data-placement="right" title="1">
+        <span>tool</span></a></li>
     
   </ul>
 </div>
