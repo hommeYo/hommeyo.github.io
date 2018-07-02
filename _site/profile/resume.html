@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>김요한 - 이력서</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+</style>
+</head>
+<body>
+<!-- home -->
+<div id="home" data-role="page" data-theme="b">
+	<div data-role="header" class="ui-header">
+		<h1>이력서</h1>
+	</div>
+	<div role="main" class="ui-content">
+		<ul data-role="listview" data-inset="true">
+			<li><a href="#profile">인적사항</a></li>
+			<li><a href="#career">경력사항</a></li>
+			<li><a href="#intro">자기소개서</a></li>
+		</ul>
+	</div>
+</div>
+<!-- //home -->
+
+<!-- profile -->
+<div id="profile" data-role="page" data-theme="b">
+	<div data-role="header" data-position="fixed" class="ui-header">
+		<h1>인적사항</h1>
+		<a href="#home" title="홈" class="ui-btn ui-icon-home ui-btn-left ui-btn-icon-notext ui-btn-corner-all ui-shadow">홈</a>
+		<a href="#popupMenu" data-rel="popup" data-transition="slideup" title="메뉴" class="ui-btn ui-icon-grid ui-btn-right ui-btn-icon-notext ui-btn-corner-all ui-shadow">메뉴</a>
+		<div id="popupMenu" data-role="popup">
+			<ul data-role="listview" data-inset="true" style="min-width:30%">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#profile">인적사항</a></li>
+				<li><a href="#career">경력사항</a></li>
+				<li><a href="#intro">자기소개서</a></li>
+			</ul>
+		</div>
+	</div>
+	<div role="main" class="ui-content">
+		<ul data-role="listview" data-inset="true" data-divider-theme="a">
+			<li data-role="list-divider"><strong>인적사항</strong></li>
+			<li>
+				<div class="ui-grid-a">
+ 					<span class="ui-block-a" style="width:100%;text-align:center"><img src="kimyohan.jpg" width="120" height="160" alt="김요한 증명 사진"></span>
+  				</div>
+			</li>
+			<li>
+				<div class="ui-grid-a">
+					<span class="ui-block-a" style="width:30%">성명</span>
+					<span class="ui-block-b" style="width:70%">김요한</span>
+				</div>
+			</li>
+			<li>
+				<div class="ui-grid-a">
+					<span class="ui-block-a" style="width:30%">생년월일</span>
+					<span class="ui-block-b" style="width:70%;white-space:normal">1983년 02월 19일생 (만 35세)</span>
+				</div>
+			</li>
+			<li>
+				<div class="ui-grid-a">
+					<span class="ui-block-a" style="width:30%">전화번호</span>
+					<span class="ui-block-b" style="width:70%"><a href="tel:010-9936-1728" class="ui-icon-phone ui-btn-icon-right">010-9936-1728</a></span>
+				</div>
+			</li>
+			<li>
+				<div class="ui-grid-a">
+					<span class="ui-block-a" style="width:30%">이메일</span>
+					<span class="ui-block-b" style="width:70%"><a href="mailto:dygksk@hanmail.net" class="ui-icon-mail ui-btn-icon-right">dygksk@hanmail.net</a></span>
+				</div>
+			</li>
+			<li>
+				<div class="ui-grid-a">
+					<span class="ui-block-a" style="width:30%">주소</span>
+					<span class="ui-block-b" style="width:70%;white-space:normal">서울 광진구 뚝섬로43길 25 리버빌 B 301호</span>
+				</div>
+			</li>
+			<li data-role="list-divider">학력사항</li>
+			<li>
+				<div class="ui-grid-a">
+					<span class="ui-block-a" style="width:30%">2001.02 <span style="display:none">1998.03.02~2001.02.14</span></span>
+					<span class="ui-block-b" style="width:70%">자양 고등학교 졸업</span>
+				</div>
+			</li>
+			<li>
+				<div class="ui-grid-a">
+					<span class="ui-block-a" style="width:30%">2006.02 <span style="display:none">2001.03.05~2006.02.14</span></span>
+					<span class="ui-block-b" style="width:70%">경복대학 토목설계과 졸업</span>
+				</div>
+			</li>
+			<li>
+				<div class="ui-grid-a">
+					<span class="ui-block-a" style="width:30%;white-space:normal;word-break:keep-all">2016.03 편입<span style="display:none">2016.03.01~</span></span>
+					<span class="ui-block-b" style="width:70%;white-space:normal">한국방송통신대학교 컴퓨터과학과 재학중</span>
+				</div>
+			</li>
+			<li data-role="list-divider">병역사항</li>
+			<li>
+				<div class="ui-grid-c">
+					<span class="ui-block-a" style="width:55%">2002.11<span style="display:none">.28</span> ~ 2004.12<span style="display:none">.20</span></span>
+					<span class="ui-block-b" style="width:15%">육군</span>
+					<span class="ui-block-c" style="width:15%">수송</span>
+					<span class="ui-block-d" style="width:15%">병장</span>
+				</div>
+			</li>
+			<li data-role="list-divider">자격사항</li>
+			<li>
+				<div class="ui-grid-a">
+					<span class="ui-block-a" style="width:30%">2007.10<span style="display:none">.05</span></span>
+					<span class="ui-block-b" style="width:70%">워드프로세서 (1급)<span style="display:none">자격번호 : 07-I9-191154</span></span>
+				</div>
+			</li>
+			<li>
+				<div class="ui-grid-a">
+					<span class="ui-block-a" style="width:30%">2007.11<span style="display:none">.09</span></span>
+					<span class="ui-block-b" style="width:70%">컴퓨터활용능력 (2급)<span style="display:none">자격번호 : 07-K9-064230</span></span>
+				</div>
+			</li>
+			<li data-role="list-divider">교육사항</li>
+			<li>
+				2007.10<span style="display:none">.08</span> ~ 2008.03<span style="display:none">.31</span> &nbsp;&nbsp;&nbsp; 웹디자인 과정 <br>
+				교육기관 : 한국직업전문학교
+			</li>
+			<li>
+				2017.07.18~19 &nbsp;&nbsp;&nbsp; 웹스퀘어5 퍼블리셔 과정 <br>
+				교육기관 : 인스웨이브 시스템즈
+			</li>
+		</ul>
+		<p style="text-align:right"><a href="kimyohan_resume.doc" target="_blank">이력서 문서파일(doc) 다운로드</a></p>
+	</div>
+</div>
+<div style="display:none">
+	1945.04.05
+	1949.04.08
+	1973.04.06
+	1975.11.21
+	1978.12.28
+	1980.08.16
+</div>
+<!-- //profile -->
+
+<!-- career -->
+<div id="career" data-role="page" data-theme="b">
+	<div data-role="header" data-position="fixed" class="ui-header">
+		<h1>경력사항</h1>
+		<a href="#home" title="홈" class="ui-btn ui-icon-home ui-btn-left ui-btn-icon-notext ui-btn-corner-all ui-shadow">홈</a>
+		<a href="#popupMenu2" data-rel="popup" data-transition="slideup" title="메뉴" class="ui-btn ui-icon-grid ui-btn-right ui-btn-icon-notext ui-btn-corner-all ui-shadow">메뉴</a>
+		<div id="popupMenu2" data-role="popup">
+			<ul data-role="listview" data-inset="true" style="min-width:30%">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#profile">인적사항</a></li>
+				<li><a href="#career">경력사항</a></li>
+				<li><a href="#intro">자기소개서</a></li>
+			</ul>
+		</div>
+	</div>
+	<div role="main" class="ui-content">
+		<div class="ui-body ui-body-a ui-corner-all"><strong>정규직</strong></div>
+		<div data-role="collapsibleset">
+			<div data-role="collapsible">
+				<h2>TRUST US<br>2018.05.14~재직중</h2>
+				<div style="display:none">부서명 : 멤버십그룹-서비스팀</div>
+				<div class="ui-body"><p>
+					2018.05 ~ ing :: 포잉 스토어, 포잉 포스, 포잉 인트라넷
+				</p></div>
+			</div>
+			
+			<div data-role="collapsible">
+				<h2>행복ICT<br>2017.06.27~2018.05.08</h2>
+				<div style="display:none">부서명 : ICT운영1팀</div>
+				<div class="ui-body"><p>
+					2017.06 ~ ing :: SK Swing Websquare UI개발 유지보수<br>
+					2017.11 ~ 2017.12 :: <a href="http://gns.biztworld.co.kr/gns/index.jsp" target="_blank">SK 국가정보통신 서비스</a> 신규 구축<br>
+					2017.11 ~ 2017.12 :: <a href="http://skline.biztworld.co.kr/sklines/index.jsp" target="_blank">SK텔레콤 네트워크사업</a> 신규 구축<br>
+					2018.01 ~ ing :: <a href="http://b2b.tworld.co.kr/bizts/main.bs" target="_blank">기업 T World</a> 개편 및 유지보수<br>
+					2018.01 ~ ing :: <a href="http://b2b.tworld.co.kr/cs/main.bc" target="_blank">기업 T World - 법인폰 고객센터</a> 개편 및 유지보수
+				</p></div>
+			</div>
+			
+			<div data-role="collapsible">
+				<h2>티몬<br>2012.07.09~2015.06.08</h2>
+				<div style="display:none">부서명 : 표준화개발유닛</div>
+				<div class="ui-body"><p>
+					티몬(자바전환 프로젝트 - SASS, Grunt, JSTL)<br>
+					티몬플러스, 파트너센터, 티몬 모바일웹, 티몬플러스 포스시스템<br>
+					<a href="http://help.ticketmonster.co.kr/" target="_blank">티몬 고객센터</a> 개편(SASS작업)
+				</p></div>
+			</div>
+
+			<div data-role="collapsible">
+				<h2>NHN Technology Services <br>2010.11.29~2012.06.29</h2>
+				<div style="display:none">부서명 : UI개발2팀</div>
+				<div class="ui-body"><p>
+					2011.04 ~ 2012.06 :: 판매자센터(샵N 어드민), 지식재산권신고센터, 샵N 서스 <br>
+					2011.09 :: 한글한글 아름답게 전체 개편 <br>
+					2011.02 ~ 2011.03 :: 부동산 모바일웹 <br>
+					2010.11 ~ 2011.02 :: 통합검색 서스
+				</p></div>
+			</div>
+
+			<div data-role="collapsible">
+				<h2>메가존<br>2009.11.16~2010.05.14</h2>
+				<div style="display:none">부서명 : SA팀</div>
+				<div class="ui-body"><p>
+					2010.02 ~ 2010.05 :: 대신증권 <br>
+					2010.02 :: 문진미디어 - 영어교육센터 <br>
+					2010.01 :: 빅슬램 (골프쇼핑 메인페이지 작업) <br>
+					2010.01 :: 대신증권 - 빌리브 <br>
+					2009.12 ~ 2010.01 :: 통합LG텔레콤 <br>
+					2009.11 :: AUCTION 이벤트 <br>
+				</p></div>
+			</div>
+
+			<div data-role="collapsible">
+				<h2>크림앤어소시에이츠 (임금체불로 인한 이직) <br>2009.08.26~2009.11.12</h2>
+				<div style="display:none">부서명 : 웹표준화팀</div>
+				<div class="ui-body"><p>
+					2009.10 ~ 2009.11 :: 국가대표 포털 <br>
+					2009.10 :: 한국정책금융공사 <br>
+					2009.09 :: 한국전기안전공사 - 전기안전연구원 <br>
+					2009.08 ~ 2009.10 :: 게임파크홀딩스 (FnuGP) <br>
+				</p></div>
+			</div>
+
+			<div data-role="collapsible">
+				<h2>클라우드나인 (임금체불로 인한 이직) <br>2008.06.19~2009.06.23</h2>
+				<div style="display:none">부서명 : 기술지원실</div>
+				<div class="ui-body"><p>
+					2009.02 ~ 2009.06 :: 해군 프로젝트 (해군 계열의 7개 Site) <br>
+					2008.09 ~ 2009.02 :: 하나은행 차세대 뱅킹 <br>
+					2008.07 ~ 2008.08 :: AIG 생명 Direct <br>
+					2008.06 ~ 2008.09 :: CITY BANK (global mobile) <br>
+				</p></div>
+			</div>
+		</div>
+		<br>
+		<div class="ui-body ui-body-a ui-corner-all"><strong>계약직(프리랜서)</strong></div>
+		<div data-role="collapsibleset">			
+			<div data-role="collapsible">
+				<h2>메가스터디<br>2017.02.27~2017.05.19</h2>
+				<div style="display:none">부서명 : 러셀지원파트</div>
+				<div class="ui-body"><p>
+					러셀블루tv 신규 구축 및 유지보수<br>
+					러셀 학원 유지보수 
+				</p></div>
+			</div>
+			
+			<div data-role="collapsible">
+				<h2>하이브랩<br>2016.09.19~2017.01.13</h2>
+				<div class="ui-body"><p>
+					<strong>11번가 PC사이트 유지보수 및 개편</strong>
+				</p></div>
+			</div>
+			
+			<div data-role="collapsible">
+				<h2>하이브랩<br>2016.02.01~2016.07.31</h2>
+				<div style="display:none">부서명 : SEP UI개발팀</div>
+				<div class="ui-body"><p>
+					<strong>Samsung Enhancement Project (samsung.com)</strong><br>
+					 ㄴ SASS, Gulp, AEM Authoring<br>
+					 ㄴ 사이트 개편에 따른 Template 마크업, QA, Guide 업무<br>
+					 ㄴ AEM 신규 WCMS 적용을 위한 Components 마크업, QA, Guide 업무<br>
+					 ㄴ Authoring (Pilot5 제작/대응 + 72개국 확산 대응) 마크업, QA, Guide 업무<br>
+				</p></div>
+			</div>
+			
+			<div data-role="collapsible">
+				<h2>하이브랩<br>2015.06.22~2015.09.18</h2>
+				<div style="display:none">부서명 : 웹표준개발3팀</div>
+				<div class="ui-body"><p>
+					옥션 유지보수 및 개편<br>
+					Pet plus 신규(일부 기존 컨텐츠 사용) : <a href="http://petplus.auction.co.kr/PetPlus/Default.aspx" target="_blank">http://petplus.auction.co.kr/PetPlus/Default.aspx</a>
+				</p></div>
+			</div>
+			
+			<div data-role="collapsible">
+				<h2>클라이맥스<br>2010.07.20~2010.08.31</h2>
+				<div style="display:none">부서명 : 이비즈사업부</div>
+				<div class="ui-body"><p>
+					경희대학교 프로젝트 (경희대 총장실, 경사대 총장실, 경사대 대학원, 사이버사회연구소 등...)
+				</p></div>
+			</div>
+
+			<div data-role="collapsible">
+				<h2>아이파트너즈<br>2010.05.24~2010.06.23</h2>
+				<div style="display:none">부서명 : 크리에이티브부문</div>
+				<div class="ui-body"><p>
+					현대카드 - 법인
+				</p></div>
+			</div>
+
+			<div data-role="collapsible">
+				<h2>태그앤브레이스<br>2009.07.09~2009.08.04</h2>
+				<div class="ui-body"><p>
+					2009.07 ~ 2009.08 :: SBSi 개편 (메인 및 채널메인 리뉴얼) <br>
+					2009.07 :: 이마트몰
+				</p></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //career -->
+
+<!-- intro -->
+<div id="intro" data-role="page" data-theme="b">
+	<div data-role="header" data-position="fixed" class="ui-header">
+		<h1>자기소개서</h1>
+		<a href="#home" title="홈" class="ui-btn ui-icon-home ui-btn-left ui-btn-icon-notext ui-btn-corner-all ui-shadow">홈</a>
+		<a href="#popupMenu3" data-rel="popup" data-transition="slideup" title="메뉴" class="ui-btn ui-icon-grid ui-btn-right ui-btn-icon-notext ui-btn-corner-all ui-shadow">메뉴</a>
+		<div id="popupMenu3" data-role="popup">
+			<ul data-role="listview" data-inset="true" style="min-width:30%">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#profile">인적사항</a></li>
+				<li><a href="#career">경력사항</a></li>
+				<li><a href="#intro">자기소개서</a></li>
+			</ul>
+		</div>
+	</div>
+	<div role="main" class="ui-content">
+		<div data-role="collapsibleset">
+			<div data-role="collapsible">
+				<h2>성장과정 및 성격</h2>
+				<div><p>
+					부지런하시고 신앙심이 깊으신 부모님 슬하에서 1남 4녀 중 막내로 태어나 건강하게 자랐습니다. 부모님 영향을 받아 어렸을 때부터 갖게 된 신앙심으로 도덕적인 선에서 바르게 살려고 노력했습니다. 가족이 많다는 것은 삶의 방법을 배우는 좋은 환경이라고 생각합니다. 
+					집안 형편이 그리 넉넉하지 않아 어렸을 적부터 여러 아르바이트를 경험하여 자립심을 키우며 사회성을 배웠습니다. 지금까지 사회생활을 잘할 수 있었던 이유도 어렸을 때의 경험이 중요한 밑거름이 되었던 것 같습니다.<br>
+					'모든 일에 최선을 다하여 하면 된다.'라는 생활신조 아래 주어진 일에는 최선을 다하며 다른 사람에게 피해 주는 일이 없도록 배려하고, 협력하여 끝까지 임하는 책임감을 키웠습니다. 
+					모든 일에 항상 긍정적으로 생각하고 행동하려 노력합니다. 긍정적으로 생각하게 되면 사람을 대할 때도 선입견이나 편견 없이 바라볼 수 있는 좋은 효과가 있다고 생각하고 다른 사람들이 저에 대한 평가에서도 좋은 이미지를 형성할 수 있는 기본적인 바탕이 될 거라 생각합니다.<br>
+					누나가 많아 어렸을 적부터 그런 환경에 영향을 끼쳤는지 모든 일에 대해서 항상 꼼꼼한 성격이 있고 저 자신도 어떤 일을 처리하는 데 있어서 빠른 처리보다는 실수가 없는 꼼꼼함을 더 우선으로 생각하고 일을 처리하는 성향이 있습니다.
+					낯을 가리는 편이라서 처음 보는 사람들과 친해지기까지는 시간이 조금 걸리지만 친해지면 활발해지고 잘 어울리는 성격입니다.
+				</p></div>
+			</div>
+
+			<div data-role="collapsible">
+				<h2>경력사항</h2>
+				<div><p>
+					여러 가지 일을 경험하다가 불투명한 미래에 전문지식을 배우고자 막연하게 한국직업전문학교에 웹디자인 과정을 수료하고 웹퍼블리셔라는 직군에 흥미와 관심이 있어 2008년 6월부터 UI개발(마크업개발)을 시작하게 되었습니다.<br>
+					첫 회사와 두 번째 회사의 경영악화로 인하여 임금 체불되었고 제 의사와는 상관없이 어쩔 수 없는 이직을 연달아 경험하였습니다. 그 이후에도 웹에이전시, 포털, e커머스에서 경험을 쌓고, 쉬지 않으려 틈틈이 이직 공백 중에도 프리랜서로 일하였습니다.<br>
+					html, css를 사용하여 마크업 개발을 주 업무로 여러 프로젝트를 경험하였습니다. 업무 작업 프로그램은 오랫동안 Editplus를 사용하였고, 현재는 Sublimetext도 사용하고 있습니다. 형상관리 프로그램으로는 SVN을 오랫동안 사용하였고, 최근에 Git 경험은 있으나 사용 경험이 많지 않아 능숙하지 않습니다. 
+					Javascript, Jquery는 실업무 경험이 많지 않으며 기본적인 액션(인터랙션)에 대한 부분은 업무수행이 가능하며 jquery 플러그인을 커스텀해서 사용하는 수준입니다. 현재 개인적으로 Javascript와 Jquery 기술 향상에 우선순위를 두고 있고 노력 중입니다.<br>
+					티몬 재직 말미에는 mvc패턴을 기본으로 한 view단 작업을 jstl로 작업한 경험과 sass 및 자동화를 목적으로 한 Grunt 사용 경험이 있습니다.
+					의도치 않게 최근 6년 정도 기간에 쇼핑 관련 서비스 업무를 오랫동안 경험했고 PC 환경 업무를 주로 하다 보니 모바일 환경에 대한 작업 경험이 경력에 비해 적었고 여러 가지 서비스, 다양한 환경의 작업에 대한 열망이 강한 상태이기도 합니다.<br>
+					최근 IT 회사가 마크업 개발만을 원하는 인재상에서 프론트엔드 개발자 또는 풀스택 개발자들을 선호하는 추세이기에 저 또한 단기적 목표로는 프론트엔드 개발자로 성장을 준비하고 노력하고 있습니다.
+				</p></div>
+			</div>
+
+			<div data-role="collapsible">
+				<h2>지원동기 및 포부</h2>
+				<div><p>
+					그동안 여러 회사와 여러 프로젝트를 통해 경험을 쌓아왔지만, 트렌드에 민감한 IT 업계에서는 제가 쌓아온 경험도 아직은 너무나 부족하다고 생각합니다. 귀사와 함께 더 다양한 경험과 더 큰 꿈을 향해 도전하고 싶습니다. 변화를 두려워하지 않고 굳은 의지와 열정으로 항상 발전할 수 있도록 노력을 합니다. 항상 노력하는 자에게는 그에 대한 대가는 저절로 따라오는 법이라는 것을 알고 있습니다. 저에게 맡겨진 임무를 빠른 시일 내에 적응하여 주위로부터 꼭 있어야 하는 사람이 되는 것이 저의 포부이자 각오입니다. 날 인정해주는 곳에서 좋은 동료를 만나 나의 능력을 향상시키고 마음껏 발휘하고 싶습니다.<br>
+					낙타는 사막을 건너기 전 한 달 치 양식을 몸에 저장한다고 합니다. 저 또한 이제껏 경험을 바탕으로 귀사에 입사하게 되면 저장된 작은 능력이나마 최선을 다해 일하는 사원이 되겠습니다.
+				</p></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //intro -->
+</dody>
+</html>
