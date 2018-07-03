@@ -11,7 +11,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>hommeYo. DevStory | Images </title>
+  <title>hommeYo. DevStory | Terminal </title>
   <meta name="theme-color" content="#222222" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="/assets/js/jquery.min.js"></script>
@@ -76,53 +76,130 @@
             <div class="col-md-8">
               <div class="article">
                 <div class="well">
-                  <h1><a href="/2016/07/images">Images</a></h1>
+                  <h1><a href="/2018/07/terminal">Terminal</a></h1>
                   <div class="post-meta">
                     <div class="post-time">
                       <i class="fa fa-calendar"></i>
-                      <time>02 Jul 2016</time>
+                      <time>03 Jul 2018</time>
                     </div>
                     <ul>
                       
-                        <li><a href="/tag/jekylltheme">jekylltheme</a></li>
+                        <li><a href="/tag/mac">mac</a></li>
+                      
+                        <li><a href="/tag/terminal">terminal</a></li>
+                      
+                        <li><a href="/tag/tool">tool</a></li>
                       
                     </ul>
                   </div>
                   <div class="post-content">
                     <div id="toc" class="toc"></div>
-                    <h2 id="introduction">Introduction</h2>
+                    <h2 id="터미널-명령어">터미널 명령어</h2>
 
-<p>This theme supports two types of images:</p>
+<table class="inner-borders">
+  <thead>
+    <tr>
+      <th>명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cd</td>
+      <td>해당 경로로 이동 - cd <경로명></경로명></td>
+    </tr>
+    <tr>
+      <td>pwd</td>
+      <td>현제 경로를 표시</td>
+    </tr>
+    <tr>
+      <td>ls</td>
+      <td>조건 검색어 - ls st 파일 이름 중간에 st 를 포함한 모든 파일을 표시</td>
+    </tr>
+    <tr>
+      <td>cp</td>
+      <td>원본복사 - cp web /bin “web”폴더를 /bin에 복사</td>
+    </tr>
+    <tr>
+      <td>mv</td>
+      <td>원본이동 - mv web /bin “web”폴더를 /bin으로 이동</td>
+    </tr>
+    <tr>
+      <td>rm</td>
+      <td>원복삭제 - rm web or rm -r web “web”폴더를 삭제</td>
+    </tr>
+    <tr>
+      <td>mkdir</td>
+      <td>폴더 생성 - mkdir web “web” 폴더를 현제 경로에 생성</td>
+    </tr>
+    <tr>
+      <td>rmdir</td>
+      <td>폴더삭제 - rmdir web “web” 폴더를 현제 경로에서 삭제</td>
+    </tr>
+    <tr>
+      <td>touch</td>
+      <td>파일생성 - touch web “web”의 무용량 파일을 생성</td>
+    </tr>
+    <tr>
+      <td>grep</td>
+      <td>파일안 내용찾기 - grep head index.php “index.php” 에서 head 가 포함된 낱말을 찾음</td>
+    </tr>
+    <tr>
+      <td>ln</td>
+      <td>링크 - ln -s /bin/web/ apath main “/bin/web/” 의 해당경로를 apath main 으로 링크</td>
+    </tr>
+    <tr>
+      <td>who</td>
+      <td>로그인중인 모든 사용자를 찾음</td>
+    </tr>
+    <tr>
+      <td>whoami</td>
+      <td>현제 접속자 찾음</td>
+    </tr>
+    <tr>
+      <td>ps</td>
+      <td>ps(옵션) - 현제 실행중인 모든 프로세서 표시</td>
+    </tr>
+    <tr>
+      <td>kill</td>
+      <td>kill ichat - ichat 프로세서를 강제 종료</td>
+    </tr>
+    <tr>
+      <td>find</td>
+      <td>조건검색어 - find /root/ -name password 파일이름에 password 를 포함한 파일을 /root 폴더에서 검색</td>
+    </tr>
+    <tr>
+      <td>whereis</td>
+      <td>whereis ichat “ichat 가 있는 프로세서 경로를 표시</td>
+    </tr>
+    <tr>
+      <td>sudo</td>
+      <td>sudo vi /etc/php.ini root 권한으로 /etc/ 폴더에 php.ini 파일을 vi로 편집</td>
+    </tr>
+    <tr>
+      <td>history</td>
+      <td>이전에 사용한 모든 명령어 리스트 보기</td>
+    </tr>
+    <tr>
+      <td>clear</td>
+      <td>화면 지우기</td>
+    </tr>
+  </tbody>
+</table>
 
-<ul>
-  <li>inline images: <img src="/assets/images/batWid1.png" alt="Battery Widget" /></li>
-</ul>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">![Battery Widget]({{ '/assets/images/batWid1.png' | relative_url }})</code></pre></figure>
-
-<ul>
-  <li>centered images with caption (optional):</li>
-</ul>
-
-<p><img src="/assets/images/deer.jpg" alt="img" class="center-image" /><em>(°0°)</em></p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">![img]({{ '/assets/images/deer.jpg' | relative_url }}){: .center-image }*(°0°)*</code></pre></figure>
-
-<p>You can apply your own styles to image by creating css class with style:</p>
-
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.custom-image-style</span>
-<span class="p">{</span>
-<span class="c">/* your style */</span>
-<span class="p">}</span></code></pre></figure>
-
-<p>And then applying your style just after the image in curly brackets with colon:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">[!image](path to image){:.custom-image-style}
- </code></pre></figure>
-
+<p><br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /></p>
 
                     
 
+                  </div>
+                  
+                  <div id="disqus_thread">
+                    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
                   </div>
                   
                 </div>

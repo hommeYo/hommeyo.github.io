@@ -11,7 +11,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>hommeYo. DevStory | Markdown </title>
+  <title>hommeYo. DevStory | Sublimetext </title>
   <meta name="theme-color" content="#222222" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="/assets/js/jquery.min.js"></script>
@@ -76,15 +76,15 @@
             <div class="col-md-8">
               <div class="article">
                 <div class="well">
-                  <h1><a href="/2018/07/markdown">Markdown</a></h1>
+                  <h1><a href="/2018/07/sublimetext">Sublimetext</a></h1>
                   <div class="post-meta">
                     <div class="post-time">
                       <i class="fa fa-calendar"></i>
-                      <time>02 Jul 2018</time>
+                      <time>03 Jul 2018</time>
                     </div>
                     <ul>
                       
-                        <li><a href="/tag/markdown">markdown</a></li>
+                        <li><a href="/tag/sublimetext">sublimetext</a></li>
                       
                         <li><a href="/tag/tool">tool</a></li>
                       
@@ -92,256 +92,183 @@
                   </div>
                   <div class="post-content">
                     <div id="toc" class="toc"></div>
-                    <h1 id="1-문법">1. 문법</h1>
+                    <h2 id="package-control">Package Control</h2>
 
-<h2 id="1_1-헤더-headers">1_1. 헤더 Headers</h2>
+<p><code class="highlighter-rouge">View &gt; Show Console</code>, <code class="highlighter-rouge">ctrl + '</code></p>
 
+<p><a href="https://packagecontrol.io/">package control</a></p>
+
+<h3 id="package-control-list">package control list</h3>
 <ul>
-  <li>큰제목</li>
-</ul>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>큰제목 큰제목 
-============= 
-</code></pre></div></div>
-
-<h1 id="큰제목-큰제목">큰제목 큰제목</h1>
-
-<ul>
-  <li>작은제목</li>
-</ul>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>작은제목 작은제목
-------------- 
-</code></pre></div></div>
-
-<h2 id="작은제목-작은제목">작은제목 작은제목</h2>
-
-<ul>
-  <li>글머리</li>
-</ul>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 글머리1	
-## 글머리2	
-### 글머리3	
-#### 글머리4	
-##### 글머리5	
-###### 글머리6	
-</code></pre></div></div>
-
-<h1 id="글머리1">글머리1</h1>
-<h2 id="글머리2">글머리2</h2>
-<h3 id="글머리3">글머리3</h3>
-<h4 id="글머리4">글머리4</h4>
-<h5 id="글머리5">글머리5</h5>
-<h6 id="글머리6">글머리6</h6>
-
-<p><br /></p>
-
-<h2 id="1_2-목록">1_2. 목록</h2>
-
-<h3 id="1_2_1-순서-있는-목록">1_2_1. 순서 있는 목록</h3>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. 첫번째
-2. 두번째
-3. 세번째 
-</code></pre></div></div>
-<ol>
-  <li>첫번째</li>
-  <li>두번째</li>
-  <li>세번째</li>
-</ol>
-
-<h3 id="1_2_2-순서-없는-목록">1_2_2. 순서 없는 목록</h3>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* dep1_1
-  * dep2_1
-    * dep3_1
-- dep1_2
-  - dep2_2
-    - dep3_2
-+ dep1_3
-  + dep2_3
-    + dep3_3
-</code></pre></div></div>
-<ul>
-  <li>dep1_1
-    <ul>
-      <li>dep2_1
-        <ul>
-          <li>dep3_1</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>dep1_2
-    <ul>
-      <li>dep2_2
-        <ul>
-          <li>dep3_2</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>dep1_3
-    <ul>
-      <li>dep2_3
-        <ul>
-          <li>dep3_3</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
+  <li>BracketHighlighter (ST3)</li>
+  <li>ConvertToUTF8</li>
+  <li>IMESupport (WIN)</li>
+  <li>SideBarEnhancements (ST3)</li>
+  <li>SFTP</li>
+  <li>TortoiseSVN</li>
+  <li>Diffy</li>
+  <li>Emmet</li>
+  <li>Goto-CSS-Declaration</li>
+  <li>Sass</li>
+  <li>SASS Build</li>
+  <li>SublimeOnSaveBuild</li>
+  <li>Theme - DC</li>
+  <li>Theme - Soda</li>
 </ul>
 
 <p><br /></p>
 
-<h2 id="1_3-blockquote">1_3. Blockquote</h2>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; blockquote area
-</code></pre></div></div>
+<h2 id="사용자-설정">사용자 설정</h2>
+<p><code class="highlighter-rouge">preferences &gt; Settings - User</code></p>
+<ul>
+  <li>“always_show_minimap_viewport”: true, // 미니맵에서 현재 위치 표시</li>
+  <li>“bold_folder_labels”: true, // 폴더 굵게 표시</li>
+  <li>“build_on_save”: 0, // SublimeOnSaveBuild (sublimetext2)</li>
+  <li>“font_size”: 13,</li>
+  <li>“highlight_line”: true, // 현재 줄 강조</li>
+  <li>“soda_folder_icons”: true, // Theme - Soda icons</li>
+  <li>“theme”: “DC_3.sublime-theme”,  // Theme - DC</li>
+  <li>“trim_trailing_white_space_on_save”: true,  //저장 시 줄끝 공백 제거</li>
+  <li>“word_wrap”: true //자동 줄 바꿈 사용</li>
+</ul>
 
-<blockquote>
-  <p>blockquote area</p>
-  <blockquote>
-    <p>blockquote area</p>
-    <blockquote>
-      <p>blockquote area</p>
-    </blockquote>
-  </blockquote>
-</blockquote>
-
-<blockquote>
-  <h3 id="h3">h3</h3>
-  <ul>
-    <li>list
-      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>code 
-</code></pre></div>      </div>
-    </li>
-  </ul>
-</blockquote>
-
-<p><strong>custom style</strong></p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{: .note}
-{: .note .warning}
-</code></pre></div></div>
-
-<blockquote class="note">
-  <p>blockquote area</p>
-</blockquote>
-
-<blockquote class="note warning">
-  <p>blockquote area</p>
-</blockquote>
+<p><code class="highlighter-rouge">preferences &gt; Key bindings - User</code></p>
+<ul>
+  <li>{ “keys”: [“ctrl+shift+alt+s”], “command”: “toggle_side_bar” }</li>
+</ul>
 
 <p><br /></p>
 
-<h2 id="1_4-표-table">1_4. 표 Table</h2>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>값 | 의미 | 기본값  
-:---: | ---: | :---  
-'code1' | 코드1 | a  
-'code2' | 코드2 | b  
-'code3' | 코드3 | c  
-</code></pre></div></div>
+<h2 id="프로젝트-편집">프로젝트 편집</h2>
+
+<p><code class="highlighter-rouge">.sublime-project</code> 파일내 설정</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"folders"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+    </span><span class="s2">"file_exclude_patterns"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">제외할</span><span class="w"> </span><span class="err">파일</span><span class="w">
+      </span><span class="s2">"*.ico"</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="s2">"folder_exclude_patterns"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">제외할</span><span class="w"> </span><span class="err">폴더</span><span class="w">
+      </span><span class="s2">"test"</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="s2">"path"</span><span class="p">:</span><span class="w"> </span><span class="s2">"E:</span><span class="se">\\</span><span class="s2">work</span><span class="se">\\</span><span class="s2">example-project1"</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">프로젝트</span><span class="w"> </span><span class="err">경로</span><span class="w">
+  </span><span class="p">}],</span><span class="w">
+  </span><span class="s2">"settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"tab_size"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">탭</span><span class="w"> </span><span class="err">크기</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><br /></p>
+
+<h2 id="keyboard-tip">Keyboard Tip</h2>
 
 <table class="wide inner-borders">
   <thead>
     <tr>
-      <th style="text-align: center">값</th>
-      <th style="text-align: right">의미</th>
-      <th style="text-align: left">기본값</th>
+      <th>키</th>
+      <th>설명</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center">‘code1’</td>
-      <td style="text-align: right">코드1</td>
-      <td style="text-align: left">a</td>
+      <td>cmd + x</td>
+      <td>현라인 삭제</td>
     </tr>
     <tr>
-      <td style="text-align: center">‘code2’</td>
-      <td style="text-align: right">코드2</td>
-      <td style="text-align: left">b</td>
+      <td>cmd + Shift + d</td>
+      <td>현라인(혹은 블락)복사해서 붙히기</td>
     </tr>
     <tr>
-      <td style="text-align: center">‘code3’</td>
-      <td style="text-align: right">코드3</td>
-      <td style="text-align: left">c</td>
+      <td>cmd + q (Win - Alt + F4)</td>
+      <td>좌측에 작업 중이던 모든 폴더를 지워지지 않고 어플을 종료</td>
+    </tr>
+    <tr>
+      <td>cmd + /</td>
+      <td>주석처리/주석해제</td>
+    </tr>
+    <tr>
+      <td>Ctrl + Shift + UP/DOWN</td>
+      <td>세로영역 수정</td>
+    </tr>
+    <tr>
+      <td>cmd + Ctrl + UP/DOWN</td>
+      <td>현재라인 이동</td>
+    </tr>
+    <tr>
+      <td>cmd + f</td>
+      <td>검색</td>
+    </tr>
+    <tr>
+      <td>cmd + Alt + f</td>
+      <td>바꾸기</td>
+    </tr>
+    <tr>
+      <td>cmd + Shift + f</td>
+      <td>특정 폴더나 파일에서 내용 검색</td>
+    </tr>
+    <tr>
+      <td>cmd + Shift + v</td>
+      <td>들여쓰기 맞춰서 붙혀넣기</td>
+    </tr>
+    <tr>
+      <td>cmd + t, cmd + p</td>
+      <td>파일명으로 탭 찾기</td>
+    </tr>
+    <tr>
+      <td>Ctrl + g</td>
+      <td>입력한 라인으로 이동</td>
+    </tr>
+    <tr>
+      <td>cmd + i</td>
+      <td>현재 단어 찾기</td>
+    </tr>
+    <tr>
+      <td>cmd + Shift + g</td>
+      <td>현재 단어 모두 찾아서 선택영역으로 만듦</td>
+    </tr>
+    <tr>
+      <td>Ctrl + Shift + m</td>
+      <td>괄호 안의 내용을 모두 선택</td>
+    </tr>
+    <tr>
+      <td>cmd + option + LEFT/RIGHT</td>
+      <td>탭 이동</td>
+    </tr>
+    <tr>
+      <td>Ctrl + m</td>
+      <td>여는 괄호/ 닫는 괄호로 이동</td>
+    </tr>
+    <tr>
+      <td>cmd + Shift + t</td>
+      <td>마지막에 닫은 탭 다시 오픈</td>
+    </tr>
+    <tr>
+      <td>cmd + Shift + p</td>
+      <td>prompt 열기</td>
+    </tr>
+    <tr>
+      <td>Ctrl + `</td>
+      <td>sublime console 열기</td>
+    </tr>
+    <tr>
+      <td>cmd + Alt + 1,2,3,4</td>
+      <td>세로분할 갯수</td>
+    </tr>
+    <tr>
+      <td>cmd + Alt + 5</td>
+      <td>그리드로 보기</td>
+    </tr>
+    <tr>
+      <td>Ctrl + 1,2,3,4</td>
+      <td>세로분할된 창 선택</td>
+    </tr>
+    <tr>
+      <td>Ctrl + Shift + 1,2,3,4</td>
+      <td>현재 탭을 세로분할된 창으로 이동</td>
     </tr>
   </tbody>
 </table>
-
-<p><strong>custom style</strong></p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{:.wide}
-{:.inner-borders}
-</code></pre></div></div>
-
-<p><br /></p>
-
-<h2 id="1_5-수평선">1_5. 수평선</h2>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* * * 
-***
-- - - 
----------
-</code></pre></div></div>
-
-<hr />
-<hr />
-<hr />
-<hr />
-
-<p><br /></p>
-
-<h2 id="1_6-링크">1_6. 링크</h2>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[naver]: http://www.naver.com "네이버로 이동"
-</code></pre></div></div>
-<p>Link : <a href="http://www.naver.com">Google</a></p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Link : [Google](http://www.google.com)
-</code></pre></div></div>
-
-<p>Link : <a href="http://www.google.com">Google</a></p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;http://example.com/&gt; 
-&lt;address@example.com&gt;
-</code></pre></div></div>
-
-<p><a href="http://example.com/">http://example.com/</a><br />
-<a href="mailto:address@example.com">address@example.com</a></p>
-
-<p><br /></p>
-
-<h2 id="1_7-이미지">1_7. 이미지</h2>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![대체 텍스트 alt](/assets/images/mike.jpeg "링크 설명(title)을 작성하세요."). 
-![img1][test]  
-[test]: /assets/images/deer.jpg "이미지 설명"
-</code></pre></div></div>
-
-<p><img src="/assets/images/mike.jpeg" alt="대체 텍스트 alt" title="링크 설명(title)을 작성하세요." />  <br />
-<img src="/assets/images/deer.jpg" alt="img1" title="이미지 설명" /></p>
-
-<p><br /></p>
-
-<h2 id="1_8-강조">1_8. 강조</h2>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*이탤릭체* 
-_이탤릭체_ 
-**볼드체** 
-__볼드체__
-&lt;u&gt;밑줄&lt;/u&gt;
-~~취소선~~ 
-</code></pre></div></div>
-
-<p><em>강조</em>  <br />
-<em>강조</em>  <br />
-<strong>강조</strong>  <br />
-<strong>강조</strong>  <br />
-<u>밑줄</u><br />
-<del>취소선</del></p>
-
-<p><br /></p>
-
-<h2 id="1_9-코드블럭">1_9. 코드블럭</h2>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>마크업 `&lt;div&gt;` 와 `&lt;span&gt;`으로 구성
-</code></pre></div></div>
-
-<p>마크업 <code class="highlighter-rouge">&lt;div&gt;</code> 와 <code class="highlighter-rouge">&lt;span&gt;</code>으로 구성</p>
 
 <p><br /><br />
 <br /><br />

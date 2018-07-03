@@ -7,6 +7,304 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Sublimetext</title>
+				<description>&lt;h2 id=&quot;package-control&quot;&gt;Package Control&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;View &amp;gt; Show Console&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl + '&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://packagecontrol.io/&quot;&gt;package control&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;package-control-list&quot;&gt;package control list&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;BracketHighlighter (ST3)&lt;/li&gt;
+  &lt;li&gt;ConvertToUTF8&lt;/li&gt;
+  &lt;li&gt;IMESupport (WIN)&lt;/li&gt;
+  &lt;li&gt;SideBarEnhancements (ST3)&lt;/li&gt;
+  &lt;li&gt;SFTP&lt;/li&gt;
+  &lt;li&gt;TortoiseSVN&lt;/li&gt;
+  &lt;li&gt;Diffy&lt;/li&gt;
+  &lt;li&gt;Emmet&lt;/li&gt;
+  &lt;li&gt;Goto-CSS-Declaration&lt;/li&gt;
+  &lt;li&gt;Sass&lt;/li&gt;
+  &lt;li&gt;SASS Build&lt;/li&gt;
+  &lt;li&gt;SublimeOnSaveBuild&lt;/li&gt;
+  &lt;li&gt;Theme - DC&lt;/li&gt;
+  &lt;li&gt;Theme - Soda&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;사용자-설정&quot;&gt;사용자 설정&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;preferences &amp;gt; Settings - User&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;“always_show_minimap_viewport”: true, // 미니맵에서 현재 위치 표시&lt;/li&gt;
+  &lt;li&gt;“bold_folder_labels”: true, // 폴더 굵게 표시&lt;/li&gt;
+  &lt;li&gt;“build_on_save”: 0, // SublimeOnSaveBuild (sublimetext2)&lt;/li&gt;
+  &lt;li&gt;“font_size”: 13,&lt;/li&gt;
+  &lt;li&gt;“highlight_line”: true, // 현재 줄 강조&lt;/li&gt;
+  &lt;li&gt;“soda_folder_icons”: true, // Theme - Soda icons&lt;/li&gt;
+  &lt;li&gt;“theme”: “DC_3.sublime-theme”,  // Theme - DC&lt;/li&gt;
+  &lt;li&gt;“trim_trailing_white_space_on_save”: true,  //저장 시 줄끝 공백 제거&lt;/li&gt;
+  &lt;li&gt;“word_wrap”: true //자동 줄 바꿈 사용&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;preferences &amp;gt; Key bindings - User&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;{ “keys”: [“ctrl+shift+alt+s”], “command”: “toggle_side_bar” }&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;프로젝트-편집&quot;&gt;프로젝트 편집&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.sublime-project&lt;/code&gt; 파일내 설정&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;folders&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;file_exclude_patterns&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;제외할&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;파일&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;*.ico&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;folder_exclude_patterns&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;제외할&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;폴더&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;test&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;path&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;E:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;work&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;example-project1&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;프로젝트&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;경로&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;settings&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tab_size&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;탭&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;크기&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;keyboard-tip&quot;&gt;Keyboard Tip&lt;/h2&gt;
+
+&lt;table class=&quot;wide inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;키&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + x&lt;/td&gt;
+      &lt;td&gt;현라인 삭제&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + Shift + d&lt;/td&gt;
+      &lt;td&gt;현라인(혹은 블락)복사해서 붙히기&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + q (Win - Alt + F4)&lt;/td&gt;
+      &lt;td&gt;좌측에 작업 중이던 모든 폴더를 지워지지 않고 어플을 종료&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + /&lt;/td&gt;
+      &lt;td&gt;주석처리/주석해제&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + Shift + UP/DOWN&lt;/td&gt;
+      &lt;td&gt;세로영역 수정&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + Ctrl + UP/DOWN&lt;/td&gt;
+      &lt;td&gt;현재라인 이동&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + f&lt;/td&gt;
+      &lt;td&gt;검색&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + Alt + f&lt;/td&gt;
+      &lt;td&gt;바꾸기&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + Shift + f&lt;/td&gt;
+      &lt;td&gt;특정 폴더나 파일에서 내용 검색&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + Shift + v&lt;/td&gt;
+      &lt;td&gt;들여쓰기 맞춰서 붙혀넣기&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + t, cmd + p&lt;/td&gt;
+      &lt;td&gt;파일명으로 탭 찾기&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + g&lt;/td&gt;
+      &lt;td&gt;입력한 라인으로 이동&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + i&lt;/td&gt;
+      &lt;td&gt;현재 단어 찾기&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + Shift + g&lt;/td&gt;
+      &lt;td&gt;현재 단어 모두 찾아서 선택영역으로 만듦&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + Shift + m&lt;/td&gt;
+      &lt;td&gt;괄호 안의 내용을 모두 선택&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + option + LEFT/RIGHT&lt;/td&gt;
+      &lt;td&gt;탭 이동&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + m&lt;/td&gt;
+      &lt;td&gt;여는 괄호/ 닫는 괄호로 이동&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + Shift + t&lt;/td&gt;
+      &lt;td&gt;마지막에 닫은 탭 다시 오픈&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + Shift + p&lt;/td&gt;
+      &lt;td&gt;prompt 열기&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + `&lt;/td&gt;
+      &lt;td&gt;sublime console 열기&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + Alt + 1,2,3,4&lt;/td&gt;
+      &lt;td&gt;세로분할 갯수&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cmd + Alt + 5&lt;/td&gt;
+      &lt;td&gt;그리드로 보기&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + 1,2,3,4&lt;/td&gt;
+      &lt;td&gt;세로분할된 창 선택&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + Shift + 1,2,3,4&lt;/td&gt;
+      &lt;td&gt;현재 탭을 세로분할된 창으로 이동&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+</description>
+				<pubDate>Tue, 03 Jul 2018 15:00:00 +0900</pubDate>
+				<link>/2018/07/sublimetext</link>
+				<guid isPermaLink="true">/2018/07/sublimetext</guid>
+			</item>
+		
+			<item>
+				<title>Terminal</title>
+				<description>&lt;h2 id=&quot;터미널-명령어&quot;&gt;터미널 명령어&lt;/h2&gt;
+
+&lt;table class=&quot;inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;명령어&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cd&lt;/td&gt;
+      &lt;td&gt;해당 경로로 이동 - cd &lt;경로명&gt;&lt;/경로명&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;pwd&lt;/td&gt;
+      &lt;td&gt;현제 경로를 표시&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ls&lt;/td&gt;
+      &lt;td&gt;조건 검색어 - ls st 파일 이름 중간에 st 를 포함한 모든 파일을 표시&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cp&lt;/td&gt;
+      &lt;td&gt;원본복사 - cp web /bin “web”폴더를 /bin에 복사&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mv&lt;/td&gt;
+      &lt;td&gt;원본이동 - mv web /bin “web”폴더를 /bin으로 이동&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;rm&lt;/td&gt;
+      &lt;td&gt;원복삭제 - rm web or rm -r web “web”폴더를 삭제&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mkdir&lt;/td&gt;
+      &lt;td&gt;폴더 생성 - mkdir web “web” 폴더를 현제 경로에 생성&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;rmdir&lt;/td&gt;
+      &lt;td&gt;폴더삭제 - rmdir web “web” 폴더를 현제 경로에서 삭제&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;touch&lt;/td&gt;
+      &lt;td&gt;파일생성 - touch web “web”의 무용량 파일을 생성&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;grep&lt;/td&gt;
+      &lt;td&gt;파일안 내용찾기 - grep head index.php “index.php” 에서 head 가 포함된 낱말을 찾음&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ln&lt;/td&gt;
+      &lt;td&gt;링크 - ln -s /bin/web/ apath main “/bin/web/” 의 해당경로를 apath main 으로 링크&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;who&lt;/td&gt;
+      &lt;td&gt;로그인중인 모든 사용자를 찾음&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;whoami&lt;/td&gt;
+      &lt;td&gt;현제 접속자 찾음&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ps&lt;/td&gt;
+      &lt;td&gt;ps(옵션) - 현제 실행중인 모든 프로세서 표시&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;kill&lt;/td&gt;
+      &lt;td&gt;kill ichat - ichat 프로세서를 강제 종료&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;find&lt;/td&gt;
+      &lt;td&gt;조건검색어 - find /root/ -name password 파일이름에 password 를 포함한 파일을 /root 폴더에서 검색&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;whereis&lt;/td&gt;
+      &lt;td&gt;whereis ichat “ichat 가 있는 프로세서 경로를 표시&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sudo&lt;/td&gt;
+      &lt;td&gt;sudo vi /etc/php.ini root 권한으로 /etc/ 폴더에 php.ini 파일을 vi로 편집&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;history&lt;/td&gt;
+      &lt;td&gt;이전에 사용한 모든 명령어 리스트 보기&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;clear&lt;/td&gt;
+      &lt;td&gt;화면 지우기&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+</description>
+				<pubDate>Tue, 03 Jul 2018 11:00:00 +0900</pubDate>
+				<link>/2018/07/terminal</link>
+				<guid isPermaLink="true">/2018/07/terminal</guid>
+			</item>
+		
+			<item>
 				<title>Markdown</title>
 				<description>&lt;h1 id=&quot;1-문법&quot;&gt;1. 문법&lt;/h1&gt;
 
@@ -27,7 +325,7 @@
 &lt;/ul&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;작은제목 작은제목
--------------
+------------- 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;작은제목-작은제목&quot;&gt;작은제목 작은제목&lt;/h2&gt;
@@ -888,7 +1186,7 @@ Out-of-the box it has:&lt;/p&gt;
     &lt;a title=&quot;Last.fm&quot; href=&quot;http://lastfm.com/user/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-lastfm fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;RSS&quot; href=&quot;http://hommeYo.github.io/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a title=&quot;RSS&quot; href=&quot;http://localhost:4000/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -946,69 +1244,6 @@ To turn them on in the header of your post add:&lt;/p&gt;
 				<pubDate>Fri, 16 Sep 2016 01:25:06 +0900</pubDate>
 				<link>/2016/09/be-social</link>
 				<guid isPermaLink="true">/2016/09/be-social</guid>
-			</item>
-		
-			<item>
-				<title>Analytics, tags and comments</title>
-				<description>&lt;h1 id=&quot;analytics&quot;&gt;Analytics&lt;/h1&gt;
-
-&lt;h4 id=&quot;google-analytics&quot;&gt;&lt;a href=&quot;http://www.google.com/analytics/&quot;&gt;Google Analytics&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;To enable Google Analytics create an account &lt;a href=&quot;https://analytics.google.com&quot;&gt;here&lt;/a&gt;. Then add your tracking id in &lt;code class=&quot;highlighter-rouge&quot;&gt;config.xml&lt;/code&gt;, it should look something like &lt;code class=&quot;highlighter-rouge&quot;&gt;UA-********-1&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;yandex-metrica&quot;&gt;&lt;a href=&quot;http://metrica.yandex.com&quot;&gt;Yandex Metrica&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;To enable Yandex Metrica you need to register, create a ‘counter’ and then copy-paste it’s code in &lt;code class=&quot;highlighter-rouge&quot;&gt;/_includes/yandex-metrica.html&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;h1 id=&quot;tags&quot;&gt;Tags&lt;/h1&gt;
-
-&lt;p&gt;To use this feature you simply will need to create a markdown file for each tag which you are using in you site in &lt;strong&gt;tag&lt;/strong&gt; folder. To simplify this procedure there is an &lt;a href=&quot;http://pavelmakhov.com/admin.html&quot;&gt;/admin&lt;/a&gt; page, which outputs the bash command which you just need to run inside &lt;strong&gt;tag&lt;/strong&gt; folder of your site. Also don’t forget to rerun it when you add a post with new tag.&lt;/p&gt;
-
-&lt;h1 id=&quot;comments&quot;&gt;Comments&lt;/h1&gt;
-
-&lt;p&gt;To enable &lt;a href=&quot;http://disqus.com&quot;&gt;Disqus&lt;/a&gt; register on the site and then just put your name in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.xml&lt;/code&gt;. Comments could be switched on and off on per post basis, just put &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; to enable them.&lt;/p&gt;
-</description>
-				<pubDate>Tue, 02 Aug 2016 01:25:06 +0900</pubDate>
-				<link>/2016/08/analytics-tags-comments</link>
-				<guid isPermaLink="true">/2016/08/analytics-tags-comments</guid>
-			</item>
-		
-			<item>
-				<title>Images</title>
-				<description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;This theme supports two types of images:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;inline images: &lt;img src=&quot;/assets/images/batWid1.png&quot; alt=&quot;Battery Widget&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;![Battery Widget]({{ '/assets/images/batWid1.png' | relative_url }})&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;centered images with caption (optional):&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/deer.jpg&quot; alt=&quot;img&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;(°0°)&lt;/em&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;![img]({{ '/assets/images/deer.jpg' | relative_url }}){: .center-image }*(°0°)*&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You can apply your own styles to image by creating css class with style:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.custom-image-style&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;/* your style */&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;And then applying your style just after the image in curly brackets with colon:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;[!image](path to image){:.custom-image-style}
- &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-</description>
-				<pubDate>Sat, 02 Jul 2016 01:25:06 +0900</pubDate>
-				<link>/2016/07/images</link>
-				<guid isPermaLink="true">/2016/07/images</guid>
 			</item>
 		
 	</channel>
