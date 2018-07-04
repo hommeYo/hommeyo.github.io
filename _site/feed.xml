@@ -82,18 +82,18 @@
 &lt;table class=&quot;wide inner-borders&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;키&lt;/th&gt;
+      &lt;th&gt;단축키&lt;/th&gt;
       &lt;th&gt;설명&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;cmd + x&lt;/td&gt;
-      &lt;td&gt;현라인 삭제&lt;/td&gt;
+      &lt;td&gt;줄 잘라내기&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;cmd + Shift + d&lt;/td&gt;
-      &lt;td&gt;현라인(혹은 블락)복사해서 붙히기&lt;/td&gt;
+      &lt;td&gt;줄 복사&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;cmd + q (Win - Alt + F4)&lt;/td&gt;
@@ -101,11 +101,11 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;cmd + /&lt;/td&gt;
-      &lt;td&gt;주석처리/주석해제&lt;/td&gt;
+      &lt;td&gt;주석 처리/취소&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Ctrl + Shift + UP/DOWN&lt;/td&gt;
-      &lt;td&gt;세로영역 수정&lt;/td&gt;
+      &lt;td&gt;다중 편집 가능한 상태로 줄 선택(다중편집 모드)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;cmd + Ctrl + UP/DOWN&lt;/td&gt;
@@ -161,11 +161,11 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;cmd + Shift + p&lt;/td&gt;
-      &lt;td&gt;prompt 열기&lt;/td&gt;
+      &lt;td&gt;명령어 팔레트(Command Palette)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Ctrl + `&lt;/td&gt;
-      &lt;td&gt;sublime console 열기&lt;/td&gt;
+      &lt;td&gt;콘솔 보기(Show Console)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;cmd + Alt + 1,2,3,4&lt;/td&gt;
@@ -185,6 +185,112 @@
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;emmet-사용법&quot;&gt;Emmet 사용법&lt;/h2&gt;
+
+&lt;h3 id=&quot;html-문서-기본형-축약코드&quot;&gt;HTML 문서 기본형 축약코드&lt;/h3&gt;
+
+&lt;table class=&quot;wide inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;명령어&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;doc&lt;/td&gt;
+      &lt;td&gt;HTML5 문서 기본 골격 [DTD 제외]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;doc4&lt;/td&gt;
+      &lt;td&gt;HTML4 문서 기본 골격 [DTD 제외]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;html:4t&lt;/td&gt;
+      &lt;td&gt;HTML4 문서 관용모드 기본 골격&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;html:4s&lt;/td&gt;
+      &lt;td&gt;HTML4 문서 엄격모드 기본 골격&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;html:xt&lt;/td&gt;
+      &lt;td&gt;XHTML1 문서 관용모드 기본 골격&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;html:xs&lt;/td&gt;
+      &lt;td&gt;XHTML1 문서 엄격모드 기본 골격&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;html:5 또는 !&lt;/td&gt;
+      &lt;td&gt;HTML5 문서 기본 골격&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;또-다른-html-문서-기본형-축약코드&quot;&gt;또 다른 HTML 문서 기본형 축약코드&lt;/h3&gt;
+
+&lt;table class=&quot;wide inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;명령어&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;!!!4t&lt;/td&gt;
+      &lt;td&gt;HTML4 관용모드 DTD&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;!!!4s&lt;/td&gt;
+      &lt;td&gt;HTML4 엄격모드 DTD&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;!!!xt&lt;/td&gt;
+      &lt;td&gt;XHTML1 관용모드 DTD&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;!!!xs&lt;/td&gt;
+      &lt;td&gt;XHTML1 엄격모드 DTD&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;!!!&lt;/td&gt;
+      &lt;td&gt;HTML5 DTD&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;html-에서-emmet-활용&quot;&gt;HTML 에서 Emmet 활용&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;div&amp;gt;h3+(ul&amp;gt;li&amp;gt;a)+(dl&amp;gt;dt+dd) 그룹핑&lt;/li&gt;
+  &lt;li&gt;div&amp;gt;h3+ul&amp;gt;li&amp;gt;a^^dl&amp;gt;dt+dd 캐럿기호를 사용한 부모요소 접근&lt;/li&gt;
+  &lt;li&gt;p[class=”a b”] or p.a.b&lt;/li&gt;
+  &lt;li&gt;input:text&lt;/li&gt;
+  &lt;li&gt;#page&amp;gt;#nav&amp;gt;ul&amp;gt;li[class=”item-$$”]*5&lt;br /&gt;
+$$ // 01 ~&lt;br /&gt;
+$$@- // 5부터 거꾸로~&lt;br /&gt;
+$$@5 // 5부터 시작해서 증가&lt;br /&gt;
+$$@-5”]*5 // 5부터 시작하여 거꾸러~&lt;/li&gt;
+  &lt;li&gt;#page&amp;gt;#nav&amp;gt;ul&amp;gt;li[class=”item-$$@5”]{목록아이팀}*5&lt;br /&gt;
+{} // 태그 내부 내용 입력&lt;/li&gt;
+  &lt;li&gt;a&amp;gt;{click}+strong{me!}&lt;/li&gt;
+  &lt;li&gt;p&amp;gt;a{clcik}+{이것은 emmet입니다}&lt;/li&gt;
+  &lt;li&gt;p*2&amp;gt;lorem4&lt;/li&gt;
+  &lt;li&gt;p&amp;gt;lorem4.text*2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;참고-url&quot;&gt;참고 URL&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;https://jeonghakhur.gitbooks.io/sublime-text3/content/&lt;/li&gt;
+  &lt;li&gt;https://opentutorials.org/module/406/3595&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;br /&gt;
@@ -586,274 +692,6 @@ __볼드체__
 			</item>
 		
 			<item>
-				<title>Table styles</title>
-				<description>&lt;p&gt;Below are the examples of the default table styling.&lt;/p&gt;
-
-&lt;h2 id=&quot;simple-table&quot;&gt;Simple table&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First Header&lt;/th&gt;
-      &lt;th&gt;Second Header&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content from cell 1&lt;/td&gt;
-      &lt;td&gt;Content from cell 2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content in the first column&lt;/td&gt;
-      &lt;td&gt;Content in the second column&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;blockquote class=&quot;filename&quot;&gt;
-  &lt;p&gt;Markdown&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;|First Header | Second Header|
-|------------ | -------------|
-|Content from cell 1 | Content from cell 2|
-|Content in the first column | Content in the second column|&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;custom-styles&quot;&gt;Custom styles&lt;/h2&gt;
-
-&lt;p&gt;It is also possible to change a bit table styles by applying CSS classes. By default there are two classes available:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.wide&lt;/code&gt; - makes table width 100%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table class=&quot;wide&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First Header&lt;/th&gt;
-      &lt;th&gt;Second Header&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content from cell 1&lt;/td&gt;
-      &lt;td&gt;Content from cell 2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content in the first column&lt;/td&gt;
-      &lt;td&gt;Content in the second column&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;blockquote class=&quot;filename&quot;&gt;
-  &lt;p&gt;Markdown - note the last line&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;|First Header | Second Header|
-|------------ | -------------|
-|Content from cell 1 | Content from cell 2|
-|Content in the first column | Content in the second column|
-{:.wide}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.inner-borders&lt;/code&gt; - shows inner borders&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table class=&quot;inner-borders&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First Header&lt;/th&gt;
-      &lt;th&gt;Second Header&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content from cell 1&lt;/td&gt;
-      &lt;td&gt;Content from cell 2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content in the first column&lt;/td&gt;
-      &lt;td&gt;Content in the second column&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;blockquote class=&quot;filename&quot;&gt;
-  &lt;p&gt;Markdown - note the last line&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;|First Header | Second Header|
-|------------ | -------------|
-|Content from cell 1 | Content from cell 2|
-|Content in the first column | Content in the second column|
-{:.inner-borders}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You can add more such classes by putting them inside &lt;strong&gt;theme.scss&lt;/strong&gt;. Here is how the above mentioned classes are defined:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;nt&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.wide&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.inner-borders&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;border-collapse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;collapse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;border-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;td&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#5e5e5e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;few-more-examples-from-kramdown-documentation&quot;&gt;Few more examples from kramdown &lt;a href=&quot;https://kramdown.gettalong.org/syntax.html#tables&quot;&gt;documentation&lt;/a&gt;:&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Default aligned&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;First body part&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Second line&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Third line&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Second body&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2 line&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Footer row&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
-
-&lt;blockquote class=&quot;filename&quot;&gt;
-  &lt;p&gt;Table header row, two table bodies and a table footer row&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;|-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-|-----------------+------------+-----------------+----------------|
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-|=================+============+=================+================|
-| Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Default aligned&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;First body part&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Second line&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Third line&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Second body&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2 line&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Footer row&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
-
-&lt;blockquote class=&quot;filename&quot;&gt;
-  &lt;p&gt;Same as above but shorter&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;|---
-| Default aligned | Left aligned | Center aligned | Right aligned
-|-|:-|:-:|-:
-| First body part | Second cell | Third cell | fourth cell
-| Second line |foo | **strong** | baz
-| Third line |quux | baz | bar
-|---
-| Second body
-| 2 line
-|===
-| Footer row&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-</description>
-				<pubDate>Thu, 09 Feb 2017 11:07:00 +0900</pubDate>
-				<link>/2017/02/table-styles</link>
-				<guid isPermaLink="true">/2017/02/table-styles</guid>
-			</item>
-		
-			<item>
 				<title>Jekyll Dark Clean Theme</title>
 				<description>&lt;p&gt;Here is a sample post for Jekyll-Clean-Dark theme.&lt;/p&gt;
 
@@ -877,9 +715,9 @@ __볼드체__
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/ipad_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini landscape&lt;/em&gt;&lt;/p&gt;
 </description>
-				<pubDate>Fri, 02 Dec 2016 01:25:06 +0900</pubDate>
-				<link>/2016/12/jekyll-clean-theme</link>
-				<guid isPermaLink="true">/2016/12/jekyll-clean-theme</guid>
+				<pubDate>Wed, 02 Dec 2015 01:25:06 +0900</pubDate>
+				<link>/2015/12/jekyll-clean-theme</link>
+				<guid isPermaLink="true">/2015/12/jekyll-clean-theme</guid>
 			</item>
 		
 			<item>
@@ -945,9 +783,46 @@ __볼드체__
 &lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;key highlighter-rouge&quot;&gt;D&lt;/code&gt; = logs you out.&lt;br /&gt;
 &lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;key highlighter-rouge&quot;&gt;R&lt;/code&gt; = finds the last command matching the entered letters.&lt;/p&gt;
 </description>
-				<pubDate>Thu, 03 Nov 2016 01:25:06 +0900</pubDate>
-				<link>/2016/11/text-formatting</link>
-				<guid isPermaLink="true">/2016/11/text-formatting</guid>
+				<pubDate>Tue, 03 Nov 2015 01:25:06 +0900</pubDate>
+				<link>/2015/11/text-formatting</link>
+				<guid isPermaLink="true">/2015/11/text-formatting</guid>
+			</item>
+		
+			<item>
+				<title>Installation</title>
+				<description>&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;If you dont’t have your own blog you can clone this repository and put your articles in a &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder.&lt;br /&gt;
+If you already have your own blog then I think you can clone this repository and copy-paste content keeping your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;After you will have to set up your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;The content of this theme is distributed and licensed under a &lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/legalcode&quot;&gt;Creative Commons Attribution 4.0 License&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This license lets others distribute, remix, tweak, and build upon your work,&lt;br /&gt;
+even commercially, as long as they credit you for the original creation. This&lt;br /&gt;
+is the most accommodating of licenses offered. Recommended for maximum&lt;br /&gt;
+dissemination and use of licensed materials.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In other words: you can do anything you want with this theme on any site, just please&lt;br /&gt;
+provide a link to the original theme on github.&lt;/p&gt;
+
+&lt;p&gt;This theme includes the following files which are the properties of their&lt;br /&gt;
+respective owners:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;js/bootstrap.min.js - &lt;a href=&quot;http://getbootstrap.com&quot;&gt;bootstrap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;css/bootstrap.min.css - &lt;a href=&quot;http://getbootstrap.com&quot;&gt;bootstrap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;js/jquery.min.js - &lt;a href=&quot;https://jquery.com&quot;&gt;jquery&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Mon, 02 Nov 2015 01:25:06 +0900</pubDate>
+				<link>/2015/11/installation</link>
+				<guid isPermaLink="true">/2015/11/installation</guid>
 			</item>
 		
 			<item>
@@ -1038,9 +913,9 @@ __볼드체__
 ...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </description>
-				<pubDate>Sun, 02 Oct 2016 01:25:06 +0900</pubDate>
-				<link>/2016/10/code-syntax-highlighting</link>
-				<guid isPermaLink="true">/2016/10/code-syntax-highlighting</guid>
+				<pubDate>Fri, 02 Oct 2015 01:25:06 +0900</pubDate>
+				<link>/2015/10/code-syntax-highlighting</link>
+				<guid isPermaLink="true">/2015/10/code-syntax-highlighting</guid>
 			</item>
 		
 			<item>
@@ -1157,9 +1032,9 @@ __볼드체__
 &lt;span class=&quot;nv&quot;&gt;$background-pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'random-grey-variations.png'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </description>
-				<pubDate>Wed, 21 Sep 2016 01:25:06 +0900</pubDate>
-				<link>/2016/09/customizations</link>
-				<guid isPermaLink="true">/2016/09/customizations</guid>
+				<pubDate>Mon, 21 Sep 2015 01:25:06 +0900</pubDate>
+				<link>/2015/09/customizations</link>
+				<guid isPermaLink="true">/2015/09/customizations</guid>
 			</item>
 		
 			<item>
@@ -1241,9 +1116,9 @@ To turn them on in the header of your post add:&lt;/p&gt;
   &lt;li&gt;add styles in &lt;strong&gt;css/theme.css&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-				<pubDate>Fri, 16 Sep 2016 01:25:06 +0900</pubDate>
-				<link>/2016/09/be-social</link>
-				<guid isPermaLink="true">/2016/09/be-social</guid>
+				<pubDate>Wed, 16 Sep 2015 01:25:06 +0900</pubDate>
+				<link>/2015/09/be-social</link>
+				<guid isPermaLink="true">/2015/09/be-social</guid>
 			</item>
 		
 	</channel>

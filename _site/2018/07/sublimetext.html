@@ -166,18 +166,18 @@
 <table class="wide inner-borders">
   <thead>
     <tr>
-      <th>키</th>
+      <th>단축키</th>
       <th>설명</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>cmd + x</td>
-      <td>현라인 삭제</td>
+      <td>줄 잘라내기</td>
     </tr>
     <tr>
       <td>cmd + Shift + d</td>
-      <td>현라인(혹은 블락)복사해서 붙히기</td>
+      <td>줄 복사</td>
     </tr>
     <tr>
       <td>cmd + q (Win - Alt + F4)</td>
@@ -185,11 +185,11 @@
     </tr>
     <tr>
       <td>cmd + /</td>
-      <td>주석처리/주석해제</td>
+      <td>주석 처리/취소</td>
     </tr>
     <tr>
       <td>Ctrl + Shift + UP/DOWN</td>
-      <td>세로영역 수정</td>
+      <td>다중 편집 가능한 상태로 줄 선택(다중편집 모드)</td>
     </tr>
     <tr>
       <td>cmd + Ctrl + UP/DOWN</td>
@@ -245,11 +245,11 @@
     </tr>
     <tr>
       <td>cmd + Shift + p</td>
-      <td>prompt 열기</td>
+      <td>명령어 팔레트(Command Palette)</td>
     </tr>
     <tr>
       <td>Ctrl + `</td>
-      <td>sublime console 열기</td>
+      <td>콘솔 보기(Show Console)</td>
     </tr>
     <tr>
       <td>cmd + Alt + 1,2,3,4</td>
@@ -270,6 +270,112 @@
   </tbody>
 </table>
 
+<p><br /></p>
+
+<h2 id="emmet-사용법">Emmet 사용법</h2>
+
+<h3 id="html-문서-기본형-축약코드">HTML 문서 기본형 축약코드</h3>
+
+<table class="wide inner-borders">
+  <thead>
+    <tr>
+      <th>명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>doc</td>
+      <td>HTML5 문서 기본 골격 [DTD 제외]</td>
+    </tr>
+    <tr>
+      <td>doc4</td>
+      <td>HTML4 문서 기본 골격 [DTD 제외]</td>
+    </tr>
+    <tr>
+      <td>html:4t</td>
+      <td>HTML4 문서 관용모드 기본 골격</td>
+    </tr>
+    <tr>
+      <td>html:4s</td>
+      <td>HTML4 문서 엄격모드 기본 골격</td>
+    </tr>
+    <tr>
+      <td>html:xt</td>
+      <td>XHTML1 문서 관용모드 기본 골격</td>
+    </tr>
+    <tr>
+      <td>html:xs</td>
+      <td>XHTML1 문서 엄격모드 기본 골격</td>
+    </tr>
+    <tr>
+      <td>html:5 또는 !</td>
+      <td>HTML5 문서 기본 골격</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="또-다른-html-문서-기본형-축약코드">또 다른 HTML 문서 기본형 축약코드</h3>
+
+<table class="wide inner-borders">
+  <thead>
+    <tr>
+      <th>명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>!!!4t</td>
+      <td>HTML4 관용모드 DTD</td>
+    </tr>
+    <tr>
+      <td>!!!4s</td>
+      <td>HTML4 엄격모드 DTD</td>
+    </tr>
+    <tr>
+      <td>!!!xt</td>
+      <td>XHTML1 관용모드 DTD</td>
+    </tr>
+    <tr>
+      <td>!!!xs</td>
+      <td>XHTML1 엄격모드 DTD</td>
+    </tr>
+    <tr>
+      <td>!!!</td>
+      <td>HTML5 DTD</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="html-에서-emmet-활용">HTML 에서 Emmet 활용</h3>
+
+<ul>
+  <li>div&gt;h3+(ul&gt;li&gt;a)+(dl&gt;dt+dd) 그룹핑</li>
+  <li>div&gt;h3+ul&gt;li&gt;a^^dl&gt;dt+dd 캐럿기호를 사용한 부모요소 접근</li>
+  <li>p[class=”a b”] or p.a.b</li>
+  <li>input:text</li>
+  <li>#page&gt;#nav&gt;ul&gt;li[class=”item-$$”]*5<br />
+$$ // 01 ~<br />
+$$@- // 5부터 거꾸로~<br />
+$$@5 // 5부터 시작해서 증가<br />
+$$@-5”]*5 // 5부터 시작하여 거꾸러~</li>
+  <li>#page&gt;#nav&gt;ul&gt;li[class=”item-$$@5”]{목록아이팀}*5<br />
+{} // 태그 내부 내용 입력</li>
+  <li>a&gt;{click}+strong{me!}</li>
+  <li>p&gt;a{clcik}+{이것은 emmet입니다}</li>
+  <li>p*2&gt;lorem4</li>
+  <li>p&gt;lorem4.text*2</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="참고-url">참고 URL</h2>
+<ul>
+  <li>https://jeonghakhur.gitbooks.io/sublime-text3/content/</li>
+  <li>https://opentutorials.org/module/406/3595</li>
+</ul>
+
 <p><br /><br />
 <br /><br />
 <br /><br />
@@ -278,6 +384,78 @@
 
 
                     
+
+<div class="share-bar">
+  <ul class="share-buttons">
+    
+    <li class="share-facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2018/07/sublimetext" target="_blank" title="Share on Facebook">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-facebook fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-twitter">
+      <a href="https://twitter.com/intent/tweet?url=http://localhost:4000/2018/07/sublimetext&text=Sublimetext" target="_blank" title="Tweet">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-google-plus">
+      <a href="https://plus.google.com/share?url=http://localhost:4000/2018/07/sublimetext" target="_blank" title="Share on Google Plus">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-google-plus fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-linkedin">
+      <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2018/07/sublimetext&title=Sublimetext&summary=sublimetext 사용법&source=" target="_blank" title="Share on LinkedIn">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-linkedin fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-pinterest">
+      <a href="http://pinterest.com/pin/create/button/?urlhttp://localhost:4000/2018/07/sublimetext=&description=sublimetext 사용법" target="_blank" title="Pin it">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-pinterest fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-envelope">
+      <a href="mailto:?&subject=Sublimetext&body=sublimetext 사용법 http://localhost:4000/2018/07/sublimetext" target="_blank" title="Email">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-envelope-o fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+  </ul>
+</div>
+
 
                   </div>
                   
@@ -302,7 +480,7 @@
     
     <li><a href="/2018/06/first-post">First Post</a></li>
     
-    <li><a href="/2017/02/table-styles">Table styles</a></li>
+    <li><a href="/2015/12/jekyll-clean-theme">Jekyll Dark Clean Theme</a></li>
     
   </ul>
 </div>
