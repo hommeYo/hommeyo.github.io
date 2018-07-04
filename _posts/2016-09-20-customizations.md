@@ -5,6 +5,7 @@ date: 2015-09-20 16:25:06
 description: Few customizations available out of the box!
 share: true
 tags: jekylltheme
+comments: true
 ---
 
 # Accent color

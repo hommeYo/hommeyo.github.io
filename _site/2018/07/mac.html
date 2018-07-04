@@ -1,0 +1,794 @@
+
+  
+
+
+
+
+
+
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>hommeYo. DevStory | Mac </title>
+  <meta name="theme-color" content="#222222" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/header.js"></script>
+  <script src="/assets/js/toc.js"></script>
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/css/theme.css" rel="stylesheet">
+  <link href="/assets/css/syntax.css" rel="stylesheet">
+  <link href="/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  
+
+  
+
+
+ <script type="text/javascript">
+  WebFontConfig = {
+    google: {
+      families: ['Ubuntu::latin']
+    }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">hommeYo. DevStory</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/">/home</a></li>
+          <li><a href="/archive.html">/archive</a></li>
+          <li><a href="/tags.html">/tags</a></li>
+          <li><a href="/about.html">/about</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div class="wrapper">
+      <div class="content">
+        <div class="container container-center">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="article">
+                <div class="well">
+                  <h1><a href="/2018/07/mac">Mac</a></h1>
+                  <div class="post-meta">
+                    <div class="post-time">
+                      <i class="fa fa-calendar"></i>
+                      <time>04 Jul 2018</time>
+                    </div>
+                    <ul>
+                      
+                        <li><a href="/tag/mac">mac</a></li>
+                      
+                    </ul>
+                  </div>
+                  <div class="post-content">
+                    <div id="toc" class="toc"></div>
+                    <h2 id="단축키">단축키</h2>
+
+<table class="wide inner-borders">
+  <thead>
+    <tr>
+      <th>키/명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ctrl + A</td>
+      <td>현재 입력중인 라인의 처음으로 이동합니다. 이 명령어는 대부분의 텍스트 입력에서도 작동합니다. Netbeans는 예외 입니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + E</td>
+      <td>현재 입력중인 라인의 끝으로 이동합니다. 이 명령어는 대부분의 텍스트 입력에서도 작동합니다. Netbeans는 예외 입니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + Q</td>
+      <td>현재 입력 중인 라인을 지웁니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + L</td>
+      <td>화면을 지웁니다.</td>
+    </tr>
+    <tr>
+      <td>Cmd + K</td>
+      <td>화면을 지웁니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + U</td>
+      <td>현재 커서 위치에서 입력 라인의 처음까지 잘라냅니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + K</td>
+      <td>현재 커서 위치에서 입력 라인의 끝까지 잘라냅니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + W</td>
+      <td>분리 문자로 공백을 사용하여 현재 커서 위치 이전의 한 단어를 잘라냅니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + Y</td>
+      <td>마지막 잘라내기 명령으로 만들어진 부분을 붙여넣습니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + H</td>
+      <td>백 스페이스와 동일</td>
+    </tr>
+    <tr>
+      <td>Ctrl + C</td>
+      <td>현재 터미널에서 실행중인 어떤 것이든 정지합니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + D</td>
+      <td>실행 중인 프로세스가 없으면 현재 쉘을 종료합니다. 또는 EOF를 실행중인 프로세스에 보냅니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + Z</td>
+      <td>실행 중인 프로세스를 중단된 백그라운드 프로세스에 넣습니다. fg명령은 이것을 복원합니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + _</td>
+      <td>마지막 명령을 실행취소합니다. (밑줄을 사용하기 때문에 실제로는 Ctrl + Shift + minus 입니다.)</td>
+    </tr>
+    <tr>
+      <td>Ctrl + T</td>
+      <td>커서 위치 전에 있는 두 문자를 서로 바꿉니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + F</td>
+      <td>커서를 우측으로 이동합니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + B</td>
+      <td>커서를 좌측으로 이동합니다.</td>
+    </tr>
+    <tr>
+      <td>Option + →</td>
+      <td>커서를 한 단어 우측으로 이동합니다.</td>
+    </tr>
+    <tr>
+      <td>Option + ←</td>
+      <td>커서를 한 단어 좌측으로 이동합니다.</td>
+    </tr>
+    <tr>
+      <td>Esc + T</td>
+      <td>커서 위치 전에 있는 두 단어를 서로 바꿉니다.</td>
+    </tr>
+    <tr>
+      <td>Tab</td>
+      <td>파일이나 폴더 이름을 자동 완성합니다.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="핵심-명령어">핵심 명령어</h2>
+
+<table class="wide inner-borders">
+  <thead>
+    <tr>
+      <th>키/명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cd [folder]</td>
+      <td>디렉토리를 변경합니다. 예) cd Documents</td>
+    </tr>
+    <tr>
+      <td>cd</td>
+      <td>홈 디렉토리</td>
+    </tr>
+    <tr>
+      <td>cd ~</td>
+      <td>홈 디렉토리</td>
+    </tr>
+    <tr>
+      <td>cd /</td>
+      <td>드라이브의 root</td>
+    </tr>
+    <tr>
+      <td>cd -</td>
+      <td>이전 디렉토리</td>
+    </tr>
+    <tr>
+      <td>ls</td>
+      <td>현재 디렉토리의 짧은 목록</td>
+    </tr>
+    <tr>
+      <td>ls -l</td>
+      <td>현재 디렉토리의 긴 목록</td>
+    </tr>
+    <tr>
+      <td>ls -a</td>
+      <td>숨겨진 파일이 포함된 목록</td>
+    </tr>
+    <tr>
+      <td>ls -lh</td>
+      <td>사람이 읽을 수 있는 파일 사이즈 표기가 포함된 목록</td>
+    </tr>
+    <tr>
+      <td>ls -R</td>
+      <td>재귀적으로 모든 폴더의 컨텐츠 표시</td>
+    </tr>
+    <tr>
+      <td>sudo [command]</td>
+      <td>superuser의 보안 권한으로 명령어를 실행합니다. (sudo = Super User DO)</td>
+    </tr>
+    <tr>
+      <td>open [file]</td>
+      <td>파일을 엽니다. ( 더블클릭 한 것처럼 )</td>
+    </tr>
+    <tr>
+      <td>top</td>
+      <td>현재 동작중인 프로세스를 표시합니다. q를 누르면 표시를 종료합니다.</td>
+    </tr>
+    <tr>
+      <td>nano [file]</td>
+      <td>nano 에디터로 파일을 엽니다.</td>
+    </tr>
+    <tr>
+      <td>vim [file]</td>
+      <td>vim 에디터를 파일을 엽니다.</td>
+    </tr>
+    <tr>
+      <td>clear</td>
+      <td>화면을 지웁니다.</td>
+    </tr>
+    <tr>
+      <td>reset</td>
+      <td>터미널을 reset합니다.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="연쇄-명령어">연쇄 명령어</h2>
+
+<table class="wide inner-borders">
+  <thead>
+    <tr>
+      <th>키/명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[command-a]; [command-b]</td>
+      <td>A명령의 성공 여부에 관계없이 A명령 실행 후 B명령을 실행합니다.</td>
+    </tr>
+    <tr>
+      <td>[command-a] &amp;&amp; [command-b]</td>
+      <td>A명령이 실행 성공하면 B명령을 실행합니다.</td>
+    </tr>
+    <tr>
+      <td>[command-a] || [command-b]</td>
+      <td>A명령이 실패하면 B명령을 실행합니다.</td>
+    </tr>
+    <tr>
+      <td>[command-a] &amp;</td>
+      <td>A명령을 백그라운드에서 실행합니다.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="파이프-명령어">파이프 명령어</h2>
+
+<table class="wide inner-borders">
+  <thead>
+    <tr>
+      <th>키/명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[command-a] | [command-b]</td>
+      <td>A명령어를 실행하고 그 결과를 B명령어로 전달합니다. 예) ps auxwww | grep google</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="명령어-히스토리">명령어 히스토리</h2>
+
+<table class="wide inner-borders">
+  <thead>
+    <tr>
+      <th>키/명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>history n</td>
+      <td>입력했던 것들을 보여줍니다. – n개의 항목을 제한하는 숫자를 추가 하면 됩니다.</td>
+    </tr>
+    <tr>
+      <td>Ctrl + r</td>
+      <td>이전에 입력한 명령어들 중에 대화식 검색을 합니다.</td>
+    </tr>
+    <tr>
+      <td>![value]</td>
+      <td>‘value’로 시작하는 마지막 명령어를 실행합니다.</td>
+    </tr>
+    <tr>
+      <td>![value]:p</td>
+      <td>‘value’로 시작하는 마지막 명령어를 콘솔에 출력합니다.</td>
+    </tr>
+    <tr>
+      <td>!!</td>
+      <td>마지막에 입력한 명령어를 실행합니다.</td>
+    </tr>
+    <tr>
+      <td>!!:p</td>
+      <td>마지막에 입력한 명령어를 콘솔에 출력합니다.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="파일-관리">파일 관리</h2>
+
+<table class="wide inner-borders">
+  <thead>
+    <tr>
+      <th>키/명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>touch [file]</td>
+      <td>새 파일을 만듭니다.</td>
+    </tr>
+    <tr>
+      <td>pwd</td>
+      <td>작업중인 디렉토리의 전체 경로</td>
+    </tr>
+    <tr>
+      <td>.</td>
+      <td>현재 폴더, 예) ls .</td>
+    </tr>
+    <tr>
+      <td>..</td>
+      <td>부모/동봉 디렉토리, 예) ls ..</td>
+    </tr>
+    <tr>
+      <td>ls -l ..</td>
+      <td>부모 디렉토리의 긴 목록</td>
+    </tr>
+    <tr>
+      <td>cd ../../</td>
+      <td>상위의 상위로 이동합니다.</td>
+    </tr>
+    <tr>
+      <td>cat</td>
+      <td>화면에 연결합니다. 파일의 내용을 화면에 표시합니다.</td>
+    </tr>
+    <tr>
+      <td>rm [file]</td>
+      <td>파일을 삭제합니다. 예) rm data.tmp</td>
+    </tr>
+    <tr>
+      <td>rm -i [file]</td>
+      <td>파일을 삭제할때 삭제여부를 사용자에게 묻습니다.</td>
+    </tr>
+    <tr>
+      <td>rm -r [dir]</td>
+      <td>디렉토리와 하위 컨텐츠를 삭제합니다.</td>
+    </tr>
+    <tr>
+      <td>rm -f [file]</td>
+      <td>삭제여부를 확인하지 않고 강제로 삭제합니다.</td>
+    </tr>
+    <tr>
+      <td>cp [file] [newfile]</td>
+      <td>파일을 새 파일로 복사합니다.</td>
+    </tr>
+    <tr>
+      <td>cp [file] [dir]</td>
+      <td>파일을 디렉토리로 복사합니다.</td>
+    </tr>
+    <tr>
+      <td>mv [file] [new filename]</td>
+      <td>파일을 다른 디렉토리로 이동시키거나 파일이름을 변경합니다. 예) mv file1.ad /tmp</td>
+    </tr>
+    <tr>
+      <td>pbcopy &lt; [file]</td>
+      <td>파일 내용을 클립보드로 복사합니다.</td>
+    </tr>
+    <tr>
+      <td>pbpaste</td>
+      <td>클립보드의 내용을 붙여넣습니다.</td>
+    </tr>
+    <tr>
+      <td>pbpaste &gt; [file]</td>
+      <td>클립보드의 내용을 파일로 붙여넣습니다. 예) pbpaste &gt; paste-test.txt</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="디렉토리-관리">디렉토리 관리</h2>
+
+<table class="wide inner-borders">
+  <thead>
+    <tr>
+      <th>키/명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>mkdir [dir]</td>
+      <td>새 디렉토리를 만듭니다.</td>
+    </tr>
+    <tr>
+      <td>mkdir -p [dir]/[dir]</td>
+      <td>중첩된 디렉토리를 만듭니다.</td>
+    </tr>
+    <tr>
+      <td>rmdir [dir]</td>
+      <td>디렉토리를 삭제합니다. (빈 디렉토리인 경우에만 작동합니다.)</td>
+    </tr>
+    <tr>
+      <td>rm -R [dir]</td>
+      <td>디렉토리와 컨텐츠를 삭제합니다.</td>
+    </tr>
+    <tr>
+      <td>less [file]</td>
+      <td>화면 사이즈로 제공되는 파일의 내용</td>
+    </tr>
+    <tr>
+      <td>[command] &gt; [file]</td>
+      <td>output을 파일로 만듭니다. 이 파일은 덮어써지는 것을 명심해야합니다.</td>
+    </tr>
+    <tr>
+      <td>[command] » [file]</td>
+      <td>output을 기존의 파일에 추가합니다.</td>
+    </tr>
+    <tr>
+      <td>[command] &lt; [file]</td>
+      <td>파일에서 내용을 읽으라는 명령을 수행합니다.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="검색">검색</h2>
+
+<table class="wide inner-borders">
+  <thead>
+    <tr>
+      <th>키/명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>find [dir] -name [search_pattern]</td>
+      <td>파일을 검색합니다. 예) find /Users -name “file.txt”</td>
+    </tr>
+    <tr>
+      <td>grep [search_pattern] [file]</td>
+      <td>패턴을 포함하는 모든 라인을 검색합니다. 예) grep “Tom” file.txt</td>
+    </tr>
+    <tr>
+      <td>grep -r [search_pattern] [dir]</td>
+      <td>지정된 디렉토리에서 재귀적으로 패턴을 포함하는 모든 파일의 모든 라인을 검색합니다.</td>
+    </tr>
+    <tr>
+      <td>grep -v [search_pattern] [file]</td>
+      <td>패턴을 포함하지 않는 모든 라인을 검색합니다.</td>
+    </tr>
+    <tr>
+      <td>grep -i [search_pattern] [file]</td>
+      <td>대소문자를 구분하지않고 패턴을 포함하는 모든 라인을 검색합니다.</td>
+    </tr>
+    <tr>
+      <td>mdfind [search_pattern]</td>
+      <td>파일에 대해서 Spotlight 검색을 합니다. (이름, 내용, 기타 메타 데이터) 예) mdfind skateboard</td>
+    </tr>
+    <tr>
+      <td>mdfind -onlyin [dir] -name [pattern]</td>
+      <td>주어진 디렉토리에서 패턴과 비슷한 이름의 파일 검색</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="도움말">도움말</h2>
+
+<table class="wide inner-borders">
+  <thead>
+    <tr>
+      <th>키/명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[command] -h</td>
+      <td>[command]의 도움말을 표시합니다.</td>
+    </tr>
+    <tr>
+      <td>[command] –help</td>
+      <td>[command]의 도움말을 표시합니다.</td>
+    </tr>
+    <tr>
+      <td>info [command]</td>
+      <td>[command]의 도움말을 표시합니다.</td>
+    </tr>
+    <tr>
+      <td>man [command]</td>
+      <td>[command]의 매뉴얼을 표시합니다.</td>
+    </tr>
+    <tr>
+      <td>whatis [command]</td>
+      <td>[command]의 한 줄 설명을 제공합니다.</td>
+    </tr>
+    <tr>
+      <td>apropos [search-pattern]</td>
+      <td>설명에 있는 키워드로 명령어를 검색합니다.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<hr />
+
+<p>출처 :: https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/korean</p>
+
+<p><br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /></p>
+
+                    
+
+<div class="share-bar">
+  <ul class="share-buttons">
+    
+    <li class="share-facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://hommeYo.github.io/2018/07/mac" target="_blank" title="Share on Facebook">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-facebook fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-twitter">
+      <a href="https://twitter.com/intent/tweet?url=http://hommeYo.github.io/2018/07/mac&text=Mac" target="_blank" title="Tweet">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-google-plus">
+      <a href="https://plus.google.com/share?url=http://hommeYo.github.io/2018/07/mac" target="_blank" title="Share on Google Plus">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-google-plus fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-linkedin">
+      <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://hommeYo.github.io/2018/07/mac&title=Mac&summary=mac 사용법&source=" target="_blank" title="Share on LinkedIn">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-linkedin fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-pinterest">
+      <a href="http://pinterest.com/pin/create/button/?urlhttp://hommeYo.github.io/2018/07/mac=&description=mac 사용법" target="_blank" title="Pin it">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-pinterest fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-envelope">
+      <a href="mailto:?&subject=Mac&body=mac 사용법 http://hommeYo.github.io/2018/07/mac" target="_blank" title="Email">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-envelope-o fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+                  </div>
+                  
+                  <div id="disqus_thread">
+                    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 hidden-xs">
+              <div class="sidebar ">
+  <h2>Recent Posts</h2>
+  <ul>
+    
+    <li><a href="/2018/07/mac">Mac</a></li>
+    
+    <li><a href="/2018/07/sublimetext">Sublimetext</a></li>
+    
+    <li><a href="/2018/07/terminal">Terminal</a></li>
+    
+    <li><a href="/2018/07/markdown">Markdown</a></li>
+    
+    <li><a href="/2018/06/first-post">First Post</a></li>
+    
+  </ul>
+</div>
+
+<div class="sidebar">
+  <h2>Tags</h2>
+  <ul class="sideBarTags">
+    
+    
+    <li>
+      <a href="/tag/jekylltheme" data-toggle="tooltip" data-placement="right" title="9">
+        <span>jekylltheme</span></a></li>
+    
+    <li>
+      <a href="/tag/mac" data-toggle="tooltip" data-placement="right" title="2">
+        <span>mac</span></a></li>
+    
+    <li>
+      <a href="/tag/markdown" data-toggle="tooltip" data-placement="right" title="1">
+        <span>markdown</span></a></li>
+    
+    <li>
+      <a href="/tag/story" data-toggle="tooltip" data-placement="right" title="1">
+        <span>story</span></a></li>
+    
+    <li>
+      <a href="/tag/sublimetext" data-toggle="tooltip" data-placement="right" title="1">
+        <span>sublimetext</span></a></li>
+    
+    <li>
+      <a href="/tag/terminal" data-toggle="tooltip" data-placement="right" title="1">
+        <span>terminal</span></a></li>
+    
+    <li>
+      <a href="/tag/tool" data-toggle="tooltip" data-placement="right" title="3">
+        <span>tool</span></a></li>
+    
+  </ul>
+</div>
+
+            </div>
+          </div>
+        </div>
+        <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-hommeyo-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </div>
+          <footer class="footer-distributed">
+      <div class="container">
+        <div class="footer">
+          <p>hommeYo &copy; 2018</p>
+          <h6>Follow me</h6>
+
+<ul class="social-media">
+
+  
+    <li>
+      <a title="hommeyo on Github" href="https://github.com/hommeyo" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+    </li>
+  
+
+  
+    <li>
+      <a title="hommeyo219 on facebook" href="https://www.facebook.com/hommeyo219" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+    </li>
+  
+
+  
+
+  
+
+  
+    <li>
+      <a title="hommeyo on Instagram" href="https://instagram.com/hommeyo" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+    </li>
+  
+
+  
+
+  
+    <li>
+      <a title="feed.xml RSS" href="/feed.xml" target="_blank"><i class="fa fa-rss fa-2x"></i></a>
+    </li>
+  
+
+</ul>
+
+        </div>
+      </div>
+    </footer>
+
+    </div>
+  </body>
+</html>

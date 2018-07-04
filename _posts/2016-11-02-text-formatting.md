@@ -4,6 +4,7 @@ title: "Text formatting"
 date: 2015-11-02 16:25:06
 tags: jekylltheme
 description: Text formatting examples.
+comments: true
 ---
 
 # Text formatting example

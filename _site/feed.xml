@@ -7,6 +7,506 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Mac</title>
+				<description>&lt;h2 id=&quot;단축키&quot;&gt;단축키&lt;/h2&gt;
+
+&lt;table class=&quot;wide inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;키/명령어&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + A&lt;/td&gt;
+      &lt;td&gt;현재 입력중인 라인의 처음으로 이동합니다. 이 명령어는 대부분의 텍스트 입력에서도 작동합니다. Netbeans는 예외 입니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + E&lt;/td&gt;
+      &lt;td&gt;현재 입력중인 라인의 끝으로 이동합니다. 이 명령어는 대부분의 텍스트 입력에서도 작동합니다. Netbeans는 예외 입니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + Q&lt;/td&gt;
+      &lt;td&gt;현재 입력 중인 라인을 지웁니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + L&lt;/td&gt;
+      &lt;td&gt;화면을 지웁니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cmd + K&lt;/td&gt;
+      &lt;td&gt;화면을 지웁니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + U&lt;/td&gt;
+      &lt;td&gt;현재 커서 위치에서 입력 라인의 처음까지 잘라냅니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + K&lt;/td&gt;
+      &lt;td&gt;현재 커서 위치에서 입력 라인의 끝까지 잘라냅니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + W&lt;/td&gt;
+      &lt;td&gt;분리 문자로 공백을 사용하여 현재 커서 위치 이전의 한 단어를 잘라냅니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + Y&lt;/td&gt;
+      &lt;td&gt;마지막 잘라내기 명령으로 만들어진 부분을 붙여넣습니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + H&lt;/td&gt;
+      &lt;td&gt;백 스페이스와 동일&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + C&lt;/td&gt;
+      &lt;td&gt;현재 터미널에서 실행중인 어떤 것이든 정지합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + D&lt;/td&gt;
+      &lt;td&gt;실행 중인 프로세스가 없으면 현재 쉘을 종료합니다. 또는 EOF를 실행중인 프로세스에 보냅니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + Z&lt;/td&gt;
+      &lt;td&gt;실행 중인 프로세스를 중단된 백그라운드 프로세스에 넣습니다. fg명령은 이것을 복원합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + _&lt;/td&gt;
+      &lt;td&gt;마지막 명령을 실행취소합니다. (밑줄을 사용하기 때문에 실제로는 Ctrl + Shift + minus 입니다.)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + T&lt;/td&gt;
+      &lt;td&gt;커서 위치 전에 있는 두 문자를 서로 바꿉니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + F&lt;/td&gt;
+      &lt;td&gt;커서를 우측으로 이동합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + B&lt;/td&gt;
+      &lt;td&gt;커서를 좌측으로 이동합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Option + →&lt;/td&gt;
+      &lt;td&gt;커서를 한 단어 우측으로 이동합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Option + ←&lt;/td&gt;
+      &lt;td&gt;커서를 한 단어 좌측으로 이동합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Esc + T&lt;/td&gt;
+      &lt;td&gt;커서 위치 전에 있는 두 단어를 서로 바꿉니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tab&lt;/td&gt;
+      &lt;td&gt;파일이나 폴더 이름을 자동 완성합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;핵심-명령어&quot;&gt;핵심 명령어&lt;/h2&gt;
+
+&lt;table class=&quot;wide inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;키/명령어&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cd [folder]&lt;/td&gt;
+      &lt;td&gt;디렉토리를 변경합니다. 예) cd Documents&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cd&lt;/td&gt;
+      &lt;td&gt;홈 디렉토리&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cd ~&lt;/td&gt;
+      &lt;td&gt;홈 디렉토리&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cd /&lt;/td&gt;
+      &lt;td&gt;드라이브의 root&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cd -&lt;/td&gt;
+      &lt;td&gt;이전 디렉토리&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ls&lt;/td&gt;
+      &lt;td&gt;현재 디렉토리의 짧은 목록&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ls -l&lt;/td&gt;
+      &lt;td&gt;현재 디렉토리의 긴 목록&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ls -a&lt;/td&gt;
+      &lt;td&gt;숨겨진 파일이 포함된 목록&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ls -lh&lt;/td&gt;
+      &lt;td&gt;사람이 읽을 수 있는 파일 사이즈 표기가 포함된 목록&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ls -R&lt;/td&gt;
+      &lt;td&gt;재귀적으로 모든 폴더의 컨텐츠 표시&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sudo [command]&lt;/td&gt;
+      &lt;td&gt;superuser의 보안 권한으로 명령어를 실행합니다. (sudo = Super User DO)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;open [file]&lt;/td&gt;
+      &lt;td&gt;파일을 엽니다. ( 더블클릭 한 것처럼 )&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;top&lt;/td&gt;
+      &lt;td&gt;현재 동작중인 프로세스를 표시합니다. q를 누르면 표시를 종료합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;nano [file]&lt;/td&gt;
+      &lt;td&gt;nano 에디터로 파일을 엽니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;vim [file]&lt;/td&gt;
+      &lt;td&gt;vim 에디터를 파일을 엽니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;clear&lt;/td&gt;
+      &lt;td&gt;화면을 지웁니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;reset&lt;/td&gt;
+      &lt;td&gt;터미널을 reset합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;연쇄-명령어&quot;&gt;연쇄 명령어&lt;/h2&gt;
+
+&lt;table class=&quot;wide inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;키/명령어&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[command-a]; [command-b]&lt;/td&gt;
+      &lt;td&gt;A명령의 성공 여부에 관계없이 A명령 실행 후 B명령을 실행합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[command-a] &amp;amp;&amp;amp; [command-b]&lt;/td&gt;
+      &lt;td&gt;A명령이 실행 성공하면 B명령을 실행합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[command-a] || [command-b]&lt;/td&gt;
+      &lt;td&gt;A명령이 실패하면 B명령을 실행합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[command-a] &amp;amp;&lt;/td&gt;
+      &lt;td&gt;A명령을 백그라운드에서 실행합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;파이프-명령어&quot;&gt;파이프 명령어&lt;/h2&gt;
+
+&lt;table class=&quot;wide inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;키/명령어&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[command-a] | [command-b]&lt;/td&gt;
+      &lt;td&gt;A명령어를 실행하고 그 결과를 B명령어로 전달합니다. 예) ps auxwww | grep google&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;명령어-히스토리&quot;&gt;명령어 히스토리&lt;/h2&gt;
+
+&lt;table class=&quot;wide inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;키/명령어&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;history n&lt;/td&gt;
+      &lt;td&gt;입력했던 것들을 보여줍니다. – n개의 항목을 제한하는 숫자를 추가 하면 됩니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ctrl + r&lt;/td&gt;
+      &lt;td&gt;이전에 입력한 명령어들 중에 대화식 검색을 합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;![value]&lt;/td&gt;
+      &lt;td&gt;‘value’로 시작하는 마지막 명령어를 실행합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;![value]:p&lt;/td&gt;
+      &lt;td&gt;‘value’로 시작하는 마지막 명령어를 콘솔에 출력합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;!!&lt;/td&gt;
+      &lt;td&gt;마지막에 입력한 명령어를 실행합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;!!:p&lt;/td&gt;
+      &lt;td&gt;마지막에 입력한 명령어를 콘솔에 출력합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;파일-관리&quot;&gt;파일 관리&lt;/h2&gt;
+
+&lt;table class=&quot;wide inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;키/명령어&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;touch [file]&lt;/td&gt;
+      &lt;td&gt;새 파일을 만듭니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;pwd&lt;/td&gt;
+      &lt;td&gt;작업중인 디렉토리의 전체 경로&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;.&lt;/td&gt;
+      &lt;td&gt;현재 폴더, 예) ls .&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;..&lt;/td&gt;
+      &lt;td&gt;부모/동봉 디렉토리, 예) ls ..&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ls -l ..&lt;/td&gt;
+      &lt;td&gt;부모 디렉토리의 긴 목록&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cd ../../&lt;/td&gt;
+      &lt;td&gt;상위의 상위로 이동합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cat&lt;/td&gt;
+      &lt;td&gt;화면에 연결합니다. 파일의 내용을 화면에 표시합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;rm [file]&lt;/td&gt;
+      &lt;td&gt;파일을 삭제합니다. 예) rm data.tmp&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;rm -i [file]&lt;/td&gt;
+      &lt;td&gt;파일을 삭제할때 삭제여부를 사용자에게 묻습니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;rm -r [dir]&lt;/td&gt;
+      &lt;td&gt;디렉토리와 하위 컨텐츠를 삭제합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;rm -f [file]&lt;/td&gt;
+      &lt;td&gt;삭제여부를 확인하지 않고 강제로 삭제합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cp [file] [newfile]&lt;/td&gt;
+      &lt;td&gt;파일을 새 파일로 복사합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cp [file] [dir]&lt;/td&gt;
+      &lt;td&gt;파일을 디렉토리로 복사합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mv [file] [new filename]&lt;/td&gt;
+      &lt;td&gt;파일을 다른 디렉토리로 이동시키거나 파일이름을 변경합니다. 예) mv file1.ad /tmp&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;pbcopy &amp;lt; [file]&lt;/td&gt;
+      &lt;td&gt;파일 내용을 클립보드로 복사합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;pbpaste&lt;/td&gt;
+      &lt;td&gt;클립보드의 내용을 붙여넣습니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;pbpaste &amp;gt; [file]&lt;/td&gt;
+      &lt;td&gt;클립보드의 내용을 파일로 붙여넣습니다. 예) pbpaste &amp;gt; paste-test.txt&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;디렉토리-관리&quot;&gt;디렉토리 관리&lt;/h2&gt;
+
+&lt;table class=&quot;wide inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;키/명령어&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mkdir [dir]&lt;/td&gt;
+      &lt;td&gt;새 디렉토리를 만듭니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mkdir -p [dir]/[dir]&lt;/td&gt;
+      &lt;td&gt;중첩된 디렉토리를 만듭니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;rmdir [dir]&lt;/td&gt;
+      &lt;td&gt;디렉토리를 삭제합니다. (빈 디렉토리인 경우에만 작동합니다.)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;rm -R [dir]&lt;/td&gt;
+      &lt;td&gt;디렉토리와 컨텐츠를 삭제합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;less [file]&lt;/td&gt;
+      &lt;td&gt;화면 사이즈로 제공되는 파일의 내용&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[command] &amp;gt; [file]&lt;/td&gt;
+      &lt;td&gt;output을 파일로 만듭니다. 이 파일은 덮어써지는 것을 명심해야합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[command] » [file]&lt;/td&gt;
+      &lt;td&gt;output을 기존의 파일에 추가합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[command] &amp;lt; [file]&lt;/td&gt;
+      &lt;td&gt;파일에서 내용을 읽으라는 명령을 수행합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;검색&quot;&gt;검색&lt;/h2&gt;
+
+&lt;table class=&quot;wide inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;키/명령어&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;find [dir] -name [search_pattern]&lt;/td&gt;
+      &lt;td&gt;파일을 검색합니다. 예) find /Users -name “file.txt”&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;grep [search_pattern] [file]&lt;/td&gt;
+      &lt;td&gt;패턴을 포함하는 모든 라인을 검색합니다. 예) grep “Tom” file.txt&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;grep -r [search_pattern] [dir]&lt;/td&gt;
+      &lt;td&gt;지정된 디렉토리에서 재귀적으로 패턴을 포함하는 모든 파일의 모든 라인을 검색합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;grep -v [search_pattern] [file]&lt;/td&gt;
+      &lt;td&gt;패턴을 포함하지 않는 모든 라인을 검색합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;grep -i [search_pattern] [file]&lt;/td&gt;
+      &lt;td&gt;대소문자를 구분하지않고 패턴을 포함하는 모든 라인을 검색합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mdfind [search_pattern]&lt;/td&gt;
+      &lt;td&gt;파일에 대해서 Spotlight 검색을 합니다. (이름, 내용, 기타 메타 데이터) 예) mdfind skateboard&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mdfind -onlyin [dir] -name [pattern]&lt;/td&gt;
+      &lt;td&gt;주어진 디렉토리에서 패턴과 비슷한 이름의 파일 검색&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;도움말&quot;&gt;도움말&lt;/h2&gt;
+
+&lt;table class=&quot;wide inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;키/명령어&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[command] -h&lt;/td&gt;
+      &lt;td&gt;[command]의 도움말을 표시합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[command] –help&lt;/td&gt;
+      &lt;td&gt;[command]의 도움말을 표시합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;info [command]&lt;/td&gt;
+      &lt;td&gt;[command]의 도움말을 표시합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;man [command]&lt;/td&gt;
+      &lt;td&gt;[command]의 매뉴얼을 표시합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;whatis [command]&lt;/td&gt;
+      &lt;td&gt;[command]의 한 줄 설명을 제공합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;apropos [search-pattern]&lt;/td&gt;
+      &lt;td&gt;설명에 있는 키워드로 명령어를 검색합니다.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;출처 :: https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/korean&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+</description>
+				<pubDate>Wed, 04 Jul 2018 11:00:00 +0900</pubDate>
+				<link>/2018/07/mac</link>
+				<guid isPermaLink="true">/2018/07/mac</guid>
+			</item>
+		
+			<item>
 				<title>Sublimetext</title>
 				<description>&lt;h2 id=&quot;package-control&quot;&gt;Package Control&lt;/h2&gt;
 
@@ -685,6 +1185,12 @@ __볼드체__
 장황한 포스트는 아닐지라도 메모하는 습관처럼 필요할 때마다 포스트를 해보자.&lt;/p&gt;
 
 &lt;p&gt;시작이 반이라 했다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 </description>
 				<pubDate>Wed, 27 Jun 2018 18:00:00 +0900</pubDate>
 				<link>/2018/06/first-post</link>
@@ -1035,91 +1541,6 @@ respective owners:&lt;/p&gt;
 				<pubDate>Mon, 21 Sep 2015 01:25:06 +0900</pubDate>
 				<link>/2015/09/customizations</link>
 				<guid isPermaLink="true">/2015/09/customizations</guid>
-			</item>
-		
-			<item>
-				<title>Be social</title>
-				<description>&lt;h1 id=&quot;social-icons&quot;&gt;Social icons&lt;/h1&gt;
-
-&lt;p&gt;You can have social icons which could lead to your social profile.&lt;br /&gt;
-Out-of-the box it has:&lt;/p&gt;
-
-&lt;ul class=&quot;social-media&quot;&gt;
-  &lt;li&gt;
-    &lt;a title=&quot;Github&quot; href=&quot;https://github.com/hommeyo&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a title=&quot;StackOverflow&quot; href=&quot;http://stackoverflow.com/users/1252056/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-stack-overflow fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a title=&quot;LinkedIn&quot; href=&quot;https://www.linkedin.com/in/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-linkedin fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a title=&quot;Instagram&quot; href=&quot;https://instagram.com/hommeyo&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-instagram fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a title=&quot;Last.fm&quot; href=&quot;http://lastfm.com/user/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-lastfm fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a title=&quot;RSS&quot; href=&quot;http://hommeYo.github.io/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;They could be setup in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;To add more icons do following steps:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;choose an icon you want to use: &lt;a href=&quot;https://fortawesome.github.io/Font-Awesome/icons/&quot;&gt;Font Awesome Icons&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;add variable in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;add icon in &lt;code class=&quot;highlighter-rouge&quot;&gt;social.html&lt;/code&gt; with check if variable exists:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% if site.social.rss %}
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.social.&amp;lt;your_social_variable&amp;gt; }}&quot;&lt;/span&gt; 
-       &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{site.url}}/{{ site.social.&amp;lt;your_social_variable&amp;gt; }}&quot;&lt;/span&gt; 
-       &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;font&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;_awesome_icon&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-{% endif %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;share-buttons&quot;&gt;Share buttons&lt;/h1&gt;
-
-&lt;p&gt;This theme comes with built-in share buttons. You can see them in the bottom of this post.&lt;br /&gt;
-To turn them on in the header of your post add:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yml&quot; data-lang=&quot;yml&quot;&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Be&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;sociable&quot;&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;2016-05-15 16:25:06&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Built-in share buttons!&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;share&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; &amp;lt;-- here&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;If you want to disable some of them - go to &lt;strong&gt;_config.yml&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;blockquote class=&quot;filename&quot;&gt;
-  &lt;p&gt;_config.yml&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yml&quot; data-lang=&quot;yml&quot;&gt;&lt;span class=&quot;na&quot;&gt;share&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;facebook&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;gplus&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;linkedin&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;pinterest&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;To add new buttons:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;add icon name in &lt;strong&gt;_config.yml&lt;/strong&gt;;&lt;/li&gt;
-  &lt;li&gt;add section in &lt;strong&gt;_includes/share.html&lt;/strong&gt;;&lt;/li&gt;
-  &lt;li&gt;add styles in &lt;strong&gt;css/theme.css&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-</description>
-				<pubDate>Wed, 16 Sep 2015 01:25:06 +0900</pubDate>
-				<link>/2015/09/be-social</link>
-				<guid isPermaLink="true">/2015/09/be-social</guid>
 			</item>
 		
 	</channel>
