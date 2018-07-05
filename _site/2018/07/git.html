@@ -11,7 +11,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>hommeYo. DevStory | Images </title>
+  <title>hommeYo. DevStory | Git </title>
   <meta name="theme-color" content="#222222" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="/assets/js/jquery.min.js"></script>
@@ -76,52 +76,221 @@
             <div class="col-md-8">
               <div class="article">
                 <div class="well">
-                  <h1><a href="/2015/07/images">Images</a></h1>
+                  <h1><a href="/2018/07/git">Git</a></h1>
                   <div class="post-meta">
                     <div class="post-time">
                       <i class="fa fa-calendar"></i>
-                      <time>02 Jul 2015</time>
+                      <time>05 Jul 2018</time>
                     </div>
                     <ul>
                       
-                        <li><a href="/tag/jekylltheme">jekylltheme</a></li>
+                        <li><a href="/tag/git">git</a></li>
+                      
+                        <li><a href="/tag/tool">tool</a></li>
                       
                     </ul>
                   </div>
                   <div class="post-content">
                     <div id="toc" class="toc"></div>
-                    <h2 id="introduction">Introduction</h2>
+                    <h1 id="git-명령어">Git 명령어</h1>
 
-<p>This theme supports two types of images:</p>
+<h2 id="사용자">사용자</h2>
+
+<table class="wide inner-borders">
+  <thead>
+    <tr>
+      <th>명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>git config –global user.name “John Doe”</td>
+      <td>git 사용자 등록</td>
+    </tr>
+    <tr>
+      <td>git config –global user.email johndoe@example.com</td>
+      <td>git 사용자 이메일 등록</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="branch">branch</h2>
+
+<table class="wide inner-borders">
+  <thead>
+    <tr>
+      <th>명령어</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>git branch</td>
+      <td>지역 브랜치 목록 보기</td>
+    </tr>
+    <tr>
+      <td>git branch -r</td>
+      <td>원격 브랜치 목록 보기</td>
+    </tr>
+    <tr>
+      <td>git branch -a</td>
+      <td>지역,원격 모든 브랜치 목록 보기</td>
+    </tr>
+    <tr>
+      <td>git branch &lt;브랜치명&gt;</td>
+      <td>현재 브랜치에서 새로운 브랜치 생성</td>
+    </tr>
+    <tr>
+      <td>git checkout &lt;브랜치명&gt;</td>
+      <td>다른 브랜치 접속</td>
+    </tr>
+    <tr>
+      <td>git checkout -b &lt;브랜치명&gt;</td>
+      <td>현재 브랜치에서 새로운 브랜치 생성 후 접속</td>
+    </tr>
+    <tr>
+      <td>git branch &lt;브랜치명&gt; &lt;브랜치생성위치&gt;</td>
+      <td>다른 시작 지점에서 브랜치 생성</td>
+    </tr>
+    <tr>
+      <td>git branch -f &lt;브랜치명&gt; [&lt;브랜치생성위치&gt;]</td>
+      <td>기존의 브랜치를 새로운 브랜치로 덮어쓰기</td>
+    </tr>
+    <tr>
+      <td>git checkout -m &lt;브랜치명&gt; &lt;새로운브랜치&gt;</td>
+      <td>브랜치를 옮기거나 브랜치명 변경 - &lt;새로운브랜치&gt;가 존재하지 않을 경우</td>
+    </tr>
+    <tr>
+      <td>git checkout -M &lt;브랜치명&gt; &lt;새로운브랜치&gt;</td>
+      <td>무조건 덮어쓰기</td>
+    </tr>
+    <tr>
+      <td>git merge &lt;브랜치명&gt;</td>
+      <td>다른 브랜치를 현재 브랜치로 합치기</td>
+    </tr>
+    <tr>
+      <td>git merge - -no-commit &lt;브랜치명&gt;</td>
+      <td>커밋하지 않고 합치기</td>
+    </tr>
+    <tr>
+      <td>git cherry-pick &lt;커밋명&gt;</td>
+      <td>선택하여 합치기</td>
+    </tr>
+    <tr>
+      <td>git cherry-pick -n &lt;커밋명&gt;</td>
+      <td>커밋하지 않고 선택하여 합치기</td>
+    </tr>
+    <tr>
+      <td>git merge - -squash &lt;브랜치명&gt;</td>
+      <td>브랜치의 이력을 다른 브랜치에 합치기</td>
+    </tr>
+    <tr>
+      <td>git branch -d &lt;삭제할 브랜치명&gt;</td>
+      <td>브랜치 삭제하기 - 삭제할 브랜치가 현재 브랜치에 합쳐졌을 경우에만</td>
+    </tr>
+    <tr>
+      <td>git branch -D &lt;삭제할 브랜치명&gt;</td>
+      <td>브랜치 삭제하기 - 삭제할 브랜치가 현재 브랜치에 합쳐지지 않았어도</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="alias">Alias</h2>
 
 <ul>
-  <li>inline images: <img src="/assets/images/batWid1.png" alt="Battery Widget" /></li>
+  <li>git config –global alias.co checkout</li>
+  <li>git config –global alias.br branch</li>
+  <li>git config –global alias.ci commit</li>
+  <li>git config –global alias.st status</li>
+  <li>git config –global alias.unstage ‘reset HEAD –’</li>
+  <li>git config –global alias.last ‘log -1 HEAD’</li>
 </ul>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html">![Battery Widget]({{ '/assets/images/batWid1.png' | relative_url }})</code></pre></figure>
-
-<ul>
-  <li>centered images with caption (optional):</li>
-</ul>
-
-<p><img src="/assets/images/deer.jpg" alt="img" class="center-image" /><em>(°0°)</em></p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">![img]({{ '/assets/images/deer.jpg' | relative_url }}){: .center-image }*(°0°)*</code></pre></figure>
-
-<p>You can apply your own styles to image by creating css class with style:</p>
-
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.custom-image-style</span>
-<span class="p">{</span>
-<span class="c">/* your style */</span>
-<span class="p">}</span></code></pre></figure>
-
-<p>And then applying your style just after the image in curly brackets with colon:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">[!image](path to image){:.custom-image-style}
- </code></pre></figure>
+<p><br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /></p>
 
 
                     
+
+<div class="share-bar">
+  <ul class="share-buttons">
+    
+    <li class="share-facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://hommeYo.github.io/2018/07/git" target="_blank" title="Share on Facebook">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-facebook fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-twitter">
+      <a href="https://twitter.com/intent/tweet?url=http://hommeYo.github.io/2018/07/git&text=Git" target="_blank" title="Tweet">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-google-plus">
+      <a href="https://plus.google.com/share?url=http://hommeYo.github.io/2018/07/git" target="_blank" title="Share on Google Plus">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-google-plus fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-linkedin">
+      <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://hommeYo.github.io/2018/07/git&title=Git&summary=git 사용법&source=" target="_blank" title="Share on LinkedIn">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-linkedin fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-pinterest">
+      <a href="http://pinterest.com/pin/create/button/?urlhttp://hommeYo.github.io/2018/07/git=&description=git 사용법" target="_blank" title="Pin it">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-pinterest fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+    
+    <li class="share-envelope">
+      <a href="mailto:?&subject=Git&body=git 사용법 http://hommeYo.github.io/2018/07/git" target="_blank" title="Email">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-envelope-o fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    
+
+  </ul>
+</div>
+
 
                   </div>
                   
