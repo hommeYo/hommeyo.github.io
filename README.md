@@ -1,5 +1,5 @@
 ## github pages
 ### blog
-https://hommeyo.github.com
+https://hommeyo.github.io
 ### profile
-https://hommeyo.github.com/profile/resume.html - 이력서
+https://hommeyo.github.io/profile/resume.html - 이력서
