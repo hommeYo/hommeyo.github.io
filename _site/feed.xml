@@ -5,12 +5,12 @@
     <description>Front-End Developer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Jun 2019 15:37:36 +0900</pubDate>
-    <lastBuildDate>Wed, 26 Jun 2019 15:37:36 +0900</lastBuildDate>
+    <pubDate>Wed, 26 Jun 2019 15:53:23 +0900</pubDate>
+    <lastBuildDate>Wed, 26 Jun 2019 15:53:23 +0900</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
-        <title>Gulp</title>
+        <title>Gulp 설치 step 및 gulp plugin</title>
         <description>&lt;h2 id=&quot;설치-step&quot;&gt;설치 step&lt;/h2&gt;
 
 &lt;ol&gt;
@@ -56,7 +56,7 @@
       </item>
     
       <item>
-        <title>Git</title>
+        <title>Git 명령어 모음</title>
         <description>&lt;h1 id=&quot;git-명령어&quot;&gt;Git 명령어&lt;/h1&gt;
 
 &lt;h2 id=&quot;사용자&quot;&gt;사용자&lt;/h2&gt;
@@ -195,7 +195,7 @@
       </item>
     
       <item>
-        <title>Mac</title>
+        <title>Mac 단축키 명령어 모음</title>
         <description>&lt;h2 id=&quot;단축키&quot;&gt;단축키&lt;/h2&gt;
 
 &lt;table class=&quot;wide inner-borders&quot;&gt;
@@ -699,7 +699,7 @@
       </item>
     
       <item>
-        <title>Sublimetext</title>
+        <title>Sublimetext 활용</title>
         <description>&lt;h2 id=&quot;package-control&quot;&gt;Package Control&lt;/h2&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;View &amp;gt; Show Console&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl + '&lt;/code&gt;&lt;/p&gt;
@@ -1003,7 +1003,7 @@ $$@-5”]*5 // 5부터 시작하여 거꾸러~&lt;/li&gt;
       </item>
     
       <item>
-        <title>Terminal</title>
+        <title>Terminal 명령어 모음</title>
         <description>&lt;h2 id=&quot;터미널-명령어&quot;&gt;터미널 명령어&lt;/h2&gt;
 
 &lt;table class=&quot;inner-borders&quot;&gt;
@@ -1117,7 +1117,7 @@ $$@-5”]*5 // 5부터 시작하여 거꾸러~&lt;/li&gt;
       </item>
     
       <item>
-        <title>Markdown</title>
+        <title>Markdown 활용</title>
         <description>&lt;h1 id=&quot;1-문법&quot;&gt;1. 문법&lt;/h1&gt;
 
 &lt;h2 id=&quot;1_1-헤더-headers&quot;&gt;1_1. 헤더 Headers&lt;/h2&gt;

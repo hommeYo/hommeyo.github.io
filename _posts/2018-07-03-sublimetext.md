@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  Sublimetext
+title:  Sublimetext 활용
 date:   2018-07-03 15:00
 description: sublimetext 사용법
 comments: true
 tags: sublimetext tool
+keywords: sublimetext, sublimetext 사용법, sublimetext 사용자 설정, sublimetext control list, sublimetext 프로젝트 편집, sublimetext keyboard tip, sublimetext emmet 사용
 share: true 
 ---
 
