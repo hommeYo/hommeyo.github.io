@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>hommeYo. DevStory</title>
-		<description>Front-End Developer</description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-		
-			<item>
-				<title>Gulp</title>
-				<description>&lt;h2 id=&quot;설치-step&quot;&gt;설치 step&lt;/h2&gt;
+  <channel>
+    <title></title>
+    <description>Front-End Developer</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 26 Jun 2019 10:25:29 +0900</pubDate>
+    <lastBuildDate>Wed, 26 Jun 2019 10:25:29 +0900</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Gulp</title>
+        <description>&lt;h2 id=&quot;설치-step&quot;&gt;설치 step&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;nodejs 설치 :: https://nodejs.org/ko/&lt;/li&gt;
@@ -43,14 +46,18 @@
 &lt;br /&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 </description>
-				<pubDate>Thu, 05 Jul 2018 11:00:00 +0900</pubDate>
-				<link>/2018/07/gulp</link>
-				<guid isPermaLink="true">/2018/07/gulp</guid>
-			</item>
-		
-			<item>
-				<title>Git</title>
-				<description>&lt;h1 id=&quot;git-명령어&quot;&gt;Git 명령어&lt;/h1&gt;
+        <pubDate>Thu, 05 Jul 2018 11:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2018/07/gulp</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/gulp</guid>
+        
+        <category>gulp</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Git</title>
+        <description>&lt;h1 id=&quot;git-명령어&quot;&gt;Git 명령어&lt;/h1&gt;
 
 &lt;h2 id=&quot;사용자&quot;&gt;사용자&lt;/h2&gt;
 
@@ -176,14 +183,20 @@
 &lt;br /&gt;&lt;/p&gt;
 
 </description>
-				<pubDate>Thu, 05 Jul 2018 11:00:00 +0900</pubDate>
-				<link>/2018/07/git</link>
-				<guid isPermaLink="true">/2018/07/git</guid>
-			</item>
-		
-			<item>
-				<title>Mac</title>
-				<description>&lt;h2 id=&quot;단축키&quot;&gt;단축키&lt;/h2&gt;
+        <pubDate>Thu, 05 Jul 2018 11:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2018/07/git</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/git</guid>
+        
+        <category>git</category>
+        
+        <category>tool</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mac</title>
+        <description>&lt;h2 id=&quot;단축키&quot;&gt;단축키&lt;/h2&gt;
 
 &lt;table class=&quot;wide inner-borders&quot;&gt;
   &lt;thead&gt;
@@ -676,14 +689,18 @@
 &lt;br /&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 </description>
-				<pubDate>Wed, 04 Jul 2018 11:00:00 +0900</pubDate>
-				<link>/2018/07/mac</link>
-				<guid isPermaLink="true">/2018/07/mac</guid>
-			</item>
-		
-			<item>
-				<title>Sublimetext</title>
-				<description>&lt;h2 id=&quot;package-control&quot;&gt;Package Control&lt;/h2&gt;
+        <pubDate>Wed, 04 Jul 2018 11:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2018/07/mac</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/mac</guid>
+        
+        <category>mac</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sublimetext</title>
+        <description>&lt;h2 id=&quot;package-control&quot;&gt;Package Control&lt;/h2&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;View &amp;gt; Show Console&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl + '&lt;/code&gt;&lt;/p&gt;
 
@@ -974,14 +991,20 @@ $$@-5”]*5 // 5부터 시작하여 거꾸러~&lt;/li&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 </description>
-				<pubDate>Tue, 03 Jul 2018 15:00:00 +0900</pubDate>
-				<link>/2018/07/sublimetext</link>
-				<guid isPermaLink="true">/2018/07/sublimetext</guid>
-			</item>
-		
-			<item>
-				<title>Terminal</title>
-				<description>&lt;h2 id=&quot;터미널-명령어&quot;&gt;터미널 명령어&lt;/h2&gt;
+        <pubDate>Tue, 03 Jul 2018 15:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2018/07/sublimetext</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/sublimetext</guid>
+        
+        <category>sublimetext</category>
+        
+        <category>tool</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Terminal</title>
+        <description>&lt;h2 id=&quot;터미널-명령어&quot;&gt;터미널 명령어&lt;/h2&gt;
 
 &lt;table class=&quot;inner-borders&quot;&gt;
   &lt;thead&gt;
@@ -1080,14 +1103,22 @@ $$@-5”]*5 // 5부터 시작하여 거꾸러~&lt;/li&gt;
 &lt;br /&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 </description>
-				<pubDate>Tue, 03 Jul 2018 11:00:00 +0900</pubDate>
-				<link>/2018/07/terminal</link>
-				<guid isPermaLink="true">/2018/07/terminal</guid>
-			</item>
-		
-			<item>
-				<title>Markdown</title>
-				<description>&lt;h1 id=&quot;1-문법&quot;&gt;1. 문법&lt;/h1&gt;
+        <pubDate>Tue, 03 Jul 2018 11:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2018/07/terminal</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/terminal</guid>
+        
+        <category>mac</category>
+        
+        <category>terminal</category>
+        
+        <category>tool</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Markdown</title>
+        <description>&lt;h1 id=&quot;1-문법&quot;&gt;1. 문법&lt;/h1&gt;
 
 &lt;h2 id=&quot;1_1-헤더-headers&quot;&gt;1_1. 헤더 Headers&lt;/h2&gt;
 
@@ -1345,14 +1376,20 @@ __볼드체__
 &lt;br /&gt;&lt;/p&gt;
 
 </description>
-				<pubDate>Mon, 02 Jul 2018 11:00:00 +0900</pubDate>
-				<link>/2018/07/markdown</link>
-				<guid isPermaLink="true">/2018/07/markdown</guid>
-			</item>
-		
-			<item>
-				<title>First Post</title>
-				<description>&lt;h2 id=&quot;시작&quot;&gt;시작&lt;/h2&gt;
+        <pubDate>Mon, 02 Jul 2018 11:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2018/07/markdown</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/markdown</guid>
+        
+        <category>markdown</category>
+        
+        <category>tool</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>First Post</title>
+        <description>&lt;h2 id=&quot;시작&quot;&gt;시작&lt;/h2&gt;
 &lt;p&gt;jekyll 블로그를 만들어 보았다.&lt;br /&gt;
 간단한 줄 알았던 작업은 그리 간단해 보이진 않던데…&lt;br /&gt;
 그래도 이렇게 화면을 볼 수 있으니 반은 했다고 치고&lt;br /&gt;
@@ -1367,14 +1404,18 @@ __볼드체__
 &lt;br /&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 </description>
-				<pubDate>Wed, 27 Jun 2018 18:00:00 +0900</pubDate>
-				<link>/2018/06/first-post</link>
-				<guid isPermaLink="true">/2018/06/first-post</guid>
-			</item>
-		
-			<item>
-				<title>Jekyll Dark Clean Theme</title>
-				<description>&lt;p&gt;Here is a sample post for Jekyll-Clean-Dark theme.&lt;/p&gt;
+        <pubDate>Wed, 27 Jun 2018 18:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2018/06/first-post</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/06/first-post</guid>
+        
+        <category>story</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Jekyll Dark Clean Theme</title>
+        <description>&lt;p&gt;Here is a sample post for Jekyll-Clean-Dark theme.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;get it from &lt;a href=&quot;https://github.com/streetturtle&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
@@ -1396,14 +1437,18 @@ __볼드체__
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/ipad_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini landscape&lt;/em&gt;&lt;/p&gt;
 </description>
-				<pubDate>Wed, 02 Dec 2015 01:25:06 +0900</pubDate>
-				<link>/2015/12/jekyll-clean-theme</link>
-				<guid isPermaLink="true">/2015/12/jekyll-clean-theme</guid>
-			</item>
-		
-			<item>
-				<title>Text formatting</title>
-				<description>&lt;h1 id=&quot;text-formatting-example&quot;&gt;Text formatting example&lt;/h1&gt;
+        <pubDate>Wed, 02 Dec 2015 01:25:06 +0900</pubDate>
+        <link>http://localhost:4000/2015/12/jekyll-clean-theme</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/12/jekyll-clean-theme</guid>
+        
+        <category>jekylltheme</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Text formatting</title>
+        <description>&lt;h1 id=&quot;text-formatting-example&quot;&gt;Text formatting example&lt;/h1&gt;
 
 &lt;p&gt;Some examples of text formatting for some common text elements.&lt;/p&gt;
 
@@ -1464,14 +1509,18 @@ __볼드체__
 &lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;key highlighter-rouge&quot;&gt;D&lt;/code&gt; = logs you out.&lt;br /&gt;
 &lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;key highlighter-rouge&quot;&gt;R&lt;/code&gt; = finds the last command matching the entered letters.&lt;/p&gt;
 </description>
-				<pubDate>Tue, 03 Nov 2015 01:25:06 +0900</pubDate>
-				<link>/2015/11/text-formatting</link>
-				<guid isPermaLink="true">/2015/11/text-formatting</guid>
-			</item>
-		
-			<item>
-				<title>Installation</title>
-				<description>&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+        <pubDate>Tue, 03 Nov 2015 01:25:06 +0900</pubDate>
+        <link>http://localhost:4000/2015/11/text-formatting</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/11/text-formatting</guid>
+        
+        <category>jekylltheme</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Installation</title>
+        <description>&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
 
 &lt;p&gt;If you dont’t have your own blog you can clone this repository and put your articles in a &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder.&lt;br /&gt;
 If you already have your own blog then I think you can clone this repository and copy-paste content keeping your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder.&lt;/p&gt;
@@ -1501,10 +1550,666 @@ respective owners:&lt;/p&gt;
   &lt;li&gt;js/jquery.min.js - &lt;a href=&quot;https://jquery.com&quot;&gt;jquery&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<pubDate>Mon, 02 Nov 2015 01:25:06 +0900</pubDate>
-				<link>/2015/11/installation</link>
-				<guid isPermaLink="true">/2015/11/installation</guid>
-			</item>
-		
-	</channel>
+        <pubDate>Mon, 02 Nov 2015 01:25:06 +0900</pubDate>
+        <link>http://localhost:4000/2015/11/installation</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/11/installation</guid>
+        
+        <category>jekylltheme</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Code snippets</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;For code syntax coloration I’m using Darcula theme from Intellij IDEA, which I’ve found in this post &lt;a href=&quot;http://smasue.github.io/pygments-darcula&quot;&gt;Darcula theme for Pygments&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;XML with line numbers (linenos flag), &lt;code class=&quot;highlighter-rouge&quot;&gt;{% highlight xml linenos %}&lt;/code&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;rss&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;version=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2.0&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;xmlns:atom=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://www.w3.org/2005/Atom&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;channel&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;{{ site.name }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;description&amp;gt;&lt;/span&gt;{{ site.description }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/description&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&amp;gt;&lt;/span&gt;{{site.baseurl | prepend:site.url}}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/link&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;atom:link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{site.baseurl | prepend:site.url}}/feed.xml&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;self&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;application/rss+xml&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    {% for post in site.posts limit:10 %}
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;item&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;{{ post.title }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;description&amp;gt;&lt;/span&gt;{{ post.content | xml_escape }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/description&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;pubDate&amp;gt;&lt;/span&gt;{{ post.date | date: &quot;%a, %d %b %Y %H:%M:%S %z&quot; }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/pubDate&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&amp;gt;&lt;/span&gt;{{post.url | prepend:site.baseurl | prepend:site.url}}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/link&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;guid&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;isPermaLink=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;true&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{post.url | prepend:site.baseurl | prepend:site.url}}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/guid&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/item&amp;gt;&lt;/span&gt;
+    {% endfor %}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/channel&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/rss&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote class=&quot;filename&quot;&gt;
+  &lt;p&gt;JSON&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;employees&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;firstName&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;John&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;lastName&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Doe&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;firstName&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Anna&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;lastName&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Smith&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;firstName&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Peter&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;lastName&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Jones&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote class=&quot;filename&quot;&gt;
+  &lt;p&gt;SQL&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cm_content_nodes&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alf_node&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alf_qname&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;qn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alf_namespace&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ns&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;qn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ns_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;type_qname_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;qn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uri&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'http://www.alfresco.org/model/content/1.0'&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;qn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;local_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'content'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote class=&quot;filename&quot;&gt;
+  &lt;p&gt;Java&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HttpClient&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;throws&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;UnsupportedEncodingException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;Cookie&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cookies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getState&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getCookies&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Cookie&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cookie&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cookies&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cookie&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;equals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Alfresco-CSRFToken&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)){&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;URLDecoder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cookie&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;To add name to the code snippet, as in the examples above, add following construction before the snippet:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;Java
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;:.filename&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;% highlight java %&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Fri, 02 Oct 2015 01:25:06 +0900</pubDate>
+        <link>http://localhost:4000/2015/10/code-syntax-highlighting</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/10/code-syntax-highlighting</guid>
+        
+        <category>jekylltheme</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Customizations</title>
+        <description>&lt;h1 id=&quot;accent-color&quot;&gt;Accent color&lt;/h1&gt;
+
+&lt;p&gt;Accent color is color for some important elements, such as links, buttons, icons. Currently accent color is &lt;span class=&quot;btn&quot; style=&quot;background-color:#3CA2A2; color:#444444&quot;&gt;#3CA2A2&lt;/span&gt;. This theme has some more predefined colors available in &lt;strong&gt;theme.scss&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;blockquote class=&quot;filename&quot;&gt;
+  &lt;p&gt;theme.scss&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Several accent colors, choose one or create your own!&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$accent-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#3CA2A2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;// original =)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// $accent-color: #C38FD6;   velvet&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// $accent-color: #8FD6B3;   greenish&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// $accent-color: #35B4DE;   bluish&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// $accent-color: #D2E354;   yellowish&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// $accent-color: #52B54B;   green&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can use one of them (just click the button below to see accent color in action) or define your own!&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;btn&quot; style=&quot;background-color:#C38FD6; color:#444444&quot;&gt;#C38FD6&lt;/span&gt;, &lt;span class=&quot;btn&quot; style=&quot;background-color:#8FD6B3; color:#444444&quot;&gt;#8FD6B3&lt;/span&gt;, &lt;span class=&quot;btn&quot; style=&quot;background-color:#35B4DE; color:#444444&quot;&gt;#35B4DE&lt;/span&gt;, &lt;span class=&quot;btn&quot; style=&quot;background-color:#D2E354; color:#444444&quot;&gt;#D2E354&lt;/span&gt;, &lt;span class=&quot;btn&quot; style=&quot;background-color:#52B54B; color:#444444&quot;&gt;#52B54B&lt;/span&gt;.&lt;/p&gt;
+
+&lt;script&gt;
+  $('.btn').click(function(){
+    var color = $(this).text();
+    [].forEach.call($('a'), function(item) {
+      item.style.color = color
+    })
+  })
+&lt;/script&gt;
+
+&lt;style&gt;
+  .label{
+    cursor: default;
+    border-radius: 5px;
+    padding: 5px 8px;
+  }
+&lt;/style&gt;
+
+&lt;h1 id=&quot;other-colors&quot;&gt;Other colors&lt;/h1&gt;
+
+&lt;p&gt;As Jekyll comes with support of SASS I put colors in variables. Here are the ones which could be easily changed:&lt;/p&gt;
+
+&lt;blockquote class=&quot;filename&quot;&gt;
+  &lt;p&gt;theme.scss&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$font-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#dddddd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#292929&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$post-panel-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#444&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$footer-background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#292c2f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$note-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#87CEFA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$warning-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#ffff00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
+
+&lt;p&gt;It is also possible to change the background pattern and color. This theme comes with few patterns pre-installed – you can check them by clicking on the images below. Or check the &lt;a href=&quot;https://www.transparenttextures.com/&quot;&gt;transparenttextures.com&lt;/a&gt; – it has tons of different patterns for background.&lt;/p&gt;
+
+&lt;style&gt;
+.pattern-list{
+    list-style-type: none;
+    padding: 0;
+}
+.pattern{
+    height: 100px;
+    box-shadow: 0 0 3px 2px rgba(0,0,0,.1);
+
+}
+.pattern:hover {
+    box-shadow: 0 0 3px 2px rgba(0,0,0,.3);
+    transition: box-shadow .2s ease;
+    cursor: pointer;
+}
+.smthg{
+    max-width: none !important;
+}
+.col-sm-6 {
+    padding: 5px !important;
+}
+&lt;/style&gt;
+
+&lt;ul class=&quot;pattern-list&quot;&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/3px-tile.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/asfalt-light.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/black-linen.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/food.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/gplay.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/green-dust-and-scratches.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/hexellence.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/random-grey-variations.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/shley-tree-1.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/subtle-grey.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/xv.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/triangles.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script&gt;
+  $('.pattern').click(function(){
+    var source = this.style.backgroundImage;
+    document.getElementsByTagName('body')[0].style.backgroundImage = source;
+    console.log(&quot;url('&quot; + source + &quot;'))&quot;);
+  })
+&lt;/script&gt;
+
+&lt;p&gt;To change the color go to the &lt;strong&gt;theme.scss&lt;/strong&gt; and change the &lt;code class=&quot;highlighter-rouge&quot;&gt;background-pattern&lt;/code&gt; variable to the name of the pattern image file. To use custom pattern, download it from &lt;a href=&quot;https://www.transparenttextures.com/&quot;&gt;transparenttextures.com&lt;/a&gt; and place it under &lt;strong&gt;css/pics/background/&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote class=&quot;filename&quot;&gt;
+  &lt;p&gt;theme.scss&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// use this or pick any from /css/pics/background folder or from transparenttextures.com&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$background-pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'random-grey-variations.png'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Mon, 21 Sep 2015 01:25:06 +0900</pubDate>
+        <link>http://localhost:4000/2015/09/customizations</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/09/customizations</guid>
+        
+        <category>jekylltheme</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Be social</title>
+        <description>&lt;h1 id=&quot;social-icons&quot;&gt;Social icons&lt;/h1&gt;
+
+&lt;p&gt;You can have social icons which could lead to your social profile.&lt;br /&gt;
+Out-of-the box it has:&lt;/p&gt;
+
+&lt;ul class=&quot;social-media&quot;&gt;
+  &lt;li&gt;
+    &lt;a title=&quot;Github&quot; href=&quot;https://github.com/hommeyo&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&quot;StackOverflow&quot; href=&quot;http://stackoverflow.com/users/1252056/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-stack-overflow fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&quot;LinkedIn&quot; href=&quot;https://www.linkedin.com/in/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-linkedin fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&quot;Instagram&quot; href=&quot;https://instagram.com/hommeyo&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-instagram fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&quot;Last.fm&quot; href=&quot;http://lastfm.com/user/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-lastfm fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&quot;RSS&quot; href=&quot;http://localhost:4000/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;They could be setup in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To add more icons do following steps:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;choose an icon you want to use: &lt;a href=&quot;https://fortawesome.github.io/Font-Awesome/icons/&quot;&gt;Font Awesome Icons&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;add variable in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;add icon in &lt;code class=&quot;highlighter-rouge&quot;&gt;social.html&lt;/code&gt; with check if variable exists:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% if site.social.rss %}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.social.&amp;lt;your_social_variable&amp;gt; }}&quot;&lt;/span&gt; 
+       &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{site.url}}/{{ site.social.&amp;lt;your_social_variable&amp;gt; }}&quot;&lt;/span&gt; 
+       &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;font&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;_awesome_icon&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+{% endif %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;share-buttons&quot;&gt;Share buttons&lt;/h1&gt;
+
+&lt;p&gt;This theme comes with built-in share buttons. You can see them in the bottom of this post.&lt;br /&gt;
+To turn them on in the header of your post add:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yml&quot; data-lang=&quot;yml&quot;&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Be&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;sociable&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;2016-05-15 16:25:06&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Built-in share buttons!&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;share&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; &amp;lt;-- here&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you want to disable some of them - go to &lt;strong&gt;_config.yml&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;blockquote class=&quot;filename&quot;&gt;
+  &lt;p&gt;_config.yml&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yml&quot; data-lang=&quot;yml&quot;&gt;&lt;span class=&quot;na&quot;&gt;share&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;facebook&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;gplus&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;linkedin&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;pinterest&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;To add new buttons:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;add icon name in &lt;strong&gt;_config.yml&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;add section in &lt;strong&gt;_includes/share.html&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;add styles in &lt;strong&gt;css/theme.css&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Wed, 16 Sep 2015 01:25:06 +0900</pubDate>
+        <link>http://localhost:4000/2015/09/be-social</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/09/be-social</guid>
+        
+        <category>jekylltheme</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Analytics, tags and comments</title>
+        <description>&lt;h1 id=&quot;analytics&quot;&gt;Analytics&lt;/h1&gt;
+
+&lt;h4 id=&quot;google-analytics&quot;&gt;&lt;a href=&quot;http://www.google.com/analytics/&quot;&gt;Google Analytics&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;To enable Google Analytics create an account &lt;a href=&quot;https://analytics.google.com&quot;&gt;here&lt;/a&gt;. Then add your tracking id in &lt;code class=&quot;highlighter-rouge&quot;&gt;config.xml&lt;/code&gt;, it should look something like &lt;code class=&quot;highlighter-rouge&quot;&gt;UA-********-1&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;yandex-metrica&quot;&gt;&lt;a href=&quot;http://metrica.yandex.com&quot;&gt;Yandex Metrica&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;To enable Yandex Metrica you need to register, create a ‘counter’ and then copy-paste it’s code in &lt;code class=&quot;highlighter-rouge&quot;&gt;/_includes/yandex-metrica.html&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;h1 id=&quot;tags&quot;&gt;Tags&lt;/h1&gt;
+
+&lt;p&gt;To use this feature you simply will need to create a markdown file for each tag which you are using in you site in &lt;strong&gt;tag&lt;/strong&gt; folder. To simplify this procedure there is an &lt;a href=&quot;http://pavelmakhov.com/admin.html&quot;&gt;/admin&lt;/a&gt; page, which outputs the bash command which you just need to run inside &lt;strong&gt;tag&lt;/strong&gt; folder of your site. Also don’t forget to rerun it when you add a post with new tag.&lt;/p&gt;
+
+&lt;h1 id=&quot;comments&quot;&gt;Comments&lt;/h1&gt;
+
+&lt;p&gt;To enable &lt;a href=&quot;http://disqus.com&quot;&gt;Disqus&lt;/a&gt; register on the site and then just put your name in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.xml&lt;/code&gt;. Comments could be switched on and off on per post basis, just put &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; to enable them.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Aug 2015 01:25:06 +0900</pubDate>
+        <link>http://localhost:4000/2015/08/analytics-tags-comments</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/08/analytics-tags-comments</guid>
+        
+        <category>jekylltheme</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Images</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;This theme supports two types of images:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;inline images: &lt;img src=&quot;/assets/images/batWid1.png&quot; alt=&quot;Battery Widget&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;![Battery Widget]({{ '/assets/images/batWid1.png' | relative_url }})&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;centered images with caption (optional):&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/deer.jpg&quot; alt=&quot;img&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;(°0°)&lt;/em&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;![img]({{ '/assets/images/deer.jpg' | relative_url }}){: .center-image }*(°0°)*&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can apply your own styles to image by creating css class with style:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.custom-image-style&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;/* your style */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;And then applying your style just after the image in curly brackets with colon:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;[!image](path to image){:.custom-image-style}
+ &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Thu, 02 Jul 2015 01:25:06 +0900</pubDate>
+        <link>http://localhost:4000/2015/07/images</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/07/images</guid>
+        
+        <category>jekylltheme</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Table styles</title>
+        <description>&lt;p&gt;Below are the examples of the default table styling.&lt;/p&gt;
+
+&lt;h2 id=&quot;simple-table&quot;&gt;Simple table&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;First Header&lt;/th&gt;
+      &lt;th&gt;Second Header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content from cell 1&lt;/td&gt;
+      &lt;td&gt;Content from cell 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content in the first column&lt;/td&gt;
+      &lt;td&gt;Content in the second column&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote class=&quot;filename&quot;&gt;
+  &lt;p&gt;Markdown&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;|First Header | Second Header|
+|------------ | -------------|
+|Content from cell 1 | Content from cell 2|
+|Content in the first column | Content in the second column|&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;custom-styles&quot;&gt;Custom styles&lt;/h2&gt;
+
+&lt;p&gt;It is also possible to change a bit table styles by applying CSS classes. By default there are two classes available:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.wide&lt;/code&gt; - makes table width 100%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table class=&quot;wide&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;First Header&lt;/th&gt;
+      &lt;th&gt;Second Header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content from cell 1&lt;/td&gt;
+      &lt;td&gt;Content from cell 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content in the first column&lt;/td&gt;
+      &lt;td&gt;Content in the second column&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote class=&quot;filename&quot;&gt;
+  &lt;p&gt;Markdown - note the last line&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;|First Header | Second Header|
+|------------ | -------------|
+|Content from cell 1 | Content from cell 2|
+|Content in the first column | Content in the second column|
+{:.wide}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.inner-borders&lt;/code&gt; - shows inner borders&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table class=&quot;inner-borders&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;First Header&lt;/th&gt;
+      &lt;th&gt;Second Header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content from cell 1&lt;/td&gt;
+      &lt;td&gt;Content from cell 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content in the first column&lt;/td&gt;
+      &lt;td&gt;Content in the second column&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote class=&quot;filename&quot;&gt;
+  &lt;p&gt;Markdown - note the last line&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;|First Header | Second Header|
+|------------ | -------------|
+|Content from cell 1 | Content from cell 2|
+|Content in the first column | Content in the second column|
+{:.inner-borders}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can add more such classes by putting them inside &lt;strong&gt;theme.scss&lt;/strong&gt;. Here is how the above mentioned classes are defined:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;nt&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.wide&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.inner-borders&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-collapse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;collapse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;td&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#5e5e5e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;few-more-examples-from-kramdown-documentation&quot;&gt;Few more examples from kramdown &lt;a href=&quot;https://kramdown.gettalong.org/syntax.html#tables&quot;&gt;documentation&lt;/a&gt;:&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Second body&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2 line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Footer row&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+
+&lt;blockquote class=&quot;filename&quot;&gt;
+  &lt;p&gt;Table header row, two table bodies and a table footer row&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+| Second body     |            |                 |                |
+| 2 line          |            |                 |                |
+|=================+============+=================+================|
+| Footer row      |            |                 |                |
+|-----------------+------------+-----------------+----------------|&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Second body&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2 line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Footer row&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+
+&lt;blockquote class=&quot;filename&quot;&gt;
+  &lt;p&gt;Same as above but shorter&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;|---
+| Default aligned | Left aligned | Center aligned | Right aligned
+|-|:-|:-:|-:
+| First body part | Second cell | Third cell | fourth cell
+| Second line |foo | **strong** | baz
+| Third line |quux | baz | bar
+|---
+| Second body
+| 2 line
+|===
+| Footer row&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Mon, 09 Feb 2015 11:07:00 +0900</pubDate>
+        <link>http://localhost:4000/2015/02/table-styles</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/02/table-styles</guid>
+        
+        <category>jekylltheme</category>
+        
+        
+      </item>
+    
+  </channel>
 </rss>
