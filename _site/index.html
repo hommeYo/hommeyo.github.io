@@ -59,6 +59,7 @@
 					<li><a href="/archive.html">/archive</a></li>
 					<li><a href="/tags.html">/tags</a></li>
 					<li><a href="/about.html">/about</a></li>
+					<li id="check">check</li>
 				</ul>
 			</div>
 		</div>
@@ -467,6 +468,14 @@
             wf.async = 'true';
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(wf, s);
+		$('#check').click(function(){
+			if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {
+			     alert('높다');
+				alert(android.os.Build.VERSION.SDK_INT);
+			} else {
+				alert('낮다');
+			}
+		})
         })();
     </script>
 </body>
