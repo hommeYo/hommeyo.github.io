@@ -37,6 +37,14 @@
             wf.async = 'true';
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(wf, s);
+            $('#check').click(function(){
+			if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {
+			     alert('높다');
+				alert(android.os.Build.VERSION.SDK_INT);
+			} else {
+				alert('낮다');
+			}
+		})
         })();
     </script>
 </body>
