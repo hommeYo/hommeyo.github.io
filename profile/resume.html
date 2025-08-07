@@ -188,13 +188,46 @@
 				<h2>(주)포잉코퍼레이션<br>2018.05.14~2024.10.31</h2>
 				<div style="display:none">부서명 : 개발셀</div>
 				<div class="ui-body"><p>
-					&middot; <a href="https://os.poing.io/" target="_blank">Poing OS(B2B)</a> 신규 구축 및 유지보수 [Vue, Typescript, AWS S3(infra), Git, Jenkins(배포), Zeplin/Figma(design)] <br>
-					&middot; <a href="https://os-admin.poing.io/" target="_blank">Poing OS Admin(B2B)</a> 신규 구축 및 유지보수 [Vue, Typescript, AWS S3(infra), Git, Jenkins(배포), Zeplin/Figma(design)] <br>
-					&middot; <a href="https://m.poing.io/" target="_blank">Poing 모바일웹</a> 신규 구축 및 유지보수 [Vue, Typescript, AWS S3(infra), Git, Jenkins(배포), Zeplin/Figma(design)] <br>
-					&middot; <a href="http://corp.poing.io/" target="_blank">포잉 기업사이트 리뉴얼</a> [Vue, Typescript, AWS S3(infra), Git, Jenkins(배포), Zeplin/Figma(design)] <br>
-					&middot; <a href="https://deposit.poing.io/bicena" target="_blank">보증금 결제 페이지 & 매장 전용 예약 페이지</a> 신규 구축 및 유지보수 [Vue, Typescript, AWS S3(infra), Git, Jenkins(배포), Zeplin/Figma(design)] <br>
-					&middot; <a href="https://www.schoolvisit.or.kr" target="_blank">학교방문예약시스템</a> 신규 구축 및 유지보수 [Vue, Nuxt, Typescript, AWS S3(infra), Git, Jenkins(배포), Zeplin/Figma(design)] <br>
-					&middot; 포잉 스토어 유지보수 및 통계 신규 구축 - 서비스 종료 [Jquery, Html, Css]
+					&middot; <strong>Poing OS(B2B) 신규 구축 및 유지보수</strong><br>
+					서비스 소개: 레스토랑 등 매장에서 사용 가능한 예약 관리 시스템(하이브리드앱) 제공 (예약 내역, 테이블 관리, 고객 관리 등)<br>
+					https://os.poing.io/<br>
+					- Vue.js와 Typescript 기반으로 활용하여 B2B 관리자(매장) 전용 서비스 SPA 개발<br>
+					- 기획부터 참여, 매장 관리자 인터뷰를 통한 UI/UX 흐름을 파악/개선하고, Figma(Zeplin) 디자인 시안 기반으로 컴포넌트 아키텍처 설계<br>
+					- 예약리스트(3가지 타입의 뷰), 예약 관리, 고객 관리, 알림, 매장 설정, 전화CID(web socket) 등 기능 전체 구현<br>
+					- AWS S3를 이용한 정적 배포, Git(Gogs) + Jenkins를 통한 CI/CD 자동화 구축 및 배포 운영<br>
+					- 다양한 사용자 시나리오(예약 접수, 알림, 테이블 배정 등)에 따른 상태 관리 구조 수립 및 에러 핸들링 개선<br>
+					기술 Set - Vue.js, Typescript, AWS S3(infra), Git, Jenkins(배포), Zeplin/Figma(design)<br>
+					개발 참여율(기여도) 80%이상<br>
+					&middot; <strong>Poing 모바일웹 신규 구축 및 유지보수</strong><br>
+					서비스 소개: 사용자가 모바일에서 식당 예약을 할 수 있는 모바일 웹 서비스<br>
+					https://m.poing.io/<br>
+					- Vue.js 기반의 모바일 웹 SPA 전체 개발 (반응형 UI 설계 포함)<br>
+					- 예약 프로세스 (식당 검색, 메뉴 확인, 시간 선택, 예약 완료 등) 구현<br>
+					- 사용자 경험(UX) 향상을 위해 로딩 최적화, 인터랙션 개선 및 접근성 고려<br>
+					- 사용자 피드백 기반으로 빠른 개선 주기를 적용하며 지속적인 기능 개선과 유지보수 수행<br>
+					- 원활한 협업을 위해 Git Flow 전략 도입 및 업무 프로세스 정립<br>
+					기술 Set - Vue.js, Typescript, AWS S3(infra), Git, Jenkins(배포), Zeplin/Figma(design)<br>
+					개발 참여율(기여도) 100%<br>
+					&middot; <strong>포잉 기업사이트 리뉴얼</strong><br>
+					- 회사 소개, 사업 소개, 채용, 뉴스, 매장 서비스 사용 상담 및 소개 페이지 개발<br>
+					- css animation 효과로 사이트 동적 화면 구성<br>
+					https://corp.poing.io/<br>
+					기술 Set - Vue.js, Typescript, AWS S3(infra), Git, Jenkins(배포), Zeplin/Figma(design)<br>
+					개발 참여율(기여도) 100%<br>
+					&middot; <strong>보증금 결제 페이지 & 매장 전용 예약 페이지 신규 구축 및 유지보수</strong><br>
+					- 포잉을 사용하는 매장의 보증금 결제 전용 페이지와 프리미엄 매장을 포잉 서비스 기반으로 별도의 페이지로 개발하여 매장의 고유 예약 시스템을 구축하여 제공<br>
+					- 글로벌 사용자 이용 니즈에 다국어(영문, 일본어) 적용<br>
+					기술 Set - Vue.js, Typescript, AWS S3(infra), Git, Jenkins(배포), Zeplin/Figma(design)<br>
+					개발 참여율(기여도) 100%<br>
+					&middot; <strong>학교방문예약시스템 신규 구축 및 유지보수</strong><br>
+					사회적 이슈로 학교 관계자외 방문이 예약 필수가 되어 관련 방문 예약 및 소개 페이지 개발<br>
+					Nuxt.js 사용 SSR 구성으로 SEO 최적화 개발<br>
+					https://www.schoolvisit.or.kr/<br>
+					기술 Set - Vue.js, Nuxt.js, Typescript, AWS S3(infra), Git, Jenkins(배포), Zeplin/Figma(design)<br>
+					개발 참여율(기여도) 100%<br>
+					&middot; <strong>포잉 스토어 유지보수 및 통계 신규 구축</strong><br>
+					- 시각화에 초점을 맞춘 통계 화면 개발<br>
+					기술 Set - Javascript, Jquery, Html, Css
 				</p></div>
 			</div>
 			
@@ -351,6 +384,17 @@
 	</div>
 	<div role="main" class="ui-content">
 		<div data-role="collapsibleset">
+			<div data-role="collapsible">
+				<h2>자기소개서</h2>
+				<div><p>
+					2008년부터 UI 개발을 시작했습니다.<br>
+					여러 회사와 프로젝트를 경험하면서 소중한 경험을 쌓았습니다.<br>
+					대규모 금융권 프로젝트(하나은행 차세대 뱅킹), 통신사 프로젝트(통합LG텔레콤, SK텔레콤), 네이버 포털(판매자센터-샵N어드민), e커머스(티몬), 교육 서비스(러셀블루tv), 식당 예약 서비스(포잉, 포잉 OS) 기타 등 여러 종류의 서비스를 경험하며 성장해 왔습니다.<br>
+					최근 재직 회사인 포잉코퍼레이션에서는 기획 단계부터 참여하여 배포까지 주도적으로 Vue.js를 활용하여 프론트엔드 개발을 하였습니다. 한 회사에서 한정적인 기술 스펙을 사용하는 한계가 있어 React에 관한 기술도 꾸준히 습득하면서 최신 기술에 관한 관심도 게을리하지 않았습니다.<br>
+					새로운 환경에 대한 불안함보단 기대를 하는 편입니다. 새로운 업무에 대한 두려움보단 설래임을 느낍니다.<br>
+					저를 필요로 하는 곳에서 그동안 경험했던 자양분을 바탕으로 역량을 펼치고 싶습니다.
+				</p></div>
+			</div>
 			<div data-role="collapsible">
 				<h2>성장과정 및 성격</h2>
 				<div><p>
